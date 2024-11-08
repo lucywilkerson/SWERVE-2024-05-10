@@ -3,8 +3,8 @@
     "name": "Anderson",
     "files": ["gic-anderson_20240510.csv"],
     "geo_lat": 36.6,
-      "geo_lon": -83.7,
-      "type": "gic-measured"
+    "geo_lon": -83.7,
+    "type": "gic-measured"
   },
   "bullrun": {
     "name": "Bull Run",
