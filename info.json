@@ -10,29 +10,32 @@
     "name": "Bull Run",
     "files": ["20240510_BullRunXfrmGIC.dat", "20240511_BullRunXfrmGIC.dat"],
     "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00"],
-    "geo_lat": 36.4,
-    "geo_lon": -83.9,
+    "geo_lat": 36.0,
+    "geo_lon": -84.2,
     "type": "gic-predicted"      
   },
   "montgomery": {
     "name": "Montgomery",
     "files": ["20240510_MontgomeryGIC.dat", "20240511_MontgomeryGIC.dat"],
     "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00"],
-    "geo_lat": 36.4,
-    "geo_lon": -83.9
+    "geo_lat": 36.6,
+    "geo_lon": -87.3,
+    "type": "gic-predicted"  
   },
   "union": {
     "name": "Union",
     "files": ["20240510_UnionGIC.dat", "20240511_UnionGIC.dat"],
     "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00"],
     "geo_lat": 36.4,
-    "geo_lon": -83.9
+    "geo_lon": -83.9,
+    "type": "gic-predicted"  
   },
   "widowscreek": {
     "name": "Widows Creek",
     "files": ["20240510_WidowsCreek2GIC.dat", "20240511_WidowsCreek2GIC.dat"],
     "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00"],
-    "geo_lat": 36.4,
-    "geo_lon": -83.9
+    "geo_lat": 34.9,
+    "geo_lon": -85.8,
+    "type": "gic-predicted"  
   }
 }
