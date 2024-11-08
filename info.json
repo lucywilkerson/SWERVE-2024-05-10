@@ -1,0 +1,38 @@
+{
+  "anderson": {
+    "name": "Anderson",
+    "files": ["gic-anderson_20240510.csv"],
+    "geo_lat": 36.6,
+      "geo_lon": -83.7,
+      "type": "gic-measured"
+  },
+  "bullrun": {
+    "name": "Bull Run",
+    "files": ["20240510_BullRunXfrmGIC.dat", "20240511_BullRunXfrmGIC.dat"],
+    "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00"],
+    "geo_lat": 36.4,
+    "geo_lon": -83.9,
+    "type": "gic-predicted"      
+  },
+  "montgomery": {
+    "name": "Montgomery",
+    "files": ["20240510_MontgomeryGIC.dat", "20240511_MontgomeryGIC.dat"],
+    "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00"],
+    "geo_lat": 36.4,
+    "geo_lon": -83.9
+  },
+  "union": {
+    "name": "Union",
+    "files": ["20240510_UnionGIC.dat", "20240511_UnionGIC.dat"],
+    "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00"],
+    "geo_lat": 36.4,
+    "geo_lon": -83.9
+  },
+  "widowscreek": {
+    "name": "Widows Creek",
+    "files": ["20240510_WidowsCreek2GIC.dat", "20240511_WidowsCreek2GIC.dat"],
+    "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00"],
+    "geo_lat": 36.4,
+    "geo_lon": -83.9
+  }
+}
