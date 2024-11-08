@@ -4,4 +4,3 @@ The calculated GIC data is presented for four substations (Bull Run, Montgomery,
 
 The measured GIC data is presented for an unknown substation and is saved in a .csv file. It has a cadence of 1s.
 
-dB from SWMF for gap region, ionosphere, and mesosphere is saved in .pkl files.
