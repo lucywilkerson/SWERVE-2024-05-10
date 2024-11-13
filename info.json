@@ -42,8 +42,8 @@
     "name": "Fredricksburg",
     "files": ["dB_bs_gap-FRD.pkl", "dB_bs_iono-FRD.pkl", "dB_bs_msph-FRD.pkl"],
     "start": ["2024-05-10 00:00:00","2024-05-10 00:00:00","2024-05-10 00:00:00"],
-    "geo_lat": 36.0,
-    "geo_lon": -84.2,
+    "geo_lat": 38.2,
+    "geo_lon": -77.4,
     "type": "mag-predicted"      
   },
   "bullrun_B": {
