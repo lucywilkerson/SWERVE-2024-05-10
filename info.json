@@ -38,6 +38,14 @@
     "geo_lon": -85.8,
     "type": "gic-predicted"  
   },
+  "fredricksburg_B": {
+    "name": "Fredricksburg",
+    "files": ["dB_bs_gap-FRD.pkl", "dB_bs_iono-FRD.pkl", "dB_bs_msph-FRD.pkl"],
+    "start": ["2024-05-10 00:00:00","2024-05-10 00:00:00","2024-05-10 00:00:00"],
+    "geo_lat": 36.0,
+    "geo_lon": -84.2,
+    "type": "mag-predicted"      
+  },
   "bullrun_B": {
     "name": "Bull Run",
     "files": ["dB_bs_gap-BullRun.pkl", "dB_bs_iono-BullRun.pkl", "dB_bs_msph-BullRun.pkl"],
