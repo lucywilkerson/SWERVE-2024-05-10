@@ -56,18 +56,12 @@
         }
       },
       "mag": {
-        "measured": {
-          "dir": "tva/mag",
-          "files": ["bullrun_mag_20240509.csv"],
-          "units": "nT",
-          "legend": ["$\\Delta B_x$", "$\\Delta B_y$", "$\\Delta B_z$"]
-        },
         "calculated/swmf": {
-          "dir": "swmf/bullrun",
+          "dir": "swmf/widowscreek",
           "files": {
-            "gap": "dB_bs_gap-BullRun.pkl",
-            "iono": "dB_bs_iono-BullRun.pkl",
-            "msph": "dB_bs_msph-BullRun.pkl"
+            "gap": "dB_bs_gap-WidowsCreek.pkl",
+            "iono": "dB_bs_iono-WidowsCreek.pkl",
+            "msph": "dB_bs_msph-WidowsCreek.pkl"
           },
           "units": "nT",
           "legend": ["$\\Delta B_x$", "$\\Delta B_y$", "$\\Delta B_z$"]
@@ -77,7 +71,7 @@
   },
   "union": {
     "name": "Union",
-    "geo_lat": 34.378,
+    "geo_lat": 34.375,
     "geo_lon": -88.8578,
     "data": {
       "gic": {
@@ -97,6 +91,38 @@
         "measured": {
           "dir": "tva/mag",
           "files": ["union_mag_20240509.csv"],
+          "units": "nT",
+          "legend": ["$\\Delta B_x$", "$\\Delta B_y$", "$\\Delta B_z$"]
+        }
+      }
+    }
+  },
+  "montgomery": {
+    "name": "Montgomery",
+    "geo_lat": 36.5949,
+    "geo_lon": -87.2533,
+    "data": {
+      "gic": {
+        "measured": {
+          "dir": "tva/gic/GIC-measured",
+          "files": ["gic-montgomery_20240510.csv"],
+          "units": "A"
+        },
+        "calculated": {
+          "dir": "tva/gic/GIC-calculated",
+          "files": ["20240510_MontgomeryGIC.dat", "20240511_MontgomeryGIC.dat","20240512_MontgomeryGIC.dat"],
+          "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00","2024-05-12 00:00:00"],
+          "units": "A"
+        }
+      },
+      "mag": {
+        "calculated/swmf": {
+          "dir": "swmf/montgomery",
+          "files": {
+            "gap": "dB_bs_gap-Montgomery.pkl",
+            "iono": "dB_bs_iono-Montgomery.pkl",
+            "msph": "dB_bs_msph-Montgomery.pkl"
+          },
           "units": "nT",
           "legend": ["$\\Delta B_x$", "$\\Delta B_y$", "$\\Delta B_z$"]
         }
