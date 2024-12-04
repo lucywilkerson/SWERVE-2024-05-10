@@ -1,73 +1,106 @@
 {
-  "anderson": {
-    "name": "Anderson",
-    "files": ["gic-anderson_20240510.csv"],
-    "geo_lat": 36.6,
-    "geo_lon": -83.7,
-    "type": "gic-measured"
-  },
   "bullrun": {
     "name": "Bull Run",
-    "files": ["20240510_BullRunXfrmGIC.dat", "20240511_BullRunXfrmGIC.dat","20240512_BullRunXfrmGIC.dat"],
-    "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00","2024-05-12 00:00:00"],
-    "geo_lat": 36.0,
-    "geo_lon": -84.2,
-    "type": "gic-predicted"      
-  },
-  "montgomery": {
-    "name": "Montgomery",
-    "files": ["20240510_MontgomeryGIC.dat", "20240511_MontgomeryGIC.dat", "20240512_MontgomeryGIC.dat"],
-    "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00", "2024-05-12 00:00:00"],
-    "geo_lat": 36.6,
-    "geo_lon": -87.3,
-    "type": "gic-predicted"  
-  },
-  "union": {
-    "name": "Union",
-    "files": ["20240510_UnionGIC.dat", "20240511_UnionGIC.dat", "20240512_UnionGIC.dat"],
-    "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00", "2024-05-12 00:00:00"],
-    "geo_lat": 36.4,
-    "geo_lon": -83.9,
-    "type": "gic-predicted"  
+    "geo_lat": 36.0193,
+    "geo_lon": -84.1575,
+    "data": {
+      "gic": {
+        "measured": {
+          "dir": "tva/gic/GIC-measured",
+          "files": ["gic-bullrun_20240510.csv"],
+          "units": "A"
+        },
+        "calculated": {
+          "dir": "tva/gic/GIC-calculated",
+          "files": ["20240510_BullRunXfrmGIC.dat", "20240511_BullRunXfrmGIC.dat","20240512_BullRunXfrmGIC.dat"],
+          "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00","2024-05-12 00:00:00"],
+          "units": "A"
+        }
+      },
+      "mag": {
+        "measured": {
+          "dir": "tva/mag",
+          "files": ["bullrun_mag_20240509.csv"],
+          "units": "nT",
+          "legend": ["$\\Delta B_x$", "$\\Delta B_y$", "$\\Delta B_z$"]
+        },
+        "calculated/swmf": {
+          "dir": "swmf/bullrun",
+          "files": {
+            "gap": "dB_bs_gap-BullRun.pkl",
+            "iono": "dB_bs_iono-BullRun.pkl",
+            "msph": "dB_bs_msph-BullRun.pkl"
+          },
+          "units": "nT",
+          "legend": ["$\\Delta B_x$", "$\\Delta B_y$", "$\\Delta B_z$"]
+        }
+      }
+    }
   },
   "widowscreek": {
     "name": "Widows Creek",
-    "files": ["20240510_WidowsCreek2GIC.dat", "20240511_WidowsCreek2GIC.dat", "20240512_WidowsCreek2GIC.dat"],
-    "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00", "2024-05-12 00:00:00"],
-    "geo_lat": 34.9,
-    "geo_lon": -85.8,
-    "type": "gic-predicted"
+    "geo_lat": 34.8859,
+    "geo_lon": -85.7554,
+    "data": {
+      "gic": {
+        "measured": {
+          "dir": "tva/gic/GIC-measured",
+          "files": ["gic-widowscreek2_20240510.csv"],
+          "units": "A"
+        },
+        "calculated": {
+          "dir": "tva/gic/GIC-calculated",
+          "files": ["20240510_WidowsCreek2GIC.dat", "20240511_WidowsCreek2GIC.dat","20240512_WidowsCreek2GIC.dat"],
+          "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00","2024-05-12 00:00:00"],
+          "units": "A"
+        }
+      },
+      "mag": {
+        "measured": {
+          "dir": "tva/mag",
+          "files": ["bullrun_mag_20240509.csv"],
+          "units": "nT",
+          "legend": ["$\\Delta B_x$", "$\\Delta B_y$", "$\\Delta B_z$"]
+        },
+        "calculated/swmf": {
+          "dir": "swmf/bullrun",
+          "files": {
+            "gap": "dB_bs_gap-BullRun.pkl",
+            "iono": "dB_bs_iono-BullRun.pkl",
+            "msph": "dB_bs_msph-BullRun.pkl"
+          },
+          "units": "nT",
+          "legend": ["$\\Delta B_x$", "$\\Delta B_y$", "$\\Delta B_z$"]
+        }
+      }
+    }
   },
-  "fredricksburg_B": {
-    "name": "Fredricksburg",
-    "files": ["dB_bs_gap-FRD.pkl", "dB_bs_iono-FRD.pkl", "dB_bs_msph-FRD.pkl"],
-    "start": ["2024-05-10 00:00:00","2024-05-10 00:00:00","2024-05-10 00:00:00"],
-    "geo_lat": 38.2,
-    "geo_lon": -77.4,
-    "type": "mag-predicted"      
-  },
-  "bullrun_B": {
-    "name": "Bull Run",
-    "files": ["dB_bs_gap-BullRun.pkl", "dB_bs_iono-BullRun.pkl", "dB_bs_msph-BullRun.pkl"],
-    "start": ["2024-05-10 00:00:00","2024-05-10 00:00:00","2024-05-10 00:00:00"],
-    "geo_lat": 36.0,
-    "geo_lon": -84.2,
-    "type": "mag-predicted"      
-  },
-  "montgomery_B": {
-    "name": "Montgomery",
-    "files": ["dB_bs_gap-Montgomery.pkl", "dB_bs_iono-Montgomery.pkl", "dB_bs_msph-Montgomery.pkl"],
-    "start": ["2024-05-10 00:00:00","2024-05-10 00:00:00","2024-05-10 00:00:00"],
-    "geo_lat": 36.6,
-    "geo_lon": -87.3,
-    "type": "mag-predicted"  
-  },
-  "widowscreek_B": {
-    "name": "Widows Creek",
-    "files": ["dB_bs_gap-WidowsCreek.pkl", "dB_bs_iono-WidowsCreek.pkl", "dB_bs_msph-WidowsCreek.pkl"],
-    "start": ["2024-05-10 00:00:00","2024-05-10 00:00:00","2024-05-10 00:00:00"],
-    "geo_lat": 34.9,
-    "geo_lon": -85.8,
-    "type": "mag-predicted"  
+  "union": {
+    "name": "Union",
+    "geo_lat": 34.378,
+    "geo_lon": -88.8578,
+    "data": {
+      "gic": {
+        "measured": {
+          "dir": "tva/gic/GIC-measured",
+          "files": ["gic-union_20240510.csv"],
+          "units": "A"
+        },
+        "calculated": {
+          "dir": "tva/gic/GIC-calculated",
+          "files": ["20240510_UnionGIC.dat", "20240511_UnionGIC.dat","20240512_UnionGIC.dat"],
+          "start": ["2024-05-10 00:00:00","2024-05-11 00:00:00","2024-05-12 00:00:00"],
+          "units": "A"
+        }
+      },
+      "mag": {
+        "measured": {
+          "dir": "tva/mag",
+          "files": ["union_mag_20240509.csv"],
+          "units": "nT",
+          "legend": ["$\\Delta B_x$", "$\\Delta B_y$", "$\\Delta B_z$"]
+        }
+      }
+    }
   }
 }
