@@ -1,8 +1,6 @@
 {
   "bullrun": {
     "name": "Bull Run",
-    "geo_lat": 36.0193,
-    "geo_lon": -84.1575,
     "data": {
       "gic": {
         "measured": {
@@ -24,7 +22,7 @@
           "units": "nT",
           "legend": ["$\\Delta B_x$", "$\\Delta B_y$", "$\\Delta B_z$"]
         },
-        "calculated/swmf": {
+        "calculated-swmf": {
           "dir": "swmf/bullrun",
           "files": {
             "gap": "dB_bs_gap-BullRun.pkl",
@@ -56,7 +54,7 @@
         }
       },
       "mag": {
-        "calculated/swmf": {
+        "calculated-swmf": {
           "dir": "swmf/widowscreek",
           "files": {
             "gap": "dB_bs_gap-WidowsCreek.pkl",
@@ -71,8 +69,6 @@
   },
   "union": {
     "name": "Union",
-    "geo_lat": 34.375,
-    "geo_lon": -88.8578,
     "data": {
       "gic": {
         "measured": {
@@ -91,6 +87,16 @@
         "measured": {
           "dir": "tva/mag",
           "files": ["union_mag_20240509.csv"],
+          "units": "nT",
+          "legend": ["$\\Delta B_x$", "$\\Delta B_y$", "$\\Delta B_z$"]
+        },
+        "calculated-swmf": {
+          "dir": "swmf/union",
+          "files": {
+            "gap": "dB_bs_gap-Union.pkl",
+            "iono": "dB_bs_iono-Union.pkl",
+            "msph": "dB_bs_msph-Union.pkl"
+          },
           "units": "nT",
           "legend": ["$\\Delta B_x$", "$\\Delta B_y$", "$\\Delta B_z$"]
         }
@@ -116,7 +122,7 @@
         }
       },
       "mag": {
-        "calculated/swmf": {
+        "calculated-swmf": {
           "dir": "swmf/montgomery",
           "files": {
             "gap": "dB_bs_gap-Montgomery.pkl",
