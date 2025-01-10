@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Helvetica; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #0000e9; -webkit-text-stroke: #0000e9}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Helvetica; -webkit-text-stroke: #000000; min-height: 22.0px}
+    li.li3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {text-decoration: underline ; font-kerning: none}
+    span.s3 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s4 {text-decoration: underline ; font-kerning: none; -webkit-text-stroke: 0px #0000e9}
+    span.s5 {-webkit-text-stroke: 0px #000000}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 77.4px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #b2b2b2 #b2b2b2 #b2b2b2 #b2b2b2; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td2 {width: 43.4px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #b2b2b2 #b2b2b2 #b2b2b2 #b2b2b2; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td3 {width: 52.7px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #b2b2b2 #b2b2b2 #b2b2b2 #b2b2b2; padding: 0.0px 5.0px 0.0px 5.0px}
+    ol.ol1 {list-style-type: "—  "}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><b>Introduction</b></span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1">The files in this directory contain Biot-Savart analysis determining the delta B changes in the magnetic field on Earth due to magnetospheric, gap region, and ionospheric contributions.<span class="Apple-converted-space">  </span>The results are based on an SWMF simulation of the Gannon storm, and uses python code at:</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p4"><span class="s2"><a href="https://github.com/dthoma6/deltaB/tree/GIC">https://github.com/dthoma6/deltaB/tree/GIC</a></span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1">The total change in magnetic field on Earth (delta B) is the sum of the magnetospheric, gap region, and ionospheric contributions.<span class="Apple-converted-space">  </span>The data does not include the baseline magnetic field due to the Earth’s dipole or Telleric contributions.</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><b>Filenames</b></span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1">In this directory, file names are of the form:</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1">dB_site.pkl<span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s1">dB_stie.csv</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1">where site is one of the following:</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3"><span class="s1">Site</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3"><span class="s1">Latitude</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p3"><span class="s1">Longitude</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1">50100</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">30.4</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">89.6</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1">50127</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">37.1</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">119.7</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1">50112</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">48.3</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">117.1</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1">50131</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">37.8</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">84.7</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1">50132</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">38</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">84.8</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1">50103</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">33.3</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">89.2</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1">50104</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">36</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">84.1</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1">50109</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">35.6</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">84.7</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1">50115</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">41.3</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">90.5</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1">50116</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">37.2</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">86.9</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1">50117</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">36.1</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">81</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1">50118</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">39.4</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">87.4</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1">50119</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">35</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">85.3</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1">50120</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">34.3</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">88.8</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1">50122</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">35.6</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">89.3</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3"><span class="s1">Montgomery</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">36.5949</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">87.2533</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3"><span class="s1">Widows Creek</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">34.8859</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">85.7554</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3"><span class="s1">Bull Run</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">36.0193</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">84.1575</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3"><span class="s1">Union</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1">34.378</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1">88.8578</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p6"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><b>Breakdown of magnetospheric currents</b></span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1">In the analysis, the magnetospheric current densities are broken down into currents parallel and perpendicular to the magnetosphere’s local magnetic field. <span class="Apple-converted-space">  </span>And the perpendicular component is futher decomposed into components parallel to azimuth and a residual term.<span class="Apple-converted-space">  </span>These components are used to determine the magnetic filed on Earth due to various magnetospheric currents.</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p4"><span class="s3">For more details, see Section 3 of<span class="Apple-converted-space">  </span><a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024JA032556"><span class="s4">https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024JA032556</span></a><span class="Apple-converted-space"> </span></span></p>
+<p class="p6"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><b>Variables</b></span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1">Each file contains the changes in the magnetic field (delta B) at the latitude-longitude specified.<span class="Apple-converted-space">  </span>The pickle files (.pkl) and the CSV files (.csv) contain the same data.<span class="Apple-converted-space">  </span>The only difference is</span></p>
+<p class="p3"><span class="s1">missing data in the pickle files are labeled ‘nan’, while in the CSV files, they are blank.<span class="Apple-converted-space">  </span>The pickle dataframe has a Timestamp index, which is equivalent to the Datetime column.<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1">The following data are provided:</span></p>
+<ol class="ol1">
+  <li class="li3"><span class="s5"></span><span class="s1">Timestamp - Time associated with measurements in YYYY-MM-DD HH:MM:SS.<span class="Apple-converted-space">  </span>In the pickle files, this is the dataframe index.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li3"><span class="s5"></span><span class="s1">Bn_msph, Be_msph, Bd_msph -<span class="Apple-converted-space">  </span>North, East, and Down components of the change in the magnetic field due to magnetospheric currents</span></li>
+  <li class="li3"><span class="s5"></span><span class="s1">Bparan_msph, Bparae_msph, Bparad_msph - North, East, and Down components of the change in the magnetic field due to magnetospheric currents parallel to the local magnetospheric magnetic field</span></li>
+  <li class="li3"><span class="s5"></span><span class="s1">Bperpn_msph, Bperpe_msph, Bperpd_msph - North, East, and Down components of the change in the magnetic field due to magnetospheric currents perpendicular to the local magnetospheric magnetic field</span></li>
+  <li class="li3"><span class="s5"></span><span class="s1">Bperpphin_msph, Bperpphie_msph, Bperpphid_msph - North, East, and Down components of the change in the magnetic field due to magnetospheric currents perpendicular to the local magnetospheric magnetic field<span class="Apple-converted-space">  </span>and in the azimuthal direction<span class="Apple-converted-space"> </span></span></li>
+  <li class="li3"><span class="s5"></span><span class="s1">Bperpresn_msph, Bperprese_msph, Bperpresd_msph - North, East, and Down components of the change in the magnetic field due to residual component of magnetospheric currents<span class="Apple-converted-space"> </span></span></li>
+  <li class="li3"><span class="s5"></span><span class="s1">Bx_msph, By_msph, Bz_msph - X,Y,Z components in SM coordinates of the change in the magnetic field due to magnetospheric currents</span></li>
+  <li class="li3"><span class="s5"></span><span class="s1">Bn_gap, Be_gap, Bd_gap - North, East, and Down components of the change in the magnetic field due to gap region field-aligned currents</span></li>
+  <li class="li3"><span class="s5"></span><span class="s1">Bx_gap, By_gap, Bz_gap - X,Y,Z components in SM coordinates of the change in the magnetic field due to gap region field-aligned currents</span></li>
+  <li class="li3"><span class="s5"></span><span class="s1">Bnp_iono, Bep_iono, Bdp_iono -<span class="Apple-converted-space">  </span>North, East, and Down components of the change in the magnetic field due to Pedersen ionospheric currents</span></li>
+  <li class="li3"><span class="s5"></span><span class="s1">Bxp_iono, Byp_iono, Bzp_iono - X,Y,Z components in SM coordinates of the change in the magnetic field due to Pedersen ionospheric currents</span></li>
+  <li class="li3"><span class="s5"></span><span class="s1">Bnh_iono, Beh_iono, Bdh_iono - North, East, and Down components of the change in the magnetic field due to Hall ionospheric currents</span></li>
+  <li class="li3"><span class="s5"></span><span class="s1">Bxh_iono, Byh_iono, Bzh_iono -<span class="Apple-converted-space">  </span>X,Y,Z components in SM coordinatesof the change in the magnetic field due to Hall ionospheric currents</span></li>
+  <li class="li3"><span class="s5"></span><span class="s1">Datetime - Time associated with measurements in YYYY-MM-DD HH:MM:SS. <span class="Apple-converted-space">  </span>In the pickle files, tnis is a datetime data type.</span></li>
+</ol>
+<p class="p1"><span class="s1"></span><br></p>
+</body>
+</html>
