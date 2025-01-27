@@ -12,7 +12,7 @@ The total change in magnetic field on Earth (delta B) is the sum of the magnetos
 In this directory, file names are of the form:
 
 dB_site.pkl 
-dB_stie.csv
+dB_site.csv
 
 where site is one of the following:
 
