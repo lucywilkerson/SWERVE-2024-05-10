@@ -12,6 +12,21 @@
 
 ![](_results/transmission_std_map.png)
 
-# TVA GIC
+# TVA GIC vs TVA GIC modeled
+
+# GIC Time Series Comparisons
 
 ![](_results/Montgomery_Bull%20Run_GIC_compare_timeseries.png)
+
+# GIC Time Series CC Comparisons
+Overview
+Results from one site
+
+# GIC Time Series std Comparisons
+Overview
+Results from one site
+
+# GIC Time Series Beta Comparisons
+Overview
+Results from one site
+
