@@ -3,7 +3,7 @@
 ![](_map/map.png)
 
 
-![](_map/map_zoom.png)
+![](_map/map_zoom_tva.png)
 
 ![](_results/GIC_map_wtrans.png)
 
