@@ -12,3 +12,6 @@
 
 ![](_results/transmission_std_map.png)
 
+# TVA GIC
+
+![](_results/Montgomery_Bull%20Run_GIC_compare_timeseries.png)
