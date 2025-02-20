@@ -1,14 +1,19 @@
 # Summary
 
+# Maps w GIC and magetometer sites
 ![](_map/map.png)
 
 ![](_map/map_zoom_tva.png)
+
+# Transmission line analysis
 
 ![](_results/GIC_map_wtrans.png)
 
 ![](_results/trans_lines_TVA.png)
 
 ![](_results/trans_lines_count.png)
+
+![](_results/trans_lines_length.png)
 
 ![](_results/transmission_std_map.png)
 
