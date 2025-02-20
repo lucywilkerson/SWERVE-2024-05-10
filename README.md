@@ -9,13 +9,13 @@
 
 ![](_results/transmission_map.png)
 
+![](_results/transmission_std_map.png)
+
 ![](_results/trans_lines_TVA.png)
 
 ![](_results/trans_lines_count.png)
 
 ![](_results/trans_lines_length.png)
-
-![](_results/transmission_std_map.png)
 
 # TVA GIC vs TVA GIC modeled
 
