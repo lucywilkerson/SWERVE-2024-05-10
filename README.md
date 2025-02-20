@@ -27,11 +27,21 @@
 Overview
 Results from one site
 
+# GIC Time Series dist Comparisons
+
+![](_results/cc_vs_dist_map.png)
+
+![](_results/cc_vs_dist_scatter.png)
+Results from one site
+
 # GIC Time Series std Comparisons
-Overview
+
+![](_results/cc_vs_std_scatter.png)
+
 Results from one site
 
 # GIC Time Series Beta Comparisons
-Overview
+
+![](_results/cc_vs_beta_scatter.png)
 Results from one site
 
