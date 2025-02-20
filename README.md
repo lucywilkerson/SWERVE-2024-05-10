@@ -7,7 +7,7 @@
 
 # Transmission line analysis
 
-![](_results/GIC_map_wtrans.png)
+![](_results/transmission_map.png)
 
 ![](_results/trans_lines_TVA.png)
 
