@@ -45,7 +45,7 @@
 
 ![](_processed/union/B_compare_correlation.png)
 
-# GIC Time Series Comparisons for TVA sites
+# GIC Time Series Comparisons for site pairs
 
 ![](_results/pairs/montgomery_bullrun.png)
 
@@ -58,6 +58,8 @@
 ![](_results/pairs/widowscreek_montgomery.png)
 
 ![](_results/pairs/widowscreek_union.png)
+
+similar figures for all site pairs (2024-AGU-data/_results/pairs/site1_site2.png)
 
 # GIC Time Series CC Comparisons
 
