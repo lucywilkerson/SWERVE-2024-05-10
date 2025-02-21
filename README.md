@@ -39,25 +39,32 @@
 
 ![](processed/bullrun/B_compare_timeseries.png)
 
-![](processed/montgomery/B_compare_timeseries.png)
-
 ![](processed/union/B_compare_timeseries.png)
-
-![](processed/widowscreek/B_compare_timeseries.png)
 
 # GIC Time Series Comparisons
 
 ![](_results/Montgomery_Bull%20Run_GIC_compare_timeseries.png)
 
+![](_results/Union_Bull%20Run_GIC_compare_timeseries.png)
+
+![](_results/Union_Montgomery_GIC_compare_timeseries.png)
+
+![](_results/Widows%20Creek_Bull%20Run_GIC_compare_timeseries.png)
+
+![](_results/Widows%20Creek_Montgomery_GIC_compare_timeseries.png)
+
+![](_results/Widows%20Creek_Union_GIC_compare_timeseries.png)
+
 # GIC Time Series CC Comparisons
-Overview
+
+![](_results/cc_vs_dist_map.png)
+
 Results from one site
 
 # GIC Time Series dist Comparisons
 
-![](_results/cc_vs_dist_map.png)
-
 ![](_results/cc_vs_dist_scatter.png)
+
 Results from one site
 
 # GIC Time Series std Comparisons
@@ -69,5 +76,6 @@ Results from one site
 # GIC Time Series Beta Comparisons
 
 ![](_results/cc_vs_beta_scatter.png)
+
 Results from one site
 
