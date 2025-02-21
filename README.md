@@ -19,6 +19,16 @@
 
 # TVA GIC vs TVA GIC modeled
 
+![](processed/bullrun/GIC_compare_timeseries.png)
+
+![](processed/bullrun/GIC_compare_correlation.png)
+
+# TVA B vs MAGE/SWMF modeled
+
+![](processed/bullrun/B_compare_timeseries.png)
+
+
+
 # GIC Time Series Comparisons
 
 ![](_results/Montgomery_Bull%20Run_GIC_compare_timeseries.png)
