@@ -45,19 +45,21 @@
 
 ![](_processed/union/B_compare_correlation.png)
 
-# GIC Time Series Comparisons for TVA sites
+# GIC Time Series Comparisons for site pairs
 
-![](_results/Montgomery_Bull%20Run_GIC_compare_timeseries.png)
+![](_results/pairs/montgomery_bullrun.png)
 
-![](_results/Union_Bull%20Run_GIC_compare_timeseries.png)
+![](_results/pairs/union_bullrun.png)
 
-![](_results/Union_Montgomery_GIC_compare_timeseries.png)
+![](_results/pairs/union_montgomery.png)
 
-![](_results/Widows%20Creek_Bull%20Run_GIC_compare_timeseries.png)
+![](_results/pairs/widowscreek_bullrun.png)
 
-![](_results/Widows%20Creek_Montgomery_GIC_compare_timeseries.png)
+![](_results/pairs/widowscreek_montgomery.png)
 
-![](_results/Widows%20Creek_Union_GIC_compare_timeseries.png)
+![](_results/pairs/widowscreek_union.png)
+
+similar figures for all site pairs (2024-AGU-data/_results/pairs/site1_site2.png)
 
 # GIC Time Series CC Comparisons
 
