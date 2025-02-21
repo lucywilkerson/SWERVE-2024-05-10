@@ -64,23 +64,26 @@
 ![](_results/cc_vs_dist_map.png)
 
 ![](_processed/bullrun/cc_vs_dist_map.png)
-similar figures for 55 more sites (2024-AGU-data/_processed/sitename)
+similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_dist_map.png)
 
 # GIC Time Series dist Comparisons
 
 ![](_results/cc_vs_dist_scatter.png)
 
-Results from one site
+![](_processed/bullrun/cc_vs_dist_scatter.png)
+similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_dist_scatter.png)
 
 # GIC Time Series std Comparisons
 
 ![](_results/cc_vs_std_scatter.png)
 
-Results from one site
+![](_processed/bullrun/cc_vs_std_scatter.png)
+similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_std_scatter.png)
 
 # GIC Time Series Beta Comparisons
 
 ![](_results/cc_vs_beta_scatter.png)
 
-Results from one site
+![](_processed/bullrun/cc_vs_beta_scatter.png)
+similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_beta_scatter.png)
 
