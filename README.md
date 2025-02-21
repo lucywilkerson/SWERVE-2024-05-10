@@ -23,11 +23,27 @@
 
 ![](processed/bullrun/GIC_compare_correlation.png)
 
+![](processed/montgomery/GIC_compare_timeseries.png)
+
+![](processed/montgomery/GIC_compare_correlation.png)
+
+![](processed/union/GIC_compare_timeseries.png)
+
+![](processed/union/GIC_compare_correlation.png)
+
+![](processed/widowscreek/GIC_compare_timeseries.png)
+
+![](processed/widowscreek/GIC_compare_correlation.png)
+
 # TVA B vs MAGE/SWMF modeled
 
 ![](processed/bullrun/B_compare_timeseries.png)
 
+![](processed/montgomery/B_compare_timeseries.png)
 
+![](processed/union/B_compare_timeseries.png)
+
+![](processed/widowscreek/B_compare_timeseries.png)
 
 # GIC Time Series Comparisons
 
