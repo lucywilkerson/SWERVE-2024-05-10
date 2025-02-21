@@ -45,7 +45,7 @@
 
 ![](_processed/union/B_compare_correlation.png)
 
-# GIC Time Series Comparisons
+# GIC Time Series Comparisons for TVA sites
 
 ![](_results/Montgomery_Bull%20Run_GIC_compare_timeseries.png)
 
@@ -63,7 +63,8 @@
 
 ![](_results/cc_vs_dist_map.png)
 
-Results from one site
+![](_processed/bullrun/cc_vs_dist_map.png)
+similar figures for 55 more sites (2024-AGU-data/_processed/sitename)
 
 # GIC Time Series dist Comparisons
 
