@@ -61,33 +61,52 @@
 
 similar figures for all site pairs (2024-AGU-data/_results/pairs/site1_site2.png)
 
-# GIC Time Series CC Comparisons
+# GIC CC-Distance Map Comparisons
 
 ![](_results/cc_vs_dist_map.png)
 
 ![](_processed/bullrun/cc_vs_dist_map.png)
 similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_dist_map.png)
 
-# GIC Time Series dist Comparisons
+# GIC CC-Distance Scatter Comparisons
 
 ![](_results/cc_vs_dist_scatter.png)
 
-![](_results/cc_vs_dist_vs_beta_scatter.png)
+![](_results/cc_vs_dist_grid_scatter.png)
 
 ![](_processed/bullrun/cc_vs_dist_scatter.png)
 similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_dist_scatter.png)
 
-# GIC Time Series std Comparisons
+# GIC CC-StDev Scatter Comparisons
 
 ![](_results/cc_vs_std_scatter.png)
+
+![](_results/cc_vs_std_grid_scatter.png)
 
 ![](_processed/bullrun/cc_vs_std_scatter.png)
 similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_std_scatter.png)
 
-# GIC Time Series Beta Comparisons
+# GIC CC-Beta Scatter Comparisons
 
 ![](_results/cc_vs_beta_scatter.png)
 
+![](_results/cc_vs_beta_grid_scatter.png)
+
 ![](_processed/bullrun/cc_vs_beta_scatter.png)
 similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_beta_scatter.png)
+
+# GIC CC-Line Voltage Scatter Comparisons
+
+![](_results/cc_vs_volt_scatter.png)
+
+![](_results/cc_vs_volt_grid_scatter.png)
+
+# GIC CC-Dist Scatter Comparison w colors
+
+![](_results/cc_vs_dist_vs_beta_scatter.png)
+
+![](_results/cc_vs_dist_vs_volt_scatter.png)
+
+![](_results/cc_vs_dist_vs_lat_scatter.png)
+
 
