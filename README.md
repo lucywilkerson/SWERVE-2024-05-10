@@ -101,6 +101,12 @@ similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_beta_
 
 ![](_results/cc_vs_volt_grid_scatter.png)
 
+# GIC CC-Latitude Comparisons
+
+![](_results/cc_vs_lat_scatter.png)
+
+![](_results/cc_vs_lat_grid_scatter.png)
+
 # GIC CC-Dist Scatter Comparison w colors
 
 ![](_results/cc_vs_dist_vs_beta_scatter.png)
