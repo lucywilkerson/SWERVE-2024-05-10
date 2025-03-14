@@ -1,6 +1,6 @@
 # Summary
 
-# Maps w GIC and magetometer sites
+# Maps w GIC and magnetometer sites
 ![](_map/map.png)
 
 ![](_map/map_zoom_tva.png)
