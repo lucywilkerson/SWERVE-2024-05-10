@@ -115,4 +115,12 @@ similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_beta_
 
 ![](_results/cc_vs_dist_vs_lat_scatter.png)
 
+# GIC StDev Scatter Plots
+
+![](_results/std_vs_beta_scatter.png)
+
+![](_results/std_vs_lat_scatter.png)
+
+
+
 
