@@ -1,10 +1,10 @@
 
       # GIC Compare Timeseries for TVA model
       
-![](_processed/Bull Run/GIC_compare_timeseries_TVA.png)
+![](_processed/bullrun/GIC_compare_timeseries_TVA.png)
 
-![](_processed/Montgomery/GIC_compare_timeseries_TVA.png)
+![](_processed/montgomery/GIC_compare_timeseries_TVA.png)
 
-![](_processed/Union/GIC_compare_timeseries_TVA.png)
+![](_processed/union/GIC_compare_timeseries_TVA.png)
 
-![](_processed/Widows Creek/GIC_compare_timeseries_TVA.png)
+![](_processed/widowscreek/GIC_compare_timeseries_TVA.png)

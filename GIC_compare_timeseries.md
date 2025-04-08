@@ -59,30 +59,30 @@
 
 ![](_processed/10250/GIC_compare_timeseries.png)
 
-![](_processed/Bull Run/GIC_compare_timeseries.png)
+![](_processed/bullrun/GIC_compare_timeseries.png)
 
-![](_processed/Gleason/GIC_compare_timeseries.png)
+![](_processed/gleason/GIC_compare_timeseries.png)
 
-![](_processed/Johnsonville/GIC_compare_timeseries.png)
+![](_processed/johnsonville/GIC_compare_timeseries.png)
 
-![](_processed/Montgomery/GIC_compare_timeseries.png)
+![](_processed/montgomery/GIC_compare_timeseries.png)
 
-![](_processed/Paradise 3/GIC_compare_timeseries.png)
+![](_processed/paradise3/GIC_compare_timeseries.png)
 
-![](_processed/Pinhook/GIC_compare_timeseries.png)
+![](_processed/pinhook/GIC_compare_timeseries.png)
 
-![](_processed/Raccoon Mountain/GIC_compare_timeseries.png)
+![](_processed/raccoonmountain/GIC_compare_timeseries.png)
 
-![](_processed/Rutherford/GIC_compare_timeseries.png)
+![](_processed/rutherford/GIC_compare_timeseries.png)
 
-![](_processed/Shelby/GIC_compare_timeseries.png)
+![](_processed/shelby/GIC_compare_timeseries.png)
 
-![](_processed/Southaven/GIC_compare_timeseries.png)
+![](_processed/southaven/GIC_compare_timeseries.png)
 
-![](_processed/Sullivan/GIC_compare_timeseries.png)
+![](_processed/sullivan/GIC_compare_timeseries.png)
 
-![](_processed/Union/GIC_compare_timeseries.png)
+![](_processed/union/GIC_compare_timeseries.png)
 
-![](_processed/Weakley/GIC_compare_timeseries.png)
+![](_processed/weakley/GIC_compare_timeseries.png)
 
-![](_processed/Widows Creek/GIC_compare_timeseries.png)
+![](_processed/widowscreek/GIC_compare_timeseries.png)
