@@ -1,6 +1,4 @@
-
-      # GIC Compare Timeseries for GMU simulation
-      
+# GIC Compare Timeseries for GMU simulation
 ![](_processed/10052/GIC_compare_timeseries_GMU.png)
 
 ![](_processed/10076/GIC_compare_timeseries_GMU.png)

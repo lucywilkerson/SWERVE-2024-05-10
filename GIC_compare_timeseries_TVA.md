@@ -1,6 +1,4 @@
-
-      # GIC Compare Timeseries for TVA model
-      
+# GIC Compare Timeseries for TVA model
 ![](_processed/bullrun/GIC_compare_timeseries_TVA.png)
 
 ![](_processed/montgomery/GIC_compare_timeseries_TVA.png)

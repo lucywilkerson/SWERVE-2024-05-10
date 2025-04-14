@@ -1,6 +1,4 @@
-
-      # GIC Compare Timeseries
-      
+# GIC Compare Timeseries
 ![](_processed/10052/GIC_compare_timeseries.png)
 
 ![](_processed/10052/GIC_compare_correlation.png)
