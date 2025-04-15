@@ -17,6 +17,14 @@
 
 ![](_results/trans_lines_length.png)
 
+# Data plots for paper
+
+![](_processed/_tva/gic_tva.png)
+
+![](_processed/_nerc/gic_nerc.png)
+
+![](_processed/_imf/imf_mage.png)
+
 # TVA GIC vs TVA GIC modeled
 
 ![](_processed/bullrun/GIC_compare_timeseries.png)
