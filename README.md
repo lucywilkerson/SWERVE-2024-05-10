@@ -53,6 +53,8 @@
 
 ![](_processed/union/B_compare_correlation.png)
 
+for all B timeseries comparisons, see ![B markdown](B_compare_timeseries.md)
+
 # GIC Time Series Comparisons for site pairs
 
 ![](_results/pairs/montgomery_bullrun.png)
@@ -68,6 +70,11 @@
 ![](_results/pairs/widowscreek_union.png)
 
 similar figures for all site pairs (2024-AGU-data/_results/pairs/site1_site2.png)
+or see ![pairs markdown](GIC_compare_pairs.md)
+
+# Cross Correlation of Site Pairs
+
+see ![here](GIC_compare_pairs.md)
 
 # GIC CC-Distance Map Comparisons
 
@@ -128,6 +135,16 @@ similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_beta_
 ![](_results/std_vs_beta_scatter.png)
 
 ![](_results/std_vs_lat_scatter.png)
+
+# Regression Analysis
+
+![](_results/scatter_fit_dist(km).png)
+
+![](_results/scatter_fit_beta.png)
+
+![](_results/scatter_fit_lat.png)
+
+![](_results/scatter_fit_all.png)
 
 
 
