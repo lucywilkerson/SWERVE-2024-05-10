@@ -140,9 +140,9 @@ similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_beta_
 
 ![](_results/scatter_fit_dist(km).png)
 
-![](_results/scatter_fit_beta.png)
+![](_results/scatter_fit_beta_diff.png)
 
-![](_results/scatter_fit_lat.png)
+![](_results/scatter_fit_lat_diff.png)
 
 ![](_results/scatter_fit_all.png)
 
