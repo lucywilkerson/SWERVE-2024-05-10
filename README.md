@@ -25,7 +25,7 @@
 
 ![](_processed/_imf/imf_mage.png)
 
-# TVA GIC vs TVA GIC modeled
+# TVA GIC vs GIC modeled (TVA and GMU)
 
 ![](_processed/bullrun/GIC_compare_timeseries.png)
 
@@ -42,6 +42,12 @@
 ![](_processed/widowscreek/GIC_compare_timeseries.png)
 
 ![](_processed/widowscreek/GIC_compare_correlation.png)
+
+for all GIC timeseries comparisons, see ![GIC markdown](GIC_compare_timeseries.md)
+
+for just TVA GIC timeseries comparisons, see ![TVA GIC markdown](GIC_compare_timeseries_TVA.md)
+
+for just GMU GIC timeseries comparisons, see ![GMU GIC markdown](GIC_compare_timeseries_GMU.md)
 
 # TVA B vs MAGE/SWMF modeled
 
@@ -74,7 +80,9 @@ or see ![pairs markdown](GIC_compare_pairs.md)
 
 # Cross Correlation of Site Pairs
 
-see ![here](GIC_compare_pairs.md)
+![](_results/pairs/xcorr_scatter.png)
+
+see ![here](GIC_compare_pairs.md) for cross correlation analysis of each pair
 
 # GIC CC-Distance Map Comparisons
 
