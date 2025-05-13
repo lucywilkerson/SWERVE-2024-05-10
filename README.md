@@ -57,17 +57,17 @@ for all B timeseries comparisons, see ![B markdown](B_compare_timeseries.md)
 
 # GIC Time Series Comparisons for site pairs
 
-![](_results/pairs/montgomery_bullrun.png)
+![](_results/pairs/bullrun_montgomery.png)
 
-![](_results/pairs/union_bullrun.png)
+![](_results/pairs/bullrun_union.png)
 
-![](_results/pairs/union_montgomery.png)
+![](_results/pairs/bullrun_widowscreek.png)
 
-![](_results/pairs/widowscreek_bullrun.png)
+![](_results/pairs/montgomery_union.png)
 
-![](_results/pairs/widowscreek_montgomery.png)
+![](_results/pairs/montgomery_widowscreek.png)
 
-![](_results/pairs/widowscreek_union.png)
+![](_results/pairs/union_widowscreek.png)
 
 similar figures for all site pairs (2024-AGU-data/_results/pairs/site1_site2.png)
 or see ![pairs markdown](GIC_compare_pairs.md)
@@ -146,6 +146,6 @@ similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_beta_
 
 ![](_results/scatter_fit_all.png)
 
-
+![](_results/scatter_fit_cross.png)
 
 
