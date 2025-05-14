@@ -145,15 +145,33 @@ similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_beta_
 ![](_results/std_vs_lat_scatter.png)
 
 # Regression Analysis
+## Correlation coefficient between GIC site pairs
+![](_results/scatter_fit_dist(km)_cc.png)
 
-![](_results/scatter_fit_dist(km).png)
+![](_results/scatter_fit_beta_diff_cc.png)
 
-![](_results/scatter_fit_beta_diff.png)
+![](_results/scatter_fit_lat_diff_cc.png)
 
-![](_results/scatter_fit_lat_diff.png)
+![](_results/scatter_fit_all_cc.png)
 
-![](_results/scatter_fit_all.png)
+![](_results/scatter_fit_cross_cc.png)
 
-![](_results/scatter_fit_cross.png)
+## Standard deviation of GIC at each site
+![](_results/scatter_fit_interpolated_beta_std.png)
+
+![](_results/scatter_fit_geo_lat_std.png)
+
+![](_results/scatter_fit_all_std.png)
+
+![](_results/scatter_fit_cross_std.png)
+
+## Peak GIC at each site
+![](_results/scatter_fit_interpolated_beta_gic_max.png)
+
+![](_results/scatter_fit_geo_lat_gic_max.png)
+
+![](_results/scatter_fit_all_gic_max.png)
+
+![](_results/scatter_fit_cross_gic_max.png)
 
 
