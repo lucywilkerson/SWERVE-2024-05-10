@@ -196,9 +196,15 @@ similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_beta_
 ![](_results/scatter_fit_cross_cc.png)
 
 ## Standard deviation of GIC at each site
+![](_results/line_fit_interpolated_beta_std.png)
+
 ![](_results/scatter_fit_interpolated_beta_std.png)
 
+![](_results/line_fit_log_beta_std.png)
+
 ![](_results/scatter_fit_log_beta_std.png)
+
+![](_results/line_fit_geo_lat_std.png)
 
 ![](_results/scatter_fit_geo_lat_std.png)
 
@@ -206,10 +212,18 @@ similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_beta_
 
 ![](_results/scatter_fit_cross_std.png)
 
+Table with results: ![fit_table_std.md](_results/fit_table_std.md)
+
 ## Peak GIC at each site
+![](_results/line_fit_interpolated_beta_gic_max.png)
+
 ![](_results/scatter_fit_interpolated_beta_gic_max.png)
 
+![](_results/line_fit_log_beta_gic_max.png)
+
 ![](_results/scatter_fit_log_beta_gic_max.png)
+
+![](_results/line_fit_geo_lat_gic_max.png)
 
 ![](_results/scatter_fit_geo_lat_gic_max.png)
 
@@ -217,4 +231,4 @@ similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_beta_
 
 ![](_results/scatter_fit_cross_gic_max.png)
 
-
+Table with results: ![fit_table_gic_max.md](_results/fit_table_gic_max.md)
