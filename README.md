@@ -60,9 +60,9 @@ This repository is licensed under the MIT License. See `LICENSE` for details.
 
 ![](_processed/_nerc/gic_nerc.png)
 
-![](_processed/_imf/imf_mage.png)
+![](_imf/imf_mage.png)
 
-![](_processed/_imf/imf_all.png)
+![](_imf/imf_all.png)
 
 # TVA GIC vs GIC modeled (TVA and GMU)
 
