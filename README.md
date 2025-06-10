@@ -152,6 +152,7 @@ similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_beta_
 ![](_results/std_vs_lat_scatter.png)
 
 # Regression Analysis
+see [linear_regression.md](linear_regression.md) for more detailed analysis
 ## Correlation coefficient between GIC site pairs
 ![](_results/scatter_fit_dist(km)_cc.png)
 
