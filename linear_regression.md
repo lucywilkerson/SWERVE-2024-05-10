@@ -65,7 +65,7 @@
 
 ![](_results/scatter_fit_geo_lat_gic_max.png)
 
-## $|\text{GIC}_\text{max}|$ vs $\lambda$
+## $|\text{GIC}_\text{max}|$ vs $\alpha$
 
 ![](_results/line_fit_alpha_gic_max.png)
 
