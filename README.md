@@ -118,7 +118,7 @@ similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_std_s
 
 # GIC CC-Beta Scatter Comparisons
 
-![](_results/cc_vs_beta_scatter.png)
+![](_results/cc_vs_beta_scatter.png) 
 
 ![](_results/cc_vs_logbeta_scatter.png)
 
