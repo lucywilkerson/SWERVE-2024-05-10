@@ -120,6 +120,8 @@ similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_std_s
 
 ![](_results/cc_vs_beta_scatter.png)
 
+![](_results/cc_vs_logbeta_scatter.png)
+
 ![](_results/cc_vs_beta_grid_scatter.png)
 
 ![](_processed/bullrun/cc_vs_beta_scatter.png)
