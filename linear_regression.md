@@ -22,6 +22,12 @@
 
 ![](_results/residual_hist_geo_lat_std.png)
 
+## $\sigma$ vs $\alpha$
+
+![](_results/line_fit_alpha_std.png)
+
+![](_results/scatter_fit_alpha_std.png)
+
 ## $\sigma$ vs $\beta$ and $\lambda$
 
 ![](_results/scatter_fit_all_std.png)
@@ -58,6 +64,12 @@
 ![](_results/line_fit_geo_lat_gic_max.png)
 
 ![](_results/scatter_fit_geo_lat_gic_max.png)
+
+## $|\text{GIC}_\text{max}|$ vs $\lambda$
+
+![](_results/line_fit_alpha_gic_max.png)
+
+![](_results/scatter_fit_alpha_gic_max.png)
 
 ## $|\text{GIC}_\text{max}|$ vs $\beta$ and $\lambda$
 

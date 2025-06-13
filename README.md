@@ -179,6 +179,10 @@ see [linear_regression.md](linear_regression.md) for more detailed analysis
 
 ![](_results/scatter_fit_geo_lat_std.png)
 
+![](_results/line_fit_alpha_std.png)
+
+![](_results/scatter_fit_alpha_std.png)
+
 ![](_results/scatter_fit_all_std.png)
 
 ![](_results/scatter_fit_cross_std.png)
@@ -197,6 +201,10 @@ Table with results: ![fit_table_std.md](_results/fit_table_std.md)
 ![](_results/line_fit_geo_lat_gic_max.png)
 
 ![](_results/scatter_fit_geo_lat_gic_max.png)
+
+![](_results/line_fit_geo_alpha_max.png)
+
+![](_results/scatter_fit_geo_alpha_max.png)
 
 ![](_results/scatter_fit_all_gic_max.png)
 
