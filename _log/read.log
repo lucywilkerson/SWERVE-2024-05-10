@@ -1,0 +1,21 @@
+2025-06-25T10:45:16.950211Z INFO  read.py Reading ../2024-May-Storm-data/_processed/bullrun/data/_all.pkl
+2025-06-25T10:45:17.029453Z INFO  read.py Plotting 'Bull Run' data
+2025-06-25T10:45:17.029576Z INFO  read.py   Plotting comparison for 'Bull Run/B'
+2025-06-25T10:45:18.922692Z INFO  read.py     Writing ../2024-May-Storm-data/_processed/bullrun/figures/B_compare_timeseries.png
+2025-06-25T10:45:19.505326Z INFO  read.py     Writing ../2024-May-Storm-data/_processed/bullrun/figures/B_compare_timeseries.pdf
+2025-06-25T10:45:20.175394Z INFO  read.py     Writing ../2024-May-Storm-paper/figures/_processed/bullrun/figures/B_compare_timeseries.pdf
+2025-06-25T10:45:20.350285Z INFO  read.py     Writing ../2024-May-Storm-data/_processed/bullrun/figures/B_compare_correlation.png
+2025-06-25T10:45:20.880254Z INFO  read.py     Writing ../2024-May-Storm-data/_processed/bullrun/figures/B_compare_correlation.pdf
+2025-06-25T10:45:21.007069Z INFO  read.py     Writing ../2024-May-Storm-paper/figures/_processed/bullrun/figures/B_compare_correlation.pdf
+2025-06-25T10:45:21.141272Z INFO  read.py   Plotting 'Bull Run/B/measured/TVA'
+2025-06-25T10:45:23.011571Z INFO  read.py     Writing ../2024-May-Storm-data/_processed/bullrun/data/figures/B_measured_TVA.png
+2025-06-25T10:45:24.928832Z INFO  read.py     Writing ../2024-May-Storm-data/_processed/bullrun/data/figures/B_measured_TVA.pdf
+2025-06-25T10:45:26.139205Z INFO  read.py   Plotting 'Bull Run/B/calculated/SWMF'
+2025-06-25T10:45:26.291582Z INFO  read.py     Writing ../2024-May-Storm-data/_processed/bullrun/data/figures/B_calculated_SWMF.png
+2025-06-25T10:45:27.043686Z INFO  read.py     Writing ../2024-May-Storm-data/_processed/bullrun/data/figures/B_calculated_SWMF.pdf
+2025-06-25T10:45:27.160768Z INFO  read.py   Plotting 'Bull Run/B/calculated/MAGE'
+2025-06-25T10:45:27.308060Z INFO  read.py     Writing ../2024-May-Storm-data/_processed/bullrun/data/figures/B_calculated_MAGE.png
+2025-06-25T10:45:28.078380Z INFO  read.py     Writing ../2024-May-Storm-data/_processed/bullrun/data/figures/B_calculated_MAGE.pdf
+2025-06-25T10:45:28.198531Z INFO  read.py   Plotting 'Bull Run/B/calculated/OpenGGCM'
+2025-06-25T10:45:28.355694Z INFO  read.py     Writing ../2024-May-Storm-data/_processed/bullrun/data/figures/B_calculated_OpenGGCM.png
+2025-06-25T10:45:29.164746Z INFO  read.py     Writing ../2024-May-Storm-data/_processed/bullrun/data/figures/B_calculated_OpenGGCM.pdf

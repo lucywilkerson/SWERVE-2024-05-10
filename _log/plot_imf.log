@@ -1,0 +1,9 @@
+2025-06-27T16:42:48.216670Z INFO  plot_imf.py Reading cached data from /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/imf_data/bcwind.pkl
+2025-06-27T16:42:49.497113Z INFO  plot_imf.py Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_imf/mage_omni2_kp_compare.png
+2025-06-27T16:42:50.276112Z INFO  plot_imf.py Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_imf/mage_omni2_kp_compare.pdf
+2025-06-27T16:42:56.300835Z INFO  plot_imf.py Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_imf/imf_mage.png
+2025-06-27T16:42:58.020753Z INFO  plot_imf.py Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_imf/imf_mage.pdf
+2025-06-27T16:42:58.531697Z INFO  plot_imf.py Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-paper/_imf/imf_mage.pdf
+2025-06-27T16:42:59.033500Z INFO  plot_imf.py Reading /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/imf_data/Dean_IMF.txt
+2025-06-27T16:42:59.058395Z INFO  plot_imf.py Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_imf/imf_all.png
+2025-06-27T16:43:00.666436Z INFO  plot_imf.py Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_imf/imf_all.pdf

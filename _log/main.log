@@ -1,0 +1,179 @@
+2025-07-03T17:34:38.943888Z INFO  main.py Reading 'Bull Run' data
+2025-07-03T17:34:38.945751Z INFO  main.py   Reading 'GIC/calculated/TVA' data
+2025-07-03T17:34:38.945818Z INFO  main.py     Reading /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/tva/gic/GIC-calculated/20240510_BullRunXfrmGIC.dat
+2025-07-03T17:34:38.947210Z INFO  main.py     Reading /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/tva/gic/GIC-calculated/20240511_BullRunXfrmGIC.dat
+2025-07-03T17:34:38.948214Z INFO  main.py     Reading /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/tva/gic/GIC-calculated/20240512_BullRunXfrmGIC.dat
+2025-07-03T17:34:38.952122Z INFO  main.py     Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-03T17:34:38.960250Z INFO  main.py     Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_processed/bullrun/data/GIC_calculated_TVA.pkl
+2025-07-03T17:34:38.964773Z INFO  main.py   Reading 'GIC/calculated/GMU' data
+2025-07-03T17:34:38.970096Z INFO  main.py       Nearest simulation site: 108137138
+2025-07-03T17:34:38.971951Z INFO  main.py       Reading /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/gmu/tva/site_108137138.csv
+2025-07-03T17:34:38.990386Z INFO  main.py     Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-03T17:34:38.997908Z INFO  main.py     Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_processed/bullrun/data/GIC_calculated_GMU.pkl
+2025-07-03T17:34:39.004120Z INFO  main.py   Reading 'GIC/measured/TVA' data
+2025-07-03T17:34:39.004224Z INFO  main.py     Reading /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/tva/gic/GIC-measured/gic-bullrun_20240510.csv
+2025-07-03T17:34:39.955452Z INFO  main.py     Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-03T17:34:40.281378Z INFO  main.py     Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_processed/bullrun/data/GIC_measured_TVA.pkl
+2025-07-03T17:34:40.418788Z INFO  main.py   Reading 'B/measured/TVA' data
+2025-07-03T17:34:40.418954Z INFO  main.py     Reading /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/tva/mag/bullrun_mag_20240509.csv
+2025-07-03T17:34:41.892061Z INFO  main.py     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-03T17:34:42.318421Z INFO  main.py     Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_processed/bullrun/data/B_measured_TVA.pkl
+2025-07-03T17:34:42.481355Z INFO  main.py   Reading 'B/calculated/SWMF' data
+2025-07-03T17:34:42.481521Z INFO  main.py     Reading /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/swmf/bullrun/dB_BullRun.pkl
+2025-07-03T17:34:42.484314Z INFO  main.py     Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-03T17:34:42.494491Z INFO  main.py     Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_processed/bullrun/data/B_calculated_SWMF.pkl
+2025-07-03T17:34:42.499092Z INFO  main.py   Reading 'B/calculated/MAGE' data
+2025-07-03T17:34:42.499173Z INFO  main.py     Reading /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/mage/TVAinterpdf.csv
+2025-07-03T17:34:42.682342Z INFO  main.py     Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-03T17:34:42.690003Z INFO  main.py     Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_processed/bullrun/data/B_calculated_MAGE.pkl
+2025-07-03T17:34:42.696799Z INFO  main.py   Reading 'B/calculated/OpenGGCM' data
+2025-07-03T17:34:42.696898Z INFO  main.py     Reading /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/openggcm/bullrun/dB_BullRun.pkl
+2025-07-03T17:34:42.698915Z INFO  main.py     Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-03T17:34:42.708803Z INFO  main.py     Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_processed/bullrun/data/B_calculated_OpenGGCM.pkl
+2025-07-03T17:34:42.725170Z INFO  main.py   Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_processed/bullrun/data/_all.pkl
+2025-07-03T17:34:43.065996Z INFO  main.py Computing stats for 'Bull Run' data
+2025-07-03T17:34:43.066245Z INFO  main.py   Stats for GIC/calculated/TVA:
+2025-07-03T17:34:43.066314Z INFO  main.py 
+    std: [1.61059797106582]
+    ave: [0.03815406296296297]
+    min: 13.504692
+    max: -23.72226
+    n: 4320
+    n_valid: [4320]
+
+2025-07-03T17:34:43.066469Z INFO  main.py   Stats for GIC/calculated/GMU:
+2025-07-03T17:34:43.066512Z INFO  main.py 
+    std: [0.6704599535900995]
+    ave: [0.0003202800510615417]
+    min: 6.547
+    max: -13.38
+    n: 4320
+    n_valid: [3721]
+
+2025-07-03T17:34:43.066610Z INFO  main.py   Stats for GIC/measured/TVA:
+2025-07-03T17:34:43.066647Z INFO  main.py 
+    std: [1.123755117125812]
+    ave: [0.00024247685185184843]
+    min: 14.058
+    max: -13.748166666666666
+    n: 4320
+    n_valid: [4320]
+
+2025-07-03T17:34:43.066874Z INFO  main.py   Metrics for GIC/calculated/TVA:
+2025-07-03T17:34:43.067055Z INFO  main.py 
+    err_rms: [0.7949508419292391]
+    err_ave: [0.03839653981481479]
+    err: [[-0.013175]]
+         ...
+         [[0.08909767]]
+         (4320 rows, 1 columns)
+    cc: [-0.8913053947546211]
+    pe: [0.499577091669414]
+    valid: [[ True]]
+           ...
+           [[ True]]
+           (4320 rows, 1 columns)
+    n_valid: [4320]
+
+2025-07-03T17:34:43.067223Z INFO  main.py   Metrics for GIC/calculated/GMU:
+2025-07-03T17:34:43.067345Z INFO  main.py 
+    err_rms: [1.0529716299014058]
+    err_ave: [0.0015016381089312941]
+    err: [[1.4025]]
+         ...
+         [[-0.70653333]]
+         (3721 rows, 1 columns)
+    cc: [-0.4882209991311872]
+    pe: [0.23356781975206642]
+    valid: [[ True]]
+           ...
+           [[False]]
+           (4320 rows, 1 columns)
+    n_valid: [3721]
+
+2025-07-03T17:34:43.067736Z INFO  main.py   Stats for B/measured/TVA:
+2025-07-03T17:34:43.067772Z INFO  main.py 
+    std: [103.36690004431016, 69.47489838154921, 63.58697650641923]
+    ave: [-114.20551998456762, -19.40363607253074, 2.4922330632707514]
+    min: 219.13350000000008
+    max: -513.5193333333333
+    n: 4320
+    n_valid: [4320, 4320, 4320]
+
+2025-07-03T17:34:43.068142Z INFO  main.py   Stats for B/calculated/SWMF:
+2025-07-03T17:34:43.068176Z INFO  main.py 
+    std: [41.348357477707474, 25.14332577598177, 28.63383418235094]
+    ave: [22.28805562034128, 2.2960601336050486, -4.604117511462488]
+    min: 84.84397466975045
+    max: -142.66570389274963
+    n: 4320
+    n_valid: [4242, 4242, 4242]
+
+2025-07-03T17:34:43.068541Z INFO  main.py   Stats for B/calculated/MAGE:
+2025-07-03T17:34:43.068574Z INFO  main.py 
+    std: [249.64059894757023, 269.7430588407456, 422.69178991865687]
+    ave: [-43.52938415788219, 37.63319521955796, -276.09412774675206]
+    min: 721.9825061202023
+    max: -2302.083379954639
+    n: 4320
+    n_valid: [2160, 2160, 2160]
+
+2025-07-03T17:34:43.068929Z INFO  main.py   Stats for B/calculated/OpenGGCM:
+2025-07-03T17:34:43.068961Z INFO  main.py 
+    std: [59.198221936797054, 267.2078407387181, 122.88673798133253]
+    ave: [-66.37532743573304, 43.71854728067605, 60.61041858423492]
+    min: 169.80413749685144
+    max: -712.12929113981
+    n: 4320
+    n_valid: [4320, 4320, 4320]
+
+2025-07-03T17:34:43.069360Z INFO  main.py   Metrics for B/calculated/SWMF:
+2025-07-03T17:34:43.069491Z INFO  main.py 
+    err_rms: [137.33024190303627, 77.33632298047819, 61.46073840515502]
+    err_ave: [-93.89977315539343, -22.079087832803427, 7.290961728026132]
+    err: [[-4.97116802 10.072258   -3.12617559]]
+         ...
+         [[-97.96114735 -44.1743881   14.21117354]]
+         (4242 rows, 3 columns)
+    cc: [-0.2707567256256212, 0.011203171687087591, 0.3284882432768756]
+    pe: [-0.7720794071625325, -0.22042573617625583, 0.08101764249000043]
+    valid: [[False False False]]
+           ...
+           [[ True  True  True]]
+           (4320 rows, 3 columns)
+    n_valid: [4242, 4242, 4242]
+
+2025-07-03T17:34:43.069810Z INFO  main.py   Metrics for B/calculated/MAGE:
+2025-07-03T17:34:43.069932Z INFO  main.py 
+    err_rms: [272.4951205047842, 270.81112871756073, 473.6773566953062]
+    err_ave: [-116.62161005508091, -73.88696967943432, -276.8641845368765]
+    err: [[-21.76050342  10.32057808 171.47553713]]
+         ...
+         [[-208.53426704   42.35613783 -197.49144387]]
+         (2160 rows, 3 columns)
+    cc: [0.2690644577889288, 0.2675512191499919, -0.5185268183922372]
+    pe: [-4.113683799383594, -8.005703560988033, -27.672241045532292]
+    valid: [[False False False]]
+           ...
+           [[False False False]]
+           (4320 rows, 3 columns)
+    n_valid: [2160, 2160, 2160]
+
+2025-07-03T17:34:43.070313Z INFO  main.py   Metrics for B/calculated/OpenGGCM:
+2025-07-03T17:34:43.070432Z INFO  main.py 
+    err_rms: [110.48957483749273, 250.2037728063285, 122.45529770079395]
+    err_ave: [-47.83019254883477, 24.314911208145404, 63.10265164750579]
+    err: [[-4.67835189  7.82722376 -7.49695971]]
+         ...
+         [[-55.11815263 -31.92029569  50.11306404]]
+         (4320 rows, 3 columns)
+    cc: [0.34881772488379426, -0.38288883599614637, -0.5202906769467505]
+    pe: [-0.14256159166684723, -11.969757851103726, -2.7086752537231282]
+    valid: [[ True  True  True]]
+           ...
+           [[ True  True  True]]
+           (4320 rows, 3 columns)
+    n_valid: [4320, 4320, 4320]
+
+2025-07-03T17:34:43.072154Z INFO  main.py Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_processed/all.pkl
+2025-07-03T17:34:43.430076Z INFO  main.py Wrote /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/_processed/all.pkl

@@ -1,0 +1,6 @@
+2025-06-25T09:04:21.470027Z INFO  plot_timeseries.py   Writing ../2024-May-Storm-data/_processed/bullrun/B_compare_timeseries.png
+2025-06-25T09:04:22.081574Z INFO  plot_timeseries.py   Writing ../2024-May-Storm-data/_processed/bullrun/B_compare_timeseries.pdf
+2025-06-25T09:04:22.241201Z INFO  plot_timeseries.py   Writing ../2024-May-Storm-paper/figures/_processed/bullrun/B_compare_timeseries.pdf
+2025-06-25T09:04:22.361022Z INFO  plot_timeseries.py   Writing ../2024-May-Storm-data/_processed/bullrun/B_compare_correlation.png
+2025-06-25T09:04:22.929430Z INFO  plot_timeseries.py   Writing ../2024-May-Storm-data/_processed/bullrun/B_compare_correlation.pdf
+2025-06-25T09:04:23.049494Z INFO  plot_timeseries.py   Writing ../2024-May-Storm-paper/figures/_processed/bullrun/B_compare_correlation.pdf
