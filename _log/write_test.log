@@ -1,0 +1,251 @@
+2025-07-17T15:11:29.795525Z INFO  utilrsw.logger Reading 'test1' data
+2025-07-17T15:11:29.804637Z INFO  utilrsw.logger   Reading 'GIC/measured/TEST' data
+2025-07-17T15:11:29.805654Z INFO  utilrsw.logger     Reading c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\test\test1_GIC_measured_timeseries.csv
+2025-07-17T15:11:31.579861Z INFO  utilrsw.logger     Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-17T15:11:31.909160Z INFO  utilrsw.logger     Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\_processed\test1\data\GIC_measured_TEST.pkl
+2025-07-17T15:11:32.331911Z INFO  utilrsw.logger   Reading 'GIC/calculated/TEST' data
+2025-07-17T15:11:32.331911Z INFO  utilrsw.logger     Reading c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\test\test1_GIC_calculated_timeseries.csv
+2025-07-17T15:11:32.372259Z INFO  utilrsw.logger     Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-17T15:11:32.372259Z INFO  utilrsw.logger     Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\_processed\test1\data\GIC_calculated_TEST.pkl
+2025-07-17T15:11:32.390379Z INFO  utilrsw.logger   Not reading 'test1/B' data type data b/c not in requested data_types = GIC.
+2025-07-17T15:11:32.390379Z INFO  utilrsw.logger   Not writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\_processed\test1\data\_all.pkl b/c data_types is not None.
+2025-07-17T15:11:32.391396Z INFO  utilrsw.logger Computing stats for 'test1' data
+2025-07-17T15:11:32.392001Z INFO  utilrsw.logger   Stats for GIC/measured/TEST:
+2025-07-17T15:11:32.392482Z INFO  utilrsw.logger 
+    std: [21.21074115]
+    ave: [8.41929833e-16]
+    min: -29.99995874386546
+    max: 29.99995874386546
+    n: 4321
+    n_valid: [4321]
+
+2025-07-17T15:11:32.393499Z INFO  utilrsw.logger   Stats for GIC/calculated/TEST:
+2025-07-17T15:11:32.393499Z INFO  utilrsw.logger 
+    std: [21.21074115]
+    ave: [8.41929833e-16]
+    min: -29.99995874386546
+    max: 29.99995874386546
+    n: 4321
+    n_valid: [4321]
+
+2025-07-17T15:11:32.395527Z INFO  utilrsw.logger   Metrics for GIC/calculated/TEST:
+2025-07-17T15:11:32.395527Z INFO  utilrsw.logger 
+    err_rms: [0.]
+    err_ave: [0.]
+    err: [[0.]
+ [0.]
+ [0.]
+ ...
+ [0.]
+ [0.]
+ [0.]]
+    cc: [1.]
+    pe: [1.]
+    valid: [[ True]
+ [ True]
+ [ True]
+ ...
+ [ True]
+ [ True]
+ [ True]]
+    n_valid: [4321]
+
+2025-07-17T15:11:32.396528Z INFO  utilrsw.logger   Not computing stats for 'test1/B' data type b/c not in requested data_types = GIC.
+2025-07-17T15:11:32.400699Z INFO  utilrsw.logger Reading 'test1' data
+2025-07-17T15:11:32.405706Z INFO  utilrsw.logger   Not reading 'test1/GIC' data type data b/c not in requested data_types = B.
+2025-07-17T15:11:32.406135Z INFO  utilrsw.logger   Reading 'B/measured/TEST' data
+2025-07-17T15:11:32.406135Z INFO  utilrsw.logger     Reading c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\test\test1_B_measured_timeseries.csv
+2025-07-17T15:11:34.513659Z INFO  utilrsw.logger     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-17T15:11:35.182400Z INFO  utilrsw.logger     Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\_processed\test1\data\B_measured_TEST.pkl
+2025-07-17T15:11:35.514615Z INFO  utilrsw.logger   Reading 'B/calculated/TEST' data
+2025-07-17T15:11:35.528626Z INFO  utilrsw.logger     Reading c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\test\test1_B_calculated_timeseries.csv
+2025-07-17T15:11:35.557443Z INFO  utilrsw.logger     Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-17T15:11:35.569376Z INFO  utilrsw.logger     Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\_processed\test1\data\B_calculated_TEST.pkl
+2025-07-17T15:11:35.580277Z INFO  utilrsw.logger   Not writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\_processed\test1\data\_all.pkl b/c data_types is not None.
+2025-07-17T15:11:35.580277Z INFO  utilrsw.logger Computing stats for 'test1' data
+2025-07-17T15:11:35.580277Z INFO  utilrsw.logger   Not computing stats for 'test1/GIC' data type b/c not in requested data_types = B.
+2025-07-17T15:11:35.586345Z INFO  utilrsw.logger   Stats for B/measured/TEST:
+2025-07-17T15:11:35.586345Z INFO  utilrsw.logger 
+    std: [176.75617628 176.75617628 176.75617628 108.85010676]
+    ave: [-1.13135441e-13 -1.13135441e-13 -1.13135441e-13  2.25026989e+02]
+    min: -249.99965619887882
+    max: 249.99965619887882
+    n: 4321
+    n_valid: [4321 4321 4321 4321]
+
+2025-07-17T15:11:35.587343Z INFO  utilrsw.logger   Stats for B/calculated/TEST:
+2025-07-17T15:11:35.588342Z INFO  utilrsw.logger 
+    std: [176.75617628 176.75617628 176.75617628 108.85010676]
+    ave: [-1.13135441e-13 -1.13135441e-13 -1.13135441e-13  2.25026989e+02]
+    min: -249.99965619887882
+    max: 249.99965619887882
+    n: 4321
+    n_valid: [4321 4321 4321 4321]
+
+2025-07-17T15:11:35.591341Z INFO  utilrsw.logger   Metrics for B/calculated/TEST:
+2025-07-17T15:11:35.592750Z INFO  utilrsw.logger 
+    err_rms: [0.00000000e+00 0.00000000e+00 0.00000000e+00 2.65778366e-14]
+    err_ave: [0.00000000e+00 0.00000000e+00 0.00000000e+00 3.50281659e-16]
+    err: [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ ...
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00 -2.22044605e-16]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]]
+    cc: [1. 1. 1. 1.]
+    pe: [1. 1. 1. 1.]
+    valid: [[ True  True  True  True]
+ [ True  True  True  True]
+ [ True  True  True  True]
+ ...
+ [ True  True  True  True]
+ [ True  True  True  True]
+ [ True  True  True  True]]
+    n_valid: [4321 4321 4321 4321]
+
+2025-07-17T15:11:35.606154Z INFO  utilrsw.logger Reading 'test2' data
+2025-07-17T15:11:35.608336Z INFO  utilrsw.logger   Reading 'GIC/measured/TEST' data
+2025-07-17T15:11:35.608336Z INFO  utilrsw.logger     Reading c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\test\test2_GIC_measured_timeseries.csv
+2025-07-17T15:11:37.400843Z INFO  utilrsw.logger     Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-17T15:11:37.718371Z INFO  utilrsw.logger     Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\_processed\test2\data\GIC_measured_TEST.pkl
+2025-07-17T15:11:37.943521Z INFO  utilrsw.logger   Reading 'GIC/calculated/TEST' data
+2025-07-17T15:11:37.943521Z INFO  utilrsw.logger     Reading c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\test\test2_GIC_calculated_timeseries.csv
+2025-07-17T15:11:37.983746Z INFO  utilrsw.logger     Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-17T15:11:38.002114Z INFO  utilrsw.logger     Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\_processed\test2\data\GIC_calculated_TEST.pkl
+2025-07-17T15:11:38.006335Z INFO  utilrsw.logger   Not reading 'test2/B' data type data b/c not in requested data_types = GIC.
+2025-07-17T15:11:38.006335Z INFO  utilrsw.logger   Not writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\_processed\test2\data\_all.pkl b/c data_types is not None.
+2025-07-17T15:11:38.006335Z INFO  utilrsw.logger Computing stats for 'test2' data
+2025-07-17T15:11:38.008848Z INFO  utilrsw.logger   Stats for GIC/measured/TEST:
+2025-07-17T15:11:38.008848Z INFO  utilrsw.logger 
+    std: [21.21074115]
+    ave: [8.41929833e-16]
+    min: -29.99995874386546
+    max: 29.99995874386546
+    n: 4321
+    n_valid: [4321]
+
+2025-07-17T15:11:38.008848Z INFO  utilrsw.logger   Stats for GIC/calculated/TEST:
+2025-07-17T15:11:38.009866Z INFO  utilrsw.logger 
+    std: [21.21074115]
+    ave: [-8.41929833e-16]
+    min: -29.99995874386546
+    max: 29.99995874386546
+    n: 4321
+    n_valid: [4321]
+
+2025-07-17T15:11:38.009866Z INFO  utilrsw.logger   Metrics for GIC/calculated/TEST:
+2025-07-17T15:11:38.010835Z INFO  utilrsw.logger 
+    err_rms: [0.]
+    err_ave: [0.]
+    err: [[0.]
+ [0.]
+ [0.]
+ ...
+ [0.]
+ [0.]
+ [0.]]
+    cc: [-1.]
+    pe: [1.]
+    valid: [[ True]
+ [ True]
+ [ True]
+ ...
+ [ True]
+ [ True]
+ [ True]]
+    n_valid: [4321]
+
+2025-07-17T15:11:38.010835Z INFO  utilrsw.logger   Not computing stats for 'test2/B' data type b/c not in requested data_types = GIC.
+2025-07-17T15:11:38.014661Z INFO  utilrsw.logger Reading 'test2' data
+2025-07-17T15:11:38.018202Z INFO  utilrsw.logger   Not reading 'test2/GIC' data type data b/c not in requested data_types = B.
+2025-07-17T15:11:38.019207Z INFO  utilrsw.logger   Reading 'B/measured/TEST' data
+2025-07-17T15:11:38.019207Z INFO  utilrsw.logger     Reading c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\test\test2_B_measured_timeseries.csv
+2025-07-17T15:11:40.094642Z INFO  utilrsw.logger     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-17T15:11:40.715801Z INFO  utilrsw.logger     Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\_processed\test2\data\B_measured_TEST.pkl
+2025-07-17T15:11:41.114828Z INFO  utilrsw.logger   Reading 'B/calculated/TEST' data
+2025-07-17T15:11:41.115826Z INFO  utilrsw.logger     Reading c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\test\test2_B_calculated_timeseries.csv
+2025-07-17T15:11:41.154740Z INFO  utilrsw.logger     Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-17T15:11:41.169235Z INFO  utilrsw.logger     Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\_processed\test2\data\B_calculated_TEST.pkl
+2025-07-17T15:11:41.174560Z INFO  utilrsw.logger   Not writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\_processed\test2\data\_all.pkl b/c data_types is not None.
+2025-07-17T15:11:41.175559Z INFO  utilrsw.logger Computing stats for 'test2' data
+2025-07-17T15:11:41.175559Z INFO  utilrsw.logger   Not computing stats for 'test2/GIC' data type b/c not in requested data_types = B.
+2025-07-17T15:11:41.176558Z INFO  utilrsw.logger   Stats for B/measured/TEST:
+2025-07-17T15:11:41.176558Z INFO  utilrsw.logger 
+    std: [176.75617628 176.75617628 176.75617628 108.85010676]
+    ave: [-1.13135441e-13 -1.13135441e-13 -1.13135441e-13  2.25026989e+02]
+    min: -249.99965619887882
+    max: 249.99965619887882
+    n: 4321
+    n_valid: [4321 4321 4321 4321]
+
+2025-07-17T15:11:41.179960Z INFO  utilrsw.logger   Stats for B/calculated/TEST:
+2025-07-17T15:11:41.181772Z INFO  utilrsw.logger 
+    std: [176.75617628 176.75617628 176.75617628 108.85010676]
+    ave: [1.13135441e-13 1.13135441e-13 1.13135441e-13 2.25026989e+02]
+    min: -249.99965619887882
+    max: 249.99965619887882
+    n: 4321
+    n_valid: [4321 4321 4321 4321]
+
+2025-07-17T15:11:41.183387Z INFO  utilrsw.logger   Metrics for B/calculated/TEST:
+2025-07-17T15:11:41.183387Z INFO  utilrsw.logger 
+    err_rms: [0.00000000e+00 0.00000000e+00 0.00000000e+00 2.65778366e-14]
+    err_ave: [0.00000000e+00 0.00000000e+00 0.00000000e+00 3.50281659e-16]
+    err: [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ ...
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00 -2.22044605e-16]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]]
+    cc: [-1. -1. -1.  1.]
+    pe: [1. 1. 1. 1.]
+    valid: [[ True  True  True  True]
+ [ True  True  True  True]
+ [ True  True  True  True]
+ ...
+ [ True  True  True  True]
+ [ True  True  True  True]
+ [ True  True  True  True]]
+    n_valid: [4321 4321 4321 4321]
+
+2025-07-17T15:11:41.187543Z INFO  utilrsw.logger Reading 'test3' data
+2025-07-17T15:11:41.194933Z INFO  utilrsw.logger   Reading 'GIC/measured/TEST' data
+2025-07-17T15:11:41.194933Z INFO  utilrsw.logger     Reading c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\test\test3_GIC_measured_timeseries.csv
+2025-07-17T15:11:42.893645Z INFO  utilrsw.logger     Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-17T15:11:43.227695Z INFO  utilrsw.logger     Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\_processed\test3\data\GIC_measured_TEST.pkl
+2025-07-17T15:11:43.516645Z INFO  utilrsw.logger   Reading 'GIC/calculated/TEST' data
+2025-07-17T15:11:43.517279Z INFO  utilrsw.logger     Reading c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\test\test3_GIC_calculated_timeseries.csv
+2025-07-17T15:11:43.579841Z INFO  utilrsw.logger     Resample to 1m aves and NaN pad or trim to start/stop.
+2025-07-17T15:11:43.583835Z INFO  utilrsw.logger     Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\_processed\test3\data\GIC_calculated_TEST.pkl
+2025-07-17T15:11:43.596197Z INFO  utilrsw.logger   Not reading 'test3/B' data type data b/c not in requested data_types = GIC.
+2025-07-17T15:11:43.597016Z INFO  utilrsw.logger   Not writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\_processed\test3\data\_all.pkl b/c data_types is not None.
+2025-07-17T15:11:43.597016Z INFO  utilrsw.logger Computing stats for 'test3' data
+2025-07-17T15:11:43.597016Z INFO  utilrsw.logger   Stats for GIC/measured/TEST:
+2025-07-17T15:11:43.597016Z INFO  utilrsw.logger 
+    std: [21.21074115]
+    ave: [8.41929833e-16]
+    min: -29.99995874386546
+    max: 29.99995874386546
+    n: 4321
+    n_valid: [4321]
+
+2025-07-17T15:11:43.597016Z INFO  utilrsw.logger   Stats for GIC/calculated/TEST:
+2025-07-17T15:11:43.597016Z INFO  utilrsw.logger 
+    std: [0.]
+    ave: [0.]
+    min: 0.0
+    max: 0.0
+    n: 4321
+    n_valid: [4321]
+
+2025-07-17T15:11:43.597016Z WARN  utilrsw.logger   All calculated data is zero. Skipping.
+2025-07-17T15:11:43.597016Z INFO  utilrsw.logger   Metrics for GIC/calculated/TEST:
+2025-07-17T15:11:43.597016Z INFO  utilrsw.logger 
+    rmse: [nan]
+    cc: [nan]
+    pe: [nan]
+    n_valid: [4321]
+
+2025-07-17T15:11:43.603224Z INFO  utilrsw.logger   Not computing stats for 'test3/B' data type b/c not in requested data_types = GIC.

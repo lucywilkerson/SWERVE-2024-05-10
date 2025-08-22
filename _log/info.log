@@ -1,23 +1,23 @@
-2025-07-03T17:26:25.851145Z INFO  info.py Reading /Users/rweigel/git/lucywilkerson/SWERVE/info/info.csv
-2025-07-03T17:26:26.247908Z INFO  info.py Adding interpolated OTT beta and log10 beta columns to extended info_df
-2025-07-03T17:26:26.248005Z INFO  info.py   Reading /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/pulkkinen/waveforms_All.mat
-2025-07-03T17:26:26.603536Z INFO  info.py Adding geomagnetic coordinates and alpha on date 2024-05-10T00:00:00 to extended info_df
-2025-07-03T17:26:27.220764Z INFO  info.py Adding GMU simulation sites to extended info_df
-2025-07-03T17:26:27.220888Z INFO  info.py   Reading: /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/gmu/gic_mean_df_1.csv
-2025-07-03T17:26:27.788410Z INFO  info.py Adding nearset voltage to extended info_df
-2025-07-03T17:26:30.221712Z INFO  info.py   Reading /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/nerc/nerc_gdf.geojson
-2025-07-03T17:26:30.316201Z INFO  info.py   Writing /Users/rweigel/git/lucywilkerson/2024-May-Storm-data/nerc/nerc_gdf_mapped.csv
-2025-07-03T17:26:30.358480Z INFO  info.py Wrote /Users/rweigel/git/lucywilkerson/SWERVE/info/info.extended.csv
-2025-07-03T17:26:30.368364Z INFO  info.py   Skipping site 'Allen' due to error message:
+2025-08-20T16:17:17.756268Z INFO  utilrsw.logger Reading c:\Users\lwilker\Documents\GitHub\SWERVE\info\info.csv
+2025-08-20T16:17:28.472919Z INFO  utilrsw.logger Adding interpolated OTT beta and log10 beta columns to extended info_df
+2025-08-20T16:17:28.472919Z INFO  utilrsw.logger   Reading c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\pulkkinen\waveforms_All.mat
+2025-08-20T16:17:30.466738Z INFO  utilrsw.logger Adding geomagnetic coordinates and alpha on date 2024-05-10T00:00:00 to extended info_df
+2025-08-20T16:17:33.087546Z INFO  utilrsw.logger Adding GMU simulation sites to extended info_df
+2025-08-20T16:17:33.087546Z INFO  utilrsw.logger   Reading: c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\gmu\gic_mean_df_1.csv
+2025-08-20T16:17:44.342421Z INFO  utilrsw.logger Adding nearset voltage to extended info_df
+2025-08-20T16:17:56.799083Z INFO  utilrsw.logger   Reading c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\nerc\nerc_gdf.geojson
+2025-08-20T16:17:57.795437Z INFO  utilrsw.logger   Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-data\nerc\nerc_gdf_mapped.csv
+2025-08-20T16:17:58.043565Z INFO  utilrsw.logger Wrote c:\Users\lwilker\Documents\GitHub\SWERVE\info\info.extended.csv
+2025-08-20T16:17:58.086235Z INFO  utilrsw.logger   Skipping site 'Allen' due to error message:
     x In TVAmagmetadata.dat, but no file
-2025-07-03T17:26:30.368608Z INFO  info.py   Skipping site 'Colbert' due to error message:
+2025-08-20T16:17:58.088247Z INFO  utilrsw.logger   Skipping site 'Colbert' due to error message:
     x In TVAmagmetadata.dat, but no file
-2025-07-03T17:26:30.368690Z INFO  info.py   Skipping site 'Gallatin' due to error message:
+2025-08-20T16:17:58.090258Z INFO  utilrsw.logger   Skipping site 'Gallatin' due to error message:
     x In TVAmagmetadata.dat, but no file
-2025-07-03T17:26:30.368758Z INFO  info.py   Skipping site 'John Sevier' due to error message:
+2025-08-20T16:17:58.090258Z INFO  utilrsw.logger   Skipping site 'John Sevier' due to error message:
     x In TVAmagmetadata.dat, but no file
-2025-07-03T17:26:30.368844Z INFO  info.py   Skipping site 'Madison' due to error message:
+2025-08-20T16:17:58.090258Z INFO  utilrsw.logger   Skipping site 'Madison' due to error message:
     x In GIC_monitors.txt, but no file
-2025-07-03T17:26:30.369117Z INFO  info.py   Skipping site 'Shawnee' due to error message:
+2025-08-20T16:17:58.092325Z INFO  utilrsw.logger   Skipping site 'Shawnee' due to error message:
     x In TVAmagmetadata.dat, but no file
-2025-07-03T17:26:30.370301Z INFO  info.py Writing /Users/rweigel/git/lucywilkerson/SWERVE/info/info.extended.json
+2025-08-20T16:17:58.098877Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE\info\info.extended.json
