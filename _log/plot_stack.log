@@ -1,12 +1,12 @@
-2025-08-28T14:41:44.301779Z INFO  utilrsw.logger Plotting TVA GIC sites
-2025-08-28T14:41:52.141962Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_tva\gic_tva.png
-2025-08-28T14:41:53.212111Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_tva\gic_tva.pdf
-2025-08-28T14:41:55.697983Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\_processed\_tva\gic_tva.pdf
-2025-08-28T14:41:56.128261Z INFO  utilrsw.logger Plotting NERC GIC sites
-2025-08-28T14:42:04.496726Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_nerc\gic_nerc.png
-2025-08-28T14:42:06.483727Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_nerc\gic_nerc.pdf
-2025-08-28T14:42:07.499860Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\_processed\_nerc\gic_nerc.pdf
-2025-08-28T14:42:08.596808Z INFO  utilrsw.logger Plotting all dB sites
-2025-08-28T14:42:10.156930Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_db\db_all.png
-2025-08-28T14:42:14.038894Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_db\db_all.pdf
-2025-08-28T14:42:14.830507Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\_processed\_db\db_all.pdf
+2025-09-02T16:56:01.682769Z INFO  utilrsw.logger Plotting TVA GIC sites
+2025-09-02T16:56:22.846056Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_tva\gic_tva.png
+2025-09-02T16:56:25.537341Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_tva\gic_tva.pdf
+2025-09-02T16:56:30.020452Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_processed\_tva\gic_tva.pdf
+2025-09-02T16:56:31.026384Z INFO  utilrsw.logger Plotting NERC GIC sites
+2025-09-02T16:56:44.774373Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_nerc\gic_nerc.png
+2025-09-02T16:56:48.963029Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_nerc\gic_nerc.pdf
+2025-09-02T16:56:50.226358Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_processed\_nerc\gic_nerc.pdf
+2025-09-02T16:56:51.544415Z INFO  utilrsw.logger Plotting all dB sites
+2025-09-02T16:56:52.825183Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_db\db_all.png
+2025-09-02T16:56:55.690940Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_db\db_all.pdf
+2025-09-02T16:56:56.528478Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_processed\_db\db_all.pdf
