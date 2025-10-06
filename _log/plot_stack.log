@@ -1,12 +1,30 @@
-2025-09-02T16:56:01.682769Z INFO  utilrsw.logger Plotting TVA GIC sites
-2025-09-02T16:56:22.846056Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_tva\gic_tva.png
-2025-09-02T16:56:25.537341Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_tva\gic_tva.pdf
-2025-09-02T16:56:30.020452Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_processed\_tva\gic_tva.pdf
-2025-09-02T16:56:31.026384Z INFO  utilrsw.logger Plotting NERC GIC sites
-2025-09-02T16:56:44.774373Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_nerc\gic_nerc.png
-2025-09-02T16:56:48.963029Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_nerc\gic_nerc.pdf
-2025-09-02T16:56:50.226358Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_processed\_nerc\gic_nerc.pdf
-2025-09-02T16:56:51.544415Z INFO  utilrsw.logger Plotting all dB sites
-2025-09-02T16:56:52.825183Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_db\db_all.png
-2025-09-02T16:56:55.690940Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_db\db_all.pdf
-2025-09-02T16:56:56.528478Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_processed\_db\db_all.pdf
+2025-10-06T01:36:51.152914Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_1.png
+2025-10-06T01:36:52.115330Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_1.pdf
+2025-10-06T01:36:58.732805Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_2.png
+2025-10-06T01:37:00.549707Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_2.pdf
+2025-10-06T01:37:01.657450Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_3.png
+2025-10-06T01:37:02.739482Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_3.pdf
+2025-10-06T01:37:05.204513Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_4.png
+2025-10-06T01:37:06.117454Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_4.pdf
+2025-10-06T01:37:09.677428Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_5.png
+2025-10-06T01:37:10.720557Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_5.pdf
+2025-10-06T01:37:12.873086Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_6.png
+2025-10-06T01:37:13.811953Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_6.pdf
+2025-10-06T01:37:17.583730Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_7.png
+2025-10-06T01:37:18.797100Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_7.pdf
+2025-10-06T01:37:22.693270Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_8.png
+2025-10-06T01:37:23.798542Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_8.pdf
+2025-10-06T01:37:32.003221Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_9.png
+2025-10-06T01:37:33.294583Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_9.pdf
+2025-10-06T01:37:41.558539Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_10.png
+2025-10-06T01:37:43.001448Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_10.pdf
+2025-10-06T01:37:44.641994Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_11.png
+2025-10-06T01:37:45.725058Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_11.pdf
+2025-10-06T01:37:46.531687Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_12.png
+2025-10-06T01:37:47.469059Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_12.pdf
+2025-10-06T01:37:48.208841Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_13.png
+2025-10-06T01:37:49.058945Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_13.pdf
+2025-10-06T01:37:49.803975Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_14.png
+2025-10-06T01:37:50.722400Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_14.pdf
+2025-10-06T01:37:53.287228Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_15.png
+2025-10-06T01:37:54.433814Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_processed\_rejected\gic_rejected_15.pdf
