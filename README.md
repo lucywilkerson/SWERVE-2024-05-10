@@ -3,6 +3,10 @@ This repository is part of the [ChronoStorm project](https://chronostorm.vercel.
 
 The source code and project details are available in the [SWERVE](https://github.com/lucywilkerson/SWERVE) repository.
 
+**Paper citation**
+
+Lucy Wilkerson, Robert S Weigel, Dean Thomas, et al. GIC-Related Observations During the May 2024 Geomagnetic Storm in the United States. _ESS Open Archive_. October 16, 2025. doi: https://doi.org/10.22541/essoar.176062871.15246663/v1
+
 # Maps w GIC and magnetometer sites
 ![](_map/map.png)
 
