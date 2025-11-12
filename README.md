@@ -26,33 +26,33 @@ Lucy Wilkerson, Robert S Weigel, Dean Thomas, et al. GIC-Related Observations Du
 
 # Data plots for paper
 
-![](_processed/_tva/gic_tva.png)
+![](data_processed/_tva/gic_tva.png)
 
-![](_processed/_nerc/gic_nerc.png)
+![](data_processed/_nerc/gic_nerc.png)
 
-![](_processed/_db/db_all.png)
+![](data_processed/_db/db_all.png)
 
-![](_imf/imf_mage.png)
+![](data_processed/_imf/imf_mage.png)
 
-![](_imf/imf_all.png)
+![](data_processed/_imf/imf_all.png)
 
 # TVA GIC vs GIC modeled (TVA and GMU)
 
-![](_processed/bullrun/GIC_compare_timeseries.png)
+![](data_processed/bullrun/figures/compare/GIC_calculated_all_vs_measured_timeseries.png)
 
-![](_processed/bullrun/GIC_compare_correlation.png)
+![](data_processed/bullrun/figures/compare/GIC_calculated_all_vs_measured_scatter.png)
 
-![](_processed/montgomery/GIC_compare_timeseries.png)
+![](data_processed/montgomery/figures/compare/GIC_calculated_all_vs_measured_timeseries.png)
 
-![](_processed/montgomery/GIC_compare_correlation.png)
+![](data_processed/montgomery/figures/compare/GIC_calculated_all_vs_measured_scatter.png)
 
-![](_processed/union/GIC_compare_timeseries.png)
+![](data_processed/union/figures/compare/GIC_calculated_all_vs_measured_timeseries.png)
 
-![](_processed/union/GIC_compare_correlation.png)
+![](data_processed/union/figures/compare/GIC_calculated_all_vs_measured_scatter.png)
 
-![](_processed/widowscreek/GIC_compare_timeseries.png)
+![](data_processed/widowscreek/figures/compare/GIC_calculated_all_vs_measured_timeseries.png)
 
-![](_processed/widowscreek/GIC_compare_correlation.png)
+![](data_processed/widowscreek/figures/compare/GIC_calculated_all_vs_measured_scatter.png)
 
 for all GIC timeseries comparisons, see ![GIC markdown](GIC_compare_timeseries.md)
 
@@ -60,15 +60,15 @@ for just TVA GIC timeseries comparisons, see ![TVA GIC markdown](GIC_compare_tim
 
 for just GMU GIC timeseries comparisons, see ![GMU GIC markdown](GIC_compare_timeseries_GMU.md)
 
-# TVA B vs MAGE/SWMF modeled
+# TVA B vs MAGE/SWMF/OpenGGCM modeled
 
-![](_processed/bullrun/B_compare_timeseries.png)
+![](data_processed/bullrun/figures/compare/B_HBzByBx_calculated_all_vs_measured_timeseries.png)
 
-![](_processed/bullrun/B_compare_correlation.png)
+![](data_processed/bullrun/figures/compare/B_HBzByBx_calculated_all_vs_measured_scatter.png)
 
-![](_processed/union/B_compare_timeseries.png)
+![](data_processed/union/figures/compare/B_HBzByBx_calculated_all_vs_measured_timeseries.png)
 
-![](_processed/union/B_compare_correlation.png)
+![](data_processed/union/figures/compare/B_HBzByBx_calculated_all_vs_measured_scatter.png)
 
 for all B timeseries comparisons, see ![B markdown](B_compare_timeseries.md)
 
@@ -99,9 +99,6 @@ see ![here](GIC_compare_pairs.md) for cross correlation analysis of each pair
 
 ![](_results/cc_vs_dist_map.png)
 
-![](_processed/bullrun/cc_vs_dist_map.png)
-similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_dist_map.png)
-
 # CC-Distance Scatter Comparisons
 
 ## GIC
@@ -109,9 +106,6 @@ similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_dist_
 ![](_results/cc_vs_dist_scatter.png)
 
 ![](_results/cc_vs_dist_grid_scatter.png)
-
-![](_processed/bullrun/cc_vs_dist_scatter.png)
-similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_dist_scatter.png)
 
 ## B_H
 
@@ -124,9 +118,6 @@ similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_dist_
 ![](_results/cc_vs_std_scatter.png)
 
 ![](_results/cc_vs_std_grid_scatter.png)
-
-![](_processed/bullrun/cc_vs_std_scatter.png)
-similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_std_scatter.png)
 
 ## B_H
 
@@ -141,9 +132,6 @@ similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_std_s
 ![](_results/cc_vs_logbeta_scatter.png)
 
 ![](_results/cc_vs_beta_grid_scatter.png)
-
-![](_processed/bullrun/cc_vs_beta_scatter.png)
-similar figures for 55 more sites (2024-AGU-data/_processed/sitename/cc_vs_beta_scatter.png)
 
 ## B_H
 
