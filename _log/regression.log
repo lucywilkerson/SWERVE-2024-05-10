@@ -1,874 +1,874 @@
-2025-09-19T14:08:53.873743Z INFO  utilrsw.logger   Reading gic_std and gic_maxabs from c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\gic_stats.pkl
-2025-09-19T14:08:53.876172Z INFO  utilrsw.logger output = gic_max
-2025-09-19T14:08:53.876172Z INFO  utilrsw.logger inputs = ['alpha']
-2025-09-19T14:08:53.958436Z INFO  utilrsw.logger   Equation: gic_max = +88.9 alpha -1.67
-2025-09-19T14:08:53.958436Z INFO  utilrsw.logger   rmse = 14.7181
-2025-09-19T14:08:53.970545Z INFO  utilrsw.logger   r = 0.5746
-2025-09-19T14:08:53.970545Z INFO  utilrsw.logger   r_2se = 0.1234
-2025-09-19T14:08:53.970545Z INFO  utilrsw.logger   r_ci_lower = 0.3412
-2025-09-19T14:08:53.970545Z INFO  utilrsw.logger   r_ci_upper = 0.7413
-2025-09-19T14:08:53.970545Z INFO  utilrsw.logger   r_2se_boot = 0.1858
-2025-09-19T14:08:53.970545Z INFO  utilrsw.logger   aic = 381.9372
-2025-09-19T14:08:53.970545Z INFO  utilrsw.logger   bic = 385.5945
-2025-09-19T14:08:53.970545Z INFO  utilrsw.logger   p-value for alpha = 2.9636e-05
-2025-09-19T14:08:54.615683Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\line_fit_alpha_gic_max.png
-2025-09-19T14:08:55.360121Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\line_fit_alpha_gic_max.pdf
-2025-09-19T14:08:55.880198Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\line_fit_alpha_gic_max.pdf
-2025-09-19T14:08:56.692996Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_alpha_gic_max.png
-2025-09-19T14:08:57.480112Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_alpha_gic_max.pdf
-2025-09-19T14:08:57.790478Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\scatter_fit_alpha_gic_max.pdf
-2025-09-19T14:08:58.297923Z INFO  utilrsw.logger output = gic_max
-2025-09-19T14:08:58.297923Z INFO  utilrsw.logger inputs = ['interpolated_beta']
-2025-09-19T14:08:58.409097Z INFO  utilrsw.logger   Equation: gic_max = +18.1 interpolated_beta +2.48
-2025-09-19T14:08:58.409097Z INFO  utilrsw.logger   rmse = 14.1319
-2025-09-19T14:08:58.409097Z INFO  utilrsw.logger   r = 0.6185
-2025-09-19T14:08:58.409097Z INFO  utilrsw.logger   r_2se = 0.1185
-2025-09-19T14:08:58.409097Z INFO  utilrsw.logger   r_ci_lower = 0.4000
-2025-09-19T14:08:58.409097Z INFO  utilrsw.logger   r_ci_upper = 0.7704
-2025-09-19T14:08:58.409097Z INFO  utilrsw.logger   r_2se_boot = 0.2751
-2025-09-19T14:08:58.409097Z INFO  utilrsw.logger   aic = 378.1980
-2025-09-19T14:08:58.409097Z INFO  utilrsw.logger   bic = 381.8553
-2025-09-19T14:08:58.409097Z INFO  utilrsw.logger   p-value for interpolated_beta = 4.6405e-06
-2025-09-19T14:08:58.676044Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\line_fit_interpolated_beta_gic_max.png
-2025-09-19T14:08:59.447503Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\line_fit_interpolated_beta_gic_max.pdf
-2025-09-19T14:08:59.754820Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\line_fit_interpolated_beta_gic_max.pdf
-2025-09-19T14:09:00.421779Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_interpolated_beta_gic_max.png
-2025-09-19T14:09:01.187774Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_interpolated_beta_gic_max.pdf
-2025-09-19T14:09:01.470133Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\scatter_fit_interpolated_beta_gic_max.pdf
-2025-09-19T14:09:01.792850Z INFO  utilrsw.logger output = gic_max
-2025-09-19T14:09:01.792850Z INFO  utilrsw.logger inputs = ['alpha*interpolated_beta']
-2025-09-19T14:09:01.898336Z INFO  utilrsw.logger   Equation: gic_max = +57.3 alpha*interpolated_beta +5.54
-2025-09-19T14:09:01.898336Z INFO  utilrsw.logger   rmse = 11.6197
-2025-09-19T14:09:01.898336Z INFO  utilrsw.logger   r = 0.7632
-2025-09-19T14:09:01.898336Z INFO  utilrsw.logger   r_2se = 0.0974
-2025-09-19T14:09:01.898336Z INFO  utilrsw.logger   r_ci_lower = 0.6075
-2025-09-19T14:09:01.898336Z INFO  utilrsw.logger   r_ci_upper = 0.8624
-2025-09-19T14:09:01.898336Z INFO  utilrsw.logger   r_2se_boot = 0.1376
-2025-09-19T14:09:01.898336Z INFO  utilrsw.logger   aic = 360.1912
-2025-09-19T14:09:01.898336Z INFO  utilrsw.logger   bic = 363.8485
-2025-09-19T14:09:01.904814Z INFO  utilrsw.logger   p-value for alpha*interpolated_beta = 6.9615e-10
-2025-09-19T14:09:02.147892Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\line_fit_alpha_interpolated_beta_gic_max.png
-2025-09-19T14:09:02.964331Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\line_fit_alpha_interpolated_beta_gic_max.pdf
-2025-09-19T14:09:03.252944Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\line_fit_alpha_interpolated_beta_gic_max.pdf
-2025-09-19T14:09:03.936418Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_alpha_interpolated_beta_gic_max.png
-2025-09-19T14:09:04.714845Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_alpha_interpolated_beta_gic_max.pdf
-2025-09-19T14:09:05.025853Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\scatter_fit_alpha_interpolated_beta_gic_max.pdf
-2025-09-19T14:09:05.374914Z INFO  utilrsw.logger output = gic_max
-2025-09-19T14:09:05.374914Z INFO  utilrsw.logger inputs = ['alpha', 'interpolated_beta']
-2025-09-19T14:09:05.478766Z INFO  utilrsw.logger   Equation: gic_max = +74.1 alpha+15.6 interpolated_beta -13.5
-2025-09-19T14:09:05.478766Z INFO  utilrsw.logger   rmse = 11.3080
-2025-09-19T14:09:05.478766Z INFO  utilrsw.logger   r = 0.7776
-2025-09-19T14:09:05.478766Z INFO  utilrsw.logger   r_2se = 0.0948
-2025-09-19T14:09:05.484922Z INFO  utilrsw.logger   r_ci_lower = 0.6293
-2025-09-19T14:09:05.484922Z INFO  utilrsw.logger   r_ci_upper = 0.8712
-2025-09-19T14:09:05.484922Z INFO  utilrsw.logger   r_2se_boot = 0.1107
-2025-09-19T14:09:05.484922Z INFO  utilrsw.logger   aic = 359.6896
-2025-09-19T14:09:05.484922Z INFO  utilrsw.logger   bic = 365.1755
-2025-09-19T14:09:05.484922Z INFO  utilrsw.logger   p-value for alpha = 1.3366e-05
-2025-09-19T14:09:05.484922Z INFO  utilrsw.logger   p-value for interpolated_beta = 2.1956e-06
-2025-09-19T14:09:05.484922Z WARN  utilrsw.logger   Skipping line plot because more than one input.
-2025-09-19T14:09:05.836704Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_alpha_gic_max.png
-2025-09-19T14:09:06.745135Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_alpha_gic_max.pdf
-2025-09-19T14:09:07.078044Z INFO  utilrsw.logger output = gic_max
-2025-09-19T14:09:07.089261Z INFO  utilrsw.logger inputs = ['alpha', 'alpha*interpolated_beta']
-2025-09-19T14:09:07.184201Z INFO  utilrsw.logger   Equation: gic_max = +30.5 alpha+48.7 alpha*interpolated_beta +0.178
-2025-09-19T14:09:07.192229Z INFO  utilrsw.logger   rmse = 11.2566
-2025-09-19T14:09:07.193791Z INFO  utilrsw.logger   r = 0.7799
-2025-09-19T14:09:07.193791Z INFO  utilrsw.logger   r_2se = 0.0944
-2025-09-19T14:09:07.193791Z INFO  utilrsw.logger   r_ci_lower = 0.6328
-2025-09-19T14:09:07.193791Z INFO  utilrsw.logger   r_ci_upper = 0.8726
-2025-09-19T14:09:07.193791Z INFO  utilrsw.logger   r_2se_boot = 0.1156
-2025-09-19T14:09:07.193791Z INFO  utilrsw.logger   aic = 359.2701
-2025-09-19T14:09:07.193791Z INFO  utilrsw.logger   bic = 364.7560
-2025-09-19T14:09:07.193791Z INFO  utilrsw.logger   p-value for alpha = 1.0040e-01
-2025-09-19T14:09:07.197978Z INFO  utilrsw.logger   p-value for alpha*interpolated_beta = 1.7941e-06
-2025-09-19T14:09:07.197978Z WARN  utilrsw.logger   Skipping line plot because more than one input.
-2025-09-19T14:09:07.558306Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_alpha_gic_max.png
-2025-09-19T14:09:08.331823Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_alpha_gic_max.pdf
-2025-09-19T14:09:08.781709Z INFO  utilrsw.logger output = gic_max
-2025-09-19T14:09:08.781709Z INFO  utilrsw.logger inputs = ['interpolated_beta', 'alpha*interpolated_beta']
-2025-09-19T14:09:08.893913Z INFO  utilrsw.logger   Equation: gic_max = -3.97 interpolated_beta+66 alpha*interpolated_beta +7.22
-2025-09-19T14:09:08.893913Z INFO  utilrsw.logger   rmse = 11.5519
-2025-09-19T14:09:08.893913Z INFO  utilrsw.logger   r = 0.7664
-2025-09-19T14:09:08.893913Z INFO  utilrsw.logger   r_2se = 0.0968
-2025-09-19T14:09:08.893913Z INFO  utilrsw.logger   r_ci_lower = 0.6123
-2025-09-19T14:09:08.903982Z INFO  utilrsw.logger   r_ci_upper = 0.8644
-2025-09-19T14:09:08.903982Z INFO  utilrsw.logger   r_2se_boot = 0.1258
-2025-09-19T14:09:08.903982Z INFO  utilrsw.logger   aic = 361.6528
-2025-09-19T14:09:08.903982Z INFO  utilrsw.logger   bic = 367.1387
-2025-09-19T14:09:08.903982Z INFO  utilrsw.logger   p-value for interpolated_beta = 4.8058e-01
-2025-09-19T14:09:08.903982Z INFO  utilrsw.logger   p-value for alpha*interpolated_beta = 3.4683e-05
-2025-09-19T14:09:08.903982Z WARN  utilrsw.logger   Skipping line plot because more than one input.
-2025-09-19T14:09:09.310899Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_interpolated_beta_gic_max.png
-2025-09-19T14:09:10.204394Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_interpolated_beta_gic_max.pdf
-2025-09-19T14:09:10.561816Z INFO  utilrsw.logger output = gic_max
-2025-09-19T14:09:10.561816Z INFO  utilrsw.logger inputs = ['alpha', 'interpolated_beta', 'alpha*interpolated_beta']
-2025-09-19T14:09:10.670548Z INFO  utilrsw.logger   Equation: gic_max = +48.9 alpha+7.2 interpolated_beta+27.7 alpha*interpolated_beta -6.09
-2025-09-19T14:09:10.674280Z INFO  utilrsw.logger   rmse = 11.1604
-2025-09-19T14:09:10.674280Z INFO  utilrsw.logger   r = 0.7841
-2025-09-19T14:09:10.674280Z INFO  utilrsw.logger   r_2se = 0.0936
-2025-09-19T14:09:10.674280Z INFO  utilrsw.logger   r_ci_lower = 0.6394
-2025-09-19T14:09:10.674280Z INFO  utilrsw.logger   r_ci_upper = 0.8752
-2025-09-19T14:09:10.674280Z INFO  utilrsw.logger   r_2se_boot = 0.1113
-2025-09-19T14:09:10.674280Z INFO  utilrsw.logger   aic = 360.4808
-2025-09-19T14:09:10.674280Z INFO  utilrsw.logger   bic = 367.7954
-2025-09-19T14:09:10.674280Z INFO  utilrsw.logger   p-value for alpha = 9.0693e-02
-2025-09-19T14:09:10.674280Z INFO  utilrsw.logger   p-value for interpolated_beta = 3.9875e-01
-2025-09-19T14:09:10.674280Z INFO  utilrsw.logger   p-value for alpha*interpolated_beta = 2.9633e-01
-2025-09-19T14:09:10.674280Z WARN  utilrsw.logger   Skipping line plot because more than one input.
-2025-09-19T14:09:11.034615Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_alpha_gic_max.png
-2025-09-19T14:09:11.845053Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_alpha_gic_max.pdf
-2025-09-19T14:09:12.196723Z INFO  utilrsw.logger output = gic_max
-2025-09-19T14:09:12.196723Z INFO  utilrsw.logger inputs = ['mag_lat']
-2025-09-19T14:09:12.285810Z INFO  utilrsw.logger   Equation: gic_max = +2.36 mag_lat -90.6
-2025-09-19T14:09:12.293476Z INFO  utilrsw.logger   rmse = 14.9452
-2025-09-19T14:09:12.293476Z INFO  utilrsw.logger   r = 0.5562
-2025-09-19T14:09:12.293476Z INFO  utilrsw.logger   r_2se = 0.1253
-2025-09-19T14:09:12.293476Z INFO  utilrsw.logger   r_ci_lower = 0.3171
-2025-09-19T14:09:12.293476Z INFO  utilrsw.logger   r_ci_upper = 0.7288
-2025-09-19T14:09:12.293476Z INFO  utilrsw.logger   r_2se_boot = 0.1547
-2025-09-19T14:09:12.293476Z INFO  utilrsw.logger   aic = 383.3462
-2025-09-19T14:09:12.293476Z INFO  utilrsw.logger   bic = 387.0035
-2025-09-19T14:09:12.293476Z INFO  utilrsw.logger   p-value for mag_lat = 5.9845e-05
-2025-09-19T14:09:12.672554Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\line_fit_mag_lat_gic_max.png
-2025-09-19T14:09:13.765810Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\line_fit_mag_lat_gic_max.pdf
-2025-09-19T14:09:14.537135Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_mag_lat_gic_max.png
-2025-09-19T14:09:15.886586Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_mag_lat_gic_max.pdf
-2025-09-19T14:09:16.497537Z INFO  utilrsw.logger output = gic_max
-2025-09-19T14:09:16.497537Z INFO  utilrsw.logger inputs = ['interpolated_beta']
-2025-09-19T14:09:16.716412Z INFO  utilrsw.logger   Equation: gic_max = +18.1 interpolated_beta +2.48
-2025-09-19T14:09:16.716412Z INFO  utilrsw.logger   rmse = 14.1319
-2025-09-19T14:09:16.716412Z INFO  utilrsw.logger   r = 0.6185
-2025-09-19T14:09:16.716412Z INFO  utilrsw.logger   r_2se = 0.1185
-2025-09-19T14:09:16.716412Z INFO  utilrsw.logger   r_ci_lower = 0.4000
-2025-09-19T14:09:16.716412Z INFO  utilrsw.logger   r_ci_upper = 0.7704
-2025-09-19T14:09:16.721284Z INFO  utilrsw.logger   r_2se_boot = 0.2721
-2025-09-19T14:09:16.721284Z INFO  utilrsw.logger   aic = 378.1980
-2025-09-19T14:09:16.721284Z INFO  utilrsw.logger   bic = 381.8553
-2025-09-19T14:09:16.722998Z INFO  utilrsw.logger   p-value for interpolated_beta = 4.6405e-06
-2025-09-19T14:09:17.186913Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\line_fit_interpolated_beta_gic_max.png
-2025-09-19T14:09:18.475831Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\line_fit_interpolated_beta_gic_max.pdf
-2025-09-19T14:09:18.952302Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\line_fit_interpolated_beta_gic_max.pdf
-2025-09-19T14:09:20.183385Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_interpolated_beta_gic_max.png
-2025-09-19T14:09:21.382829Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_interpolated_beta_gic_max.pdf
-2025-09-19T14:09:21.858745Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\scatter_fit_interpolated_beta_gic_max.pdf
-2025-09-19T14:09:22.458890Z INFO  utilrsw.logger output = gic_max
-2025-09-19T14:09:22.458890Z INFO  utilrsw.logger inputs = ['mag_lat*interpolated_beta']
-2025-09-19T14:09:22.632980Z INFO  utilrsw.logger   Equation: gic_max = +0.39 mag_lat*interpolated_beta +2.05
-2025-09-19T14:09:22.632980Z INFO  utilrsw.logger   rmse = 13.2748
-2025-09-19T14:09:22.632980Z INFO  utilrsw.logger   r = 0.6746
-2025-09-19T14:09:22.637240Z INFO  utilrsw.logger   r_2se = 0.1113
-2025-09-19T14:09:22.637240Z INFO  utilrsw.logger   r_ci_lower = 0.4779
-2025-09-19T14:09:22.637240Z INFO  utilrsw.logger   r_ci_upper = 0.8069
-2025-09-19T14:09:22.637240Z INFO  utilrsw.logger   r_2se_boot = 0.2284
-2025-09-19T14:09:22.637240Z INFO  utilrsw.logger   aic = 372.4423
-2025-09-19T14:09:22.637240Z INFO  utilrsw.logger   bic = 376.0996
-2025-09-19T14:09:22.637240Z INFO  utilrsw.logger   p-value for mag_lat*interpolated_beta = 2.7339e-07
-2025-09-19T14:09:23.052251Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\line_fit_mag_lat_interpolated_beta_gic_max.png
-2025-09-19T14:09:24.297343Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\line_fit_mag_lat_interpolated_beta_gic_max.pdf
-2025-09-19T14:09:25.481932Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_mag_lat_interpolated_beta_gic_max.png
-2025-09-19T14:09:26.752466Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_mag_lat_interpolated_beta_gic_max.pdf
-2025-09-19T14:09:27.300059Z INFO  utilrsw.logger output = gic_max
-2025-09-19T14:09:27.300059Z INFO  utilrsw.logger inputs = ['mag_lat', 'interpolated_beta']
-2025-09-19T14:09:27.527964Z INFO  utilrsw.logger   Equation: gic_max = +1.87 mag_lat+15.3 interpolated_beta -82.7
-2025-09-19T14:09:27.532406Z INFO  utilrsw.logger   rmse = 11.8317
-2025-09-19T14:09:27.532406Z INFO  utilrsw.logger   r = 0.7531
-2025-09-19T14:09:27.533663Z INFO  utilrsw.logger   r_2se = 0.0992
-2025-09-19T14:09:27.534176Z INFO  utilrsw.logger   r_ci_lower = 0.5923
-2025-09-19T14:09:27.534176Z INFO  utilrsw.logger   r_ci_upper = 0.8562
-2025-09-19T14:09:27.534176Z INFO  utilrsw.logger   r_2se_boot = 0.1241
-2025-09-19T14:09:27.534176Z INFO  utilrsw.logger   aic = 363.8544
-2025-09-19T14:09:27.534176Z INFO  utilrsw.logger   bic = 369.3403
-2025-09-19T14:09:27.536712Z INFO  utilrsw.logger   p-value for mag_lat = 1.0162e-04
-2025-09-19T14:09:27.536712Z INFO  utilrsw.logger   p-value for interpolated_beta = 8.3021e-06
-2025-09-19T14:09:27.536712Z WARN  utilrsw.logger   Skipping line plot because more than one input.
-2025-09-19T14:09:28.148837Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_mag_lat_gic_max.png
-2025-09-19T14:09:29.622688Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_mag_lat_gic_max.pdf
-2025-09-19T14:09:30.175941Z INFO  utilrsw.logger output = gic_max
-2025-09-19T14:09:30.175941Z INFO  utilrsw.logger inputs = ['mag_lat', 'mag_lat*interpolated_beta']
-2025-09-19T14:09:30.383529Z INFO  utilrsw.logger   Equation: gic_max = +1.61 mag_lat+0.32 mag_lat*interpolated_beta -70.3
-2025-09-19T14:09:30.383529Z INFO  utilrsw.logger   rmse = 11.6037
-2025-09-19T14:09:30.383529Z INFO  utilrsw.logger   r = 0.7640
-2025-09-19T14:09:30.383529Z INFO  utilrsw.logger   r_2se = 0.0973
-2025-09-19T14:09:30.383529Z INFO  utilrsw.logger   r_ci_lower = 0.6087
-2025-09-19T14:09:30.383529Z INFO  utilrsw.logger   r_ci_upper = 0.8629
-2025-09-19T14:09:30.387061Z INFO  utilrsw.logger   r_2se_boot = 0.1315
-2025-09-19T14:09:30.387061Z INFO  utilrsw.logger   aic = 362.0640
-2025-09-19T14:09:30.387061Z INFO  utilrsw.logger   bic = 367.5500
-2025-09-19T14:09:30.387061Z INFO  utilrsw.logger   p-value for mag_lat = 7.1869e-04
-2025-09-19T14:09:30.387061Z INFO  utilrsw.logger   p-value for mag_lat*interpolated_beta = 3.4964e-06
-2025-09-19T14:09:30.387061Z WARN  utilrsw.logger   Skipping line plot because more than one input.
-2025-09-19T14:09:31.008314Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_mag_lat_gic_max.png
-2025-09-19T14:09:32.260070Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_mag_lat_gic_max.pdf
-2025-09-19T14:09:32.815019Z INFO  utilrsw.logger output = gic_max
-2025-09-19T14:09:32.817040Z INFO  utilrsw.logger inputs = ['interpolated_beta', 'mag_lat*interpolated_beta']
-2025-09-19T14:09:33.018900Z INFO  utilrsw.logger   Equation: gic_max = -86.8 interpolated_beta+2.09 mag_lat*interpolated_beta +8.07
-2025-09-19T14:09:33.018900Z INFO  utilrsw.logger   rmse = 11.3120
-2025-09-19T14:09:33.021641Z INFO  utilrsw.logger   r = 0.7774
-2025-09-19T14:09:33.021641Z INFO  utilrsw.logger   r_2se = 0.0948
-2025-09-19T14:09:33.021641Z INFO  utilrsw.logger   r_ci_lower = 0.6291
-2025-09-19T14:09:33.021641Z INFO  utilrsw.logger   r_ci_upper = 0.8711
-2025-09-19T14:09:33.023201Z INFO  utilrsw.logger   r_2se_boot = 0.1285
-2025-09-19T14:09:33.023201Z INFO  utilrsw.logger   aic = 359.7217
-2025-09-19T14:09:33.023201Z INFO  utilrsw.logger   bic = 365.2076
-2025-09-19T14:09:33.023201Z INFO  utilrsw.logger   p-value for interpolated_beta = 2.2548e-04
-2025-09-19T14:09:33.024757Z INFO  utilrsw.logger   p-value for mag_lat*interpolated_beta = 1.3575e-05
-2025-09-19T14:09:33.024757Z WARN  utilrsw.logger   Skipping line plot because more than one input.
-2025-09-19T14:09:33.686579Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_interpolated_beta_gic_max.png
-2025-09-19T14:09:34.968261Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_interpolated_beta_gic_max.pdf
-2025-09-19T14:09:35.598918Z INFO  utilrsw.logger output = gic_max
-2025-09-19T14:09:35.598918Z INFO  utilrsw.logger inputs = ['mag_lat', 'interpolated_beta', 'mag_lat*interpolated_beta']
-2025-09-19T14:09:35.823133Z INFO  utilrsw.logger   Equation: gic_max = +0.653 mag_lat-61.3 interpolated_beta+1.56 mag_lat*interpolated_beta -23.1
-2025-09-19T14:09:35.823133Z INFO  utilrsw.logger   rmse = 11.1936
-2025-09-19T14:09:35.823133Z INFO  utilrsw.logger   r = 0.7827
-2025-09-19T14:09:35.823133Z INFO  utilrsw.logger   r_2se = 0.0938
-2025-09-19T14:09:35.823133Z INFO  utilrsw.logger   r_ci_lower = 0.6371
-2025-09-19T14:09:35.827427Z INFO  utilrsw.logger   r_ci_upper = 0.8743
-2025-09-19T14:09:35.827427Z INFO  utilrsw.logger   r_2se_boot = 0.1206
-2025-09-19T14:09:35.827427Z INFO  utilrsw.logger   aic = 360.7536
-2025-09-19T14:09:35.827427Z INFO  utilrsw.logger   bic = 368.0682
-2025-09-19T14:09:35.827427Z INFO  utilrsw.logger   p-value for mag_lat = 3.5000e-01
-2025-09-19T14:09:35.827427Z INFO  utilrsw.logger   p-value for interpolated_beta = 8.3934e-02
-2025-09-19T14:09:35.827427Z INFO  utilrsw.logger   p-value for mag_lat*interpolated_beta = 3.1922e-02
-2025-09-19T14:09:35.827427Z WARN  utilrsw.logger   Skipping line plot because more than one input.
-2025-09-19T14:09:36.501733Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_mag_lat_gic_max.png
-2025-09-19T14:09:37.776857Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\scatter_fit_mag_lat_gic_max.pdf
-2025-09-19T14:09:38.338766Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.338766Z INFO  utilrsw.logger   r = 0.57; AIC = 381.9372375199663; inputs = ['alpha'] 
-2025-09-19T14:09:38.338766Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.338766Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.342849Z INFO  utilrsw.logger   z = -0.3194
-2025-09-19T14:09:38.343632Z INFO  utilrsw.logger   p = 0.7494 (two-tailed)
-2025-09-19T14:09:38.345388Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.350791Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.350791Z INFO  utilrsw.logger   r = 0.57; AIC = 381.9372375199663; inputs = ['alpha'] 
-2025-09-19T14:09:38.350791Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.350791Z INFO  utilrsw.logger   r = 0.76; AIC = 360.1912344790264; inputs = ['alpha*interpolated_beta'] 
-2025-09-19T14:09:38.350791Z INFO  utilrsw.logger   z = -1.6393
-2025-09-19T14:09:38.354954Z INFO  utilrsw.logger   p = 0.1012 (two-tailed)
-2025-09-19T14:09:38.354954Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.354954Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.354954Z INFO  utilrsw.logger   r = 0.57; AIC = 381.9372375199663; inputs = ['alpha'] 
-2025-09-19T14:09:38.354954Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.361109Z INFO  utilrsw.logger   r = 0.78; AIC = 359.6895982829937; inputs = ['alpha, interpolated_beta'] 
-2025-09-19T14:09:38.361621Z INFO  utilrsw.logger   z = -1.8048
-2025-09-19T14:09:38.361621Z INFO  utilrsw.logger   p = 0.0711 (two-tailed)
-2025-09-19T14:09:38.363379Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.363379Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.367083Z INFO  utilrsw.logger   r = 0.57; AIC = 381.9372375199663; inputs = ['alpha'] 
-2025-09-19T14:09:38.367743Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.371514Z INFO  utilrsw.logger   r = 0.78; AIC = 359.2700761115517; inputs = ['alpha, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.375968Z INFO  utilrsw.logger   z = -1.8323
-2025-09-19T14:09:38.377981Z INFO  utilrsw.logger   p = 0.0669 (two-tailed)
-2025-09-19T14:09:38.377981Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.379997Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.382800Z INFO  utilrsw.logger   r = 0.57; AIC = 381.9372375199663; inputs = ['alpha'] 
-2025-09-19T14:09:38.382800Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.382800Z INFO  utilrsw.logger   r = 0.77; AIC = 361.65275576958925; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.384317Z INFO  utilrsw.logger   z = -1.6752
-2025-09-19T14:09:38.388352Z INFO  utilrsw.logger   p = 0.0939 (two-tailed)
-2025-09-19T14:09:38.388352Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.391355Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.392371Z INFO  utilrsw.logger   r = 0.57; AIC = 381.9372375199663; inputs = ['alpha'] 
-2025-09-19T14:09:38.392371Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.392371Z INFO  utilrsw.logger   r = 0.78; AIC = 360.4808432823526; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.392371Z INFO  utilrsw.logger   z = -1.8838
-2025-09-19T14:09:38.394832Z INFO  utilrsw.logger   p = 0.0596 (two-tailed)
-2025-09-19T14:09:38.396573Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.401428Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.401428Z INFO  utilrsw.logger   r = 0.57; AIC = 381.9372375199663; inputs = ['alpha'] 
-2025-09-19T14:09:38.403445Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.404460Z INFO  utilrsw.logger   r = 0.56; AIC = 383.346204004139; inputs = ['mag_lat'] 
-2025-09-19T14:09:38.406475Z INFO  utilrsw.logger   z = 0.1270
-2025-09-19T14:09:38.406475Z INFO  utilrsw.logger   p = 0.8989 (two-tailed)
-2025-09-19T14:09:38.406475Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.408497Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.408497Z INFO  utilrsw.logger   r = 0.57; AIC = 381.9372375199663; inputs = ['alpha'] 
-2025-09-19T14:09:38.412524Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.412524Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.412524Z INFO  utilrsw.logger   z = -0.3194
-2025-09-19T14:09:38.412524Z INFO  utilrsw.logger   p = 0.7494 (two-tailed)
-2025-09-19T14:09:38.420651Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.424195Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.428484Z INFO  utilrsw.logger   r = 0.57; AIC = 381.9372375199663; inputs = ['alpha'] 
-2025-09-19T14:09:38.428484Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.428484Z INFO  utilrsw.logger   r = 0.67; AIC = 372.4423437639639; inputs = ['mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.428484Z INFO  utilrsw.logger   z = -0.7729
-2025-09-19T14:09:38.437703Z INFO  utilrsw.logger   p = 0.4396 (two-tailed)
-2025-09-19T14:09:38.437703Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.437703Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.442296Z INFO  utilrsw.logger   r = 0.57; AIC = 381.9372375199663; inputs = ['alpha'] 
-2025-09-19T14:09:38.442296Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.442296Z INFO  utilrsw.logger   r = 0.75; AIC = 363.85440004118976; inputs = ['mag_lat, interpolated_beta'] 
-2025-09-19T14:09:38.442296Z INFO  utilrsw.logger   z = -1.5275
-2025-09-19T14:09:38.445938Z INFO  utilrsw.logger   p = 0.1266 (two-tailed)
-2025-09-19T14:09:38.445938Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.449366Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.455811Z INFO  utilrsw.logger   r = 0.57; AIC = 381.9372375199663; inputs = ['alpha'] 
-2025-09-19T14:09:38.457825Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.457825Z INFO  utilrsw.logger   r = 0.76; AIC = 362.06404048061967; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.458837Z INFO  utilrsw.logger   z = -1.6478
-2025-09-19T14:09:38.458837Z INFO  utilrsw.logger   p = 0.0994 (two-tailed)
-2025-09-19T14:09:38.458837Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.462866Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.462866Z INFO  utilrsw.logger   r = 0.57; AIC = 381.9372375199663; inputs = ['alpha'] 
-2025-09-19T14:09:38.462866Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.471404Z INFO  utilrsw.logger   r = 0.78; AIC = 359.7216585022048; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.473415Z INFO  utilrsw.logger   z = -1.8027
-2025-09-19T14:09:38.474067Z INFO  utilrsw.logger   p = 0.0714 (two-tailed)
-2025-09-19T14:09:38.475825Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.478308Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.478308Z INFO  utilrsw.logger   r = 0.57; AIC = 381.9372375199663; inputs = ['alpha'] 
-2025-09-19T14:09:38.480045Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.480045Z INFO  utilrsw.logger   r = 0.78; AIC = 360.75359045755596; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.480045Z INFO  utilrsw.logger   z = -1.8660
-2025-09-19T14:09:38.480045Z INFO  utilrsw.logger   p = 0.0620 (two-tailed)
-2025-09-19T14:09:38.488460Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.492584Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.492584Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.492584Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.494915Z INFO  utilrsw.logger   r = 0.76; AIC = 360.1912344790264; inputs = ['alpha*interpolated_beta'] 
-2025-09-19T14:09:38.496650Z INFO  utilrsw.logger   z = -1.3199
-2025-09-19T14:09:38.499749Z INFO  utilrsw.logger   p = 0.1869 (two-tailed)
-2025-09-19T14:09:38.504131Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.507638Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.507638Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.512952Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.514046Z INFO  utilrsw.logger   r = 0.78; AIC = 359.6895982829937; inputs = ['alpha, interpolated_beta'] 
-2025-09-19T14:09:38.517181Z INFO  utilrsw.logger   z = -1.4854
-2025-09-19T14:09:38.523238Z INFO  utilrsw.logger   p = 0.1374 (two-tailed)
-2025-09-19T14:09:38.523238Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.530738Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.532755Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.536462Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.536462Z INFO  utilrsw.logger   r = 0.78; AIC = 359.2700761115517; inputs = ['alpha, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.536462Z INFO  utilrsw.logger   z = -1.5129
-2025-09-19T14:09:38.536462Z INFO  utilrsw.logger   p = 0.1303 (two-tailed)
-2025-09-19T14:09:38.540218Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.544251Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.544251Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.546266Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.548282Z INFO  utilrsw.logger   r = 0.77; AIC = 361.65275576958925; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.549701Z INFO  utilrsw.logger   z = -1.3558
-2025-09-19T14:09:38.551719Z INFO  utilrsw.logger   p = 0.1752 (two-tailed)
-2025-09-19T14:09:38.554912Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.557134Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.557134Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.557134Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.557134Z INFO  utilrsw.logger   r = 0.78; AIC = 360.4808432823526; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.557134Z INFO  utilrsw.logger   z = -1.5643
-2025-09-19T14:09:38.561408Z INFO  utilrsw.logger   p = 0.1177 (two-tailed)
-2025-09-19T14:09:38.561408Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.561408Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.565840Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.566830Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.566830Z INFO  utilrsw.logger   r = 0.56; AIC = 383.346204004139; inputs = ['mag_lat'] 
-2025-09-19T14:09:38.566830Z INFO  utilrsw.logger   z = 0.4464
-2025-09-19T14:09:38.570284Z INFO  utilrsw.logger   p = 0.6553 (two-tailed)
-2025-09-19T14:09:38.570284Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.574368Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.574368Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.574368Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.574368Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.574368Z INFO  utilrsw.logger   z = 0.0000
-2025-09-19T14:09:38.574368Z INFO  utilrsw.logger   p = 1.0000 (two-tailed)
-2025-09-19T14:09:38.574368Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.578428Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.578428Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.578428Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.578428Z INFO  utilrsw.logger   r = 0.67; AIC = 372.4423437639639; inputs = ['mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.583231Z INFO  utilrsw.logger   z = -0.4535
-2025-09-19T14:09:38.583231Z INFO  utilrsw.logger   p = 0.6502 (two-tailed)
-2025-09-19T14:09:38.583231Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.588521Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.590538Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.590538Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.590538Z INFO  utilrsw.logger   r = 0.75; AIC = 363.85440004118976; inputs = ['mag_lat, interpolated_beta'] 
-2025-09-19T14:09:38.592550Z INFO  utilrsw.logger   z = -1.2080
-2025-09-19T14:09:38.592550Z INFO  utilrsw.logger   p = 0.2270 (two-tailed)
-2025-09-19T14:09:38.592550Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.594564Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.594564Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.594564Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.600998Z INFO  utilrsw.logger   r = 0.76; AIC = 362.06404048061967; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.600998Z INFO  utilrsw.logger   z = -1.3284
-2025-09-19T14:09:38.603020Z INFO  utilrsw.logger   p = 0.1841 (two-tailed)
-2025-09-19T14:09:38.603020Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.607049Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.607049Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.607049Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.609059Z INFO  utilrsw.logger   r = 0.78; AIC = 359.7216585022048; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.609059Z INFO  utilrsw.logger   z = -1.4833
-2025-09-19T14:09:38.611073Z INFO  utilrsw.logger   p = 0.1380 (two-tailed)
-2025-09-19T14:09:38.611073Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.613692Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.613692Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.616647Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.617237Z INFO  utilrsw.logger   r = 0.78; AIC = 360.75359045755596; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.619526Z INFO  utilrsw.logger   z = -1.5466
-2025-09-19T14:09:38.619526Z INFO  utilrsw.logger   p = 0.1220 (two-tailed)
-2025-09-19T14:09:38.621677Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.623893Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.623893Z INFO  utilrsw.logger   r = 0.76; AIC = 360.1912344790264; inputs = ['alpha*interpolated_beta'] 
-2025-09-19T14:09:38.625912Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.625912Z INFO  utilrsw.logger   r = 0.78; AIC = 359.6895982829937; inputs = ['alpha, interpolated_beta'] 
-2025-09-19T14:09:38.626927Z INFO  utilrsw.logger   z = -0.1655
-2025-09-19T14:09:38.627939Z INFO  utilrsw.logger   p = 0.8685 (two-tailed)
-2025-09-19T14:09:38.627939Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.629957Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.631968Z INFO  utilrsw.logger   r = 0.76; AIC = 360.1912344790264; inputs = ['alpha*interpolated_beta'] 
-2025-09-19T14:09:38.633131Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.633131Z INFO  utilrsw.logger   r = 0.78; AIC = 359.2700761115517; inputs = ['alpha, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.633131Z INFO  utilrsw.logger   z = -0.1930
-2025-09-19T14:09:38.636174Z INFO  utilrsw.logger   p = 0.8470 (two-tailed)
-2025-09-19T14:09:38.636174Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.640200Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.640200Z INFO  utilrsw.logger   r = 0.76; AIC = 360.1912344790264; inputs = ['alpha*interpolated_beta'] 
-2025-09-19T14:09:38.640200Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.642216Z INFO  utilrsw.logger   r = 0.77; AIC = 361.65275576958925; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.642216Z INFO  utilrsw.logger   z = -0.0359
-2025-09-19T14:09:38.642216Z INFO  utilrsw.logger   p = 0.9714 (two-tailed)
-2025-09-19T14:09:38.644432Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.646747Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.646747Z INFO  utilrsw.logger   r = 0.76; AIC = 360.1912344790264; inputs = ['alpha*interpolated_beta'] 
-2025-09-19T14:09:38.646747Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.648482Z INFO  utilrsw.logger   r = 0.78; AIC = 360.4808432823526; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.650494Z INFO  utilrsw.logger   z = -0.2445
-2025-09-19T14:09:38.650494Z INFO  utilrsw.logger   p = 0.8069 (two-tailed)
-2025-09-19T14:09:38.653290Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.656991Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.656991Z INFO  utilrsw.logger   r = 0.76; AIC = 360.1912344790264; inputs = ['alpha*interpolated_beta'] 
-2025-09-19T14:09:38.656991Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.656991Z INFO  utilrsw.logger   r = 0.56; AIC = 383.346204004139; inputs = ['mag_lat'] 
-2025-09-19T14:09:38.659008Z INFO  utilrsw.logger   z = 1.7663
-2025-09-19T14:09:38.659008Z INFO  utilrsw.logger   p = 0.0773 (two-tailed)
-2025-09-19T14:09:38.661025Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.663038Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.663038Z INFO  utilrsw.logger   r = 0.76; AIC = 360.1912344790264; inputs = ['alpha*interpolated_beta'] 
-2025-09-19T14:09:38.665049Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.667068Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.667068Z INFO  utilrsw.logger   z = 1.3199
-2025-09-19T14:09:38.669085Z INFO  utilrsw.logger   p = 0.1869 (two-tailed)
-2025-09-19T14:09:38.669085Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.673442Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.673442Z INFO  utilrsw.logger   r = 0.76; AIC = 360.1912344790264; inputs = ['alpha*interpolated_beta'] 
-2025-09-19T14:09:38.673442Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.675458Z INFO  utilrsw.logger   r = 0.67; AIC = 372.4423437639639; inputs = ['mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.675458Z INFO  utilrsw.logger   z = 0.8664
-2025-09-19T14:09:38.675458Z INFO  utilrsw.logger   p = 0.3863 (two-tailed)
-2025-09-19T14:09:38.677479Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.677479Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.677479Z INFO  utilrsw.logger   r = 0.76; AIC = 360.1912344790264; inputs = ['alpha*interpolated_beta'] 
-2025-09-19T14:09:38.681906Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.683920Z INFO  utilrsw.logger   r = 0.75; AIC = 363.85440004118976; inputs = ['mag_lat, interpolated_beta'] 
-2025-09-19T14:09:38.683920Z INFO  utilrsw.logger   z = 0.1118
-2025-09-19T14:09:38.685940Z INFO  utilrsw.logger   p = 0.9110 (two-tailed)
-2025-09-19T14:09:38.687959Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.689977Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.689977Z INFO  utilrsw.logger   r = 0.76; AIC = 360.1912344790264; inputs = ['alpha*interpolated_beta'] 
-2025-09-19T14:09:38.689977Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.689977Z INFO  utilrsw.logger   r = 0.76; AIC = 362.06404048061967; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.689977Z INFO  utilrsw.logger   z = -0.0085
-2025-09-19T14:09:38.689977Z INFO  utilrsw.logger   p = 0.9932 (two-tailed)
-2025-09-19T14:09:38.689977Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.694184Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.694184Z INFO  utilrsw.logger   r = 0.76; AIC = 360.1912344790264; inputs = ['alpha*interpolated_beta'] 
-2025-09-19T14:09:38.694184Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.694184Z INFO  utilrsw.logger   r = 0.78; AIC = 359.7216585022048; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.694184Z INFO  utilrsw.logger   z = -0.1634
-2025-09-19T14:09:38.699338Z INFO  utilrsw.logger   p = 0.8702 (two-tailed)
-2025-09-19T14:09:38.699338Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.702368Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.704384Z INFO  utilrsw.logger   r = 0.76; AIC = 360.1912344790264; inputs = ['alpha*interpolated_beta'] 
-2025-09-19T14:09:38.704384Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.704384Z INFO  utilrsw.logger   r = 0.78; AIC = 360.75359045755596; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.704384Z INFO  utilrsw.logger   z = -0.2267
-2025-09-19T14:09:38.706404Z INFO  utilrsw.logger   p = 0.8207 (two-tailed)
-2025-09-19T14:09:38.706404Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.706404Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.706404Z INFO  utilrsw.logger   r = 0.78; AIC = 359.6895982829937; inputs = ['alpha, interpolated_beta'] 
-2025-09-19T14:09:38.706404Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.710857Z INFO  utilrsw.logger   r = 0.78; AIC = 359.2700761115517; inputs = ['alpha, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.710857Z INFO  utilrsw.logger   z = -0.0275
-2025-09-19T14:09:38.710857Z INFO  utilrsw.logger   p = 0.9781 (two-tailed)
-2025-09-19T14:09:38.712873Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.714885Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.714885Z INFO  utilrsw.logger   r = 0.78; AIC = 359.6895982829937; inputs = ['alpha, interpolated_beta'] 
-2025-09-19T14:09:38.716901Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.716901Z INFO  utilrsw.logger   r = 0.77; AIC = 361.65275576958925; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.718920Z INFO  utilrsw.logger   z = 0.1296
-2025-09-19T14:09:38.718920Z INFO  utilrsw.logger   p = 0.8968 (two-tailed)
-2025-09-19T14:09:38.718920Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.723077Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.723077Z INFO  utilrsw.logger   r = 0.78; AIC = 359.6895982829937; inputs = ['alpha, interpolated_beta'] 
-2025-09-19T14:09:38.723077Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.723077Z INFO  utilrsw.logger   r = 0.78; AIC = 360.4808432823526; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.723077Z INFO  utilrsw.logger   z = -0.0789
-2025-09-19T14:09:38.723077Z INFO  utilrsw.logger   p = 0.9371 (two-tailed)
-2025-09-19T14:09:38.727026Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.727026Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.727026Z INFO  utilrsw.logger   r = 0.78; AIC = 359.6895982829937; inputs = ['alpha, interpolated_beta'] 
-2025-09-19T14:09:38.727026Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.727026Z INFO  utilrsw.logger   r = 0.56; AIC = 383.346204004139; inputs = ['mag_lat'] 
-2025-09-19T14:09:38.727026Z INFO  utilrsw.logger   z = 1.9319
-2025-09-19T14:09:38.731453Z INFO  utilrsw.logger   p = 0.0534 (two-tailed)
-2025-09-19T14:09:38.732488Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.737559Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.738071Z INFO  utilrsw.logger   r = 0.78; AIC = 359.6895982829937; inputs = ['alpha, interpolated_beta'] 
-2025-09-19T14:09:38.738882Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.738882Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.739894Z INFO  utilrsw.logger   z = 1.4854
-2025-09-19T14:09:38.739894Z INFO  utilrsw.logger   p = 0.1374 (two-tailed)
-2025-09-19T14:09:38.739894Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.739894Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.739894Z INFO  utilrsw.logger   r = 0.78; AIC = 359.6895982829937; inputs = ['alpha, interpolated_beta'] 
-2025-09-19T14:09:38.743989Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.743989Z INFO  utilrsw.logger   r = 0.67; AIC = 372.4423437639639; inputs = ['mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.743989Z INFO  utilrsw.logger   z = 1.0320
-2025-09-19T14:09:38.743989Z INFO  utilrsw.logger   p = 0.3021 (two-tailed)
-2025-09-19T14:09:38.743989Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.749680Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.749680Z INFO  utilrsw.logger   r = 0.78; AIC = 359.6895982829937; inputs = ['alpha, interpolated_beta'] 
-2025-09-19T14:09:38.749680Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.752546Z INFO  utilrsw.logger   r = 0.75; AIC = 363.85440004118976; inputs = ['mag_lat, interpolated_beta'] 
-2025-09-19T14:09:38.752546Z INFO  utilrsw.logger   z = 0.2774
-2025-09-19T14:09:38.754566Z INFO  utilrsw.logger   p = 0.7815 (two-tailed)
-2025-09-19T14:09:38.754566Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.756583Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.756583Z INFO  utilrsw.logger   r = 0.78; AIC = 359.6895982829937; inputs = ['alpha, interpolated_beta'] 
-2025-09-19T14:09:38.758594Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.758594Z INFO  utilrsw.logger   r = 0.76; AIC = 362.06404048061967; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.758594Z INFO  utilrsw.logger   z = 0.1570
-2025-09-19T14:09:38.758594Z INFO  utilrsw.logger   p = 0.8752 (two-tailed)
-2025-09-19T14:09:38.758594Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.760608Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.760608Z INFO  utilrsw.logger   r = 0.78; AIC = 359.6895982829937; inputs = ['alpha, interpolated_beta'] 
-2025-09-19T14:09:38.760608Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.760608Z INFO  utilrsw.logger   r = 0.78; AIC = 359.7216585022048; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.760608Z INFO  utilrsw.logger   z = 0.0021
-2025-09-19T14:09:38.764830Z INFO  utilrsw.logger   p = 0.9983 (two-tailed)
-2025-09-19T14:09:38.766860Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.768877Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.771075Z INFO  utilrsw.logger   r = 0.78; AIC = 359.6895982829937; inputs = ['alpha, interpolated_beta'] 
-2025-09-19T14:09:38.771075Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.771075Z INFO  utilrsw.logger   r = 0.78; AIC = 360.75359045755596; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.771075Z INFO  utilrsw.logger   z = -0.0612
-2025-09-19T14:09:38.773092Z INFO  utilrsw.logger   p = 0.9512 (two-tailed)
-2025-09-19T14:09:38.773092Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.775106Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.775106Z INFO  utilrsw.logger   r = 0.78; AIC = 359.2700761115517; inputs = ['alpha, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.775106Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.777120Z INFO  utilrsw.logger   r = 0.77; AIC = 361.65275576958925; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.777120Z INFO  utilrsw.logger   z = 0.1571
-2025-09-19T14:09:38.777120Z INFO  utilrsw.logger   p = 0.8752 (two-tailed)
-2025-09-19T14:09:38.777120Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.781535Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.781535Z INFO  utilrsw.logger   r = 0.78; AIC = 359.2700761115517; inputs = ['alpha, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.781535Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.785555Z INFO  utilrsw.logger   r = 0.78; AIC = 360.4808432823526; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.785555Z INFO  utilrsw.logger   z = -0.0515
-2025-09-19T14:09:38.785555Z INFO  utilrsw.logger   p = 0.9590 (two-tailed)
-2025-09-19T14:09:38.785555Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.789742Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.789742Z INFO  utilrsw.logger   r = 0.78; AIC = 359.2700761115517; inputs = ['alpha, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.789742Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.789742Z INFO  utilrsw.logger   r = 0.56; AIC = 383.346204004139; inputs = ['mag_lat'] 
-2025-09-19T14:09:38.789742Z INFO  utilrsw.logger   z = 1.9593
-2025-09-19T14:09:38.789742Z INFO  utilrsw.logger   p = 0.0501 (two-tailed)
-2025-09-19T14:09:38.789742Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.793770Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.793770Z INFO  utilrsw.logger   r = 0.78; AIC = 359.2700761115517; inputs = ['alpha, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.793770Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.793770Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.793770Z INFO  utilrsw.logger   z = 1.5129
-2025-09-19T14:09:38.798192Z INFO  utilrsw.logger   p = 0.1303 (two-tailed)
-2025-09-19T14:09:38.799479Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.799479Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.802378Z INFO  utilrsw.logger   r = 0.78; AIC = 359.2700761115517; inputs = ['alpha, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.802378Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.802378Z INFO  utilrsw.logger   r = 0.67; AIC = 372.4423437639639; inputs = ['mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.802378Z INFO  utilrsw.logger   z = 1.0594
-2025-09-19T14:09:38.802378Z INFO  utilrsw.logger   p = 0.2894 (two-tailed)
-2025-09-19T14:09:38.802378Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.806741Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.806741Z INFO  utilrsw.logger   r = 0.78; AIC = 359.2700761115517; inputs = ['alpha, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.806741Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.806741Z INFO  utilrsw.logger   r = 0.75; AIC = 363.85440004118976; inputs = ['mag_lat, interpolated_beta'] 
-2025-09-19T14:09:38.806741Z INFO  utilrsw.logger   z = 0.3048
-2025-09-19T14:09:38.806741Z INFO  utilrsw.logger   p = 0.7605 (two-tailed)
-2025-09-19T14:09:38.806741Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.811168Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.811168Z INFO  utilrsw.logger   r = 0.78; AIC = 359.2700761115517; inputs = ['alpha, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.811168Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.811168Z INFO  utilrsw.logger   r = 0.76; AIC = 362.06404048061967; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.811168Z INFO  utilrsw.logger   z = 0.1845
-2025-09-19T14:09:38.815194Z INFO  utilrsw.logger   p = 0.8536 (two-tailed)
-2025-09-19T14:09:38.815194Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.817215Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.819234Z INFO  utilrsw.logger   r = 0.78; AIC = 359.2700761115517; inputs = ['alpha, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.819234Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.819234Z INFO  utilrsw.logger   r = 0.78; AIC = 359.7216585022048; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.819234Z INFO  utilrsw.logger   z = 0.0296
-2025-09-19T14:09:38.819234Z INFO  utilrsw.logger   p = 0.9764 (two-tailed)
-2025-09-19T14:09:38.819234Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.823401Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.823401Z INFO  utilrsw.logger   r = 0.78; AIC = 359.2700761115517; inputs = ['alpha, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.823401Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.823401Z INFO  utilrsw.logger   r = 0.78; AIC = 360.75359045755596; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.826928Z INFO  utilrsw.logger   z = -0.0337
-2025-09-19T14:09:38.826928Z INFO  utilrsw.logger   p = 0.9731 (two-tailed)
-2025-09-19T14:09:38.826928Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.826928Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.831269Z INFO  utilrsw.logger   r = 0.77; AIC = 361.65275576958925; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.831269Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.831269Z INFO  utilrsw.logger   r = 0.78; AIC = 360.4808432823526; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.831269Z INFO  utilrsw.logger   z = -0.2086
-2025-09-19T14:09:38.831269Z INFO  utilrsw.logger   p = 0.8348 (two-tailed)
-2025-09-19T14:09:38.831269Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.837341Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.839358Z INFO  utilrsw.logger   r = 0.77; AIC = 361.65275576958925; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.839358Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.839358Z INFO  utilrsw.logger   r = 0.56; AIC = 383.346204004139; inputs = ['mag_lat'] 
-2025-09-19T14:09:38.839358Z INFO  utilrsw.logger   z = 1.8022
-2025-09-19T14:09:38.839358Z INFO  utilrsw.logger   p = 0.0715 (two-tailed)
-2025-09-19T14:09:38.839358Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.844892Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.844892Z INFO  utilrsw.logger   r = 0.77; AIC = 361.65275576958925; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.844892Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.844892Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.844892Z INFO  utilrsw.logger   z = 1.3558
-2025-09-19T14:09:38.846902Z INFO  utilrsw.logger   p = 0.1752 (two-tailed)
-2025-09-19T14:09:38.846902Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.846902Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.846902Z INFO  utilrsw.logger   r = 0.77; AIC = 361.65275576958925; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.851026Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.851026Z INFO  utilrsw.logger   r = 0.67; AIC = 372.4423437639639; inputs = ['mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.851026Z INFO  utilrsw.logger   z = 0.9023
-2025-09-19T14:09:38.851026Z INFO  utilrsw.logger   p = 0.3669 (two-tailed)
-2025-09-19T14:09:38.851026Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.855258Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.855258Z INFO  utilrsw.logger   r = 0.77; AIC = 361.65275576958925; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.855258Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.855258Z INFO  utilrsw.logger   r = 0.75; AIC = 363.85440004118976; inputs = ['mag_lat, interpolated_beta'] 
-2025-09-19T14:09:38.855258Z INFO  utilrsw.logger   z = 0.1477
-2025-09-19T14:09:38.855258Z INFO  utilrsw.logger   p = 0.8826 (two-tailed)
-2025-09-19T14:09:38.859610Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.859610Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.859610Z INFO  utilrsw.logger   r = 0.77; AIC = 361.65275576958925; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.859610Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.859610Z INFO  utilrsw.logger   r = 0.76; AIC = 362.06404048061967; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.863634Z INFO  utilrsw.logger   z = 0.0274
-2025-09-19T14:09:38.863634Z INFO  utilrsw.logger   p = 0.9781 (two-tailed)
-2025-09-19T14:09:38.863634Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.867671Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.869475Z INFO  utilrsw.logger   r = 0.77; AIC = 361.65275576958925; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.870127Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.870127Z INFO  utilrsw.logger   r = 0.78; AIC = 359.7216585022048; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.870127Z INFO  utilrsw.logger   z = -0.1275
-2025-09-19T14:09:38.871896Z INFO  utilrsw.logger   p = 0.8985 (two-tailed)
-2025-09-19T14:09:38.871896Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.871896Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.871896Z INFO  utilrsw.logger   r = 0.77; AIC = 361.65275576958925; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.871896Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.875946Z INFO  utilrsw.logger   r = 0.78; AIC = 360.75359045755596; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.875946Z INFO  utilrsw.logger   z = -0.1908
-2025-09-19T14:09:38.875946Z INFO  utilrsw.logger   p = 0.8487 (two-tailed)
-2025-09-19T14:09:38.875946Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.875946Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.880187Z INFO  utilrsw.logger   r = 0.78; AIC = 360.4808432823526; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.880187Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.880187Z INFO  utilrsw.logger   r = 0.56; AIC = 383.346204004139; inputs = ['mag_lat'] 
-2025-09-19T14:09:38.883449Z INFO  utilrsw.logger   z = 2.0108
-2025-09-19T14:09:38.884470Z INFO  utilrsw.logger   p = 0.0443 (two-tailed)
-2025-09-19T14:09:38.884470Z INFO  utilrsw.logger   Reject null with alpha = 0.05)
-2025-09-19T14:09:38.888508Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.888508Z INFO  utilrsw.logger   r = 0.78; AIC = 360.4808432823526; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.888508Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.888508Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.888508Z INFO  utilrsw.logger   z = 1.5643
-2025-09-19T14:09:38.888508Z INFO  utilrsw.logger   p = 0.1177 (two-tailed)
-2025-09-19T14:09:38.888508Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.892530Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.892530Z INFO  utilrsw.logger   r = 0.78; AIC = 360.4808432823526; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.892530Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.892530Z INFO  utilrsw.logger   r = 0.67; AIC = 372.4423437639639; inputs = ['mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.892530Z INFO  utilrsw.logger   z = 1.1109
-2025-09-19T14:09:38.892530Z INFO  utilrsw.logger   p = 0.2666 (two-tailed)
-2025-09-19T14:09:38.892530Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.896664Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.896664Z INFO  utilrsw.logger   r = 0.78; AIC = 360.4808432823526; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.901142Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.901142Z INFO  utilrsw.logger   r = 0.75; AIC = 363.85440004118976; inputs = ['mag_lat, interpolated_beta'] 
-2025-09-19T14:09:38.901142Z INFO  utilrsw.logger   z = 0.3563
-2025-09-19T14:09:38.901142Z INFO  utilrsw.logger   p = 0.7216 (two-tailed)
-2025-09-19T14:09:38.901142Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.905417Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.905417Z INFO  utilrsw.logger   r = 0.78; AIC = 360.4808432823526; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.905417Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.905417Z INFO  utilrsw.logger   r = 0.76; AIC = 362.06404048061967; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.905417Z INFO  utilrsw.logger   z = 0.2360
-2025-09-19T14:09:38.905417Z INFO  utilrsw.logger   p = 0.8135 (two-tailed)
-2025-09-19T14:09:38.905417Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.909472Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.909472Z INFO  utilrsw.logger   r = 0.78; AIC = 360.4808432823526; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.909472Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.909472Z INFO  utilrsw.logger   r = 0.78; AIC = 359.7216585022048; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.909472Z INFO  utilrsw.logger   z = 0.0810
-2025-09-19T14:09:38.913905Z INFO  utilrsw.logger   p = 0.9354 (two-tailed)
-2025-09-19T14:09:38.913905Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.913905Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.917678Z INFO  utilrsw.logger   r = 0.78; AIC = 360.4808432823526; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
-2025-09-19T14:09:38.917678Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.917678Z INFO  utilrsw.logger   r = 0.78; AIC = 360.75359045755596; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.917678Z INFO  utilrsw.logger   z = 0.0177
-2025-09-19T14:09:38.917678Z INFO  utilrsw.logger   p = 0.9858 (two-tailed)
-2025-09-19T14:09:38.917678Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.922710Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.922710Z INFO  utilrsw.logger   r = 0.56; AIC = 383.346204004139; inputs = ['mag_lat'] 
-2025-09-19T14:09:38.922710Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.922710Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.922710Z INFO  utilrsw.logger   z = -0.4464
-2025-09-19T14:09:38.926315Z INFO  utilrsw.logger   p = 0.6553 (two-tailed)
-2025-09-19T14:09:38.926826Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.926826Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.926826Z INFO  utilrsw.logger   r = 0.56; AIC = 383.346204004139; inputs = ['mag_lat'] 
-2025-09-19T14:09:38.926826Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.926826Z INFO  utilrsw.logger   r = 0.67; AIC = 372.4423437639639; inputs = ['mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.926826Z INFO  utilrsw.logger   z = -0.8999
-2025-09-19T14:09:38.930755Z INFO  utilrsw.logger   p = 0.3682 (two-tailed)
-2025-09-19T14:09:38.930755Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.934180Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.936251Z INFO  utilrsw.logger   r = 0.56; AIC = 383.346204004139; inputs = ['mag_lat'] 
-2025-09-19T14:09:38.937084Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.937084Z INFO  utilrsw.logger   r = 0.75; AIC = 363.85440004118976; inputs = ['mag_lat, interpolated_beta'] 
-2025-09-19T14:09:38.937084Z INFO  utilrsw.logger   z = -1.6545
-2025-09-19T14:09:38.939673Z INFO  utilrsw.logger   p = 0.0980 (two-tailed)
-2025-09-19T14:09:38.939673Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.939673Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.939673Z INFO  utilrsw.logger   r = 0.56; AIC = 383.346204004139; inputs = ['mag_lat'] 
-2025-09-19T14:09:38.939673Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.939673Z INFO  utilrsw.logger   r = 0.76; AIC = 362.06404048061967; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.943699Z INFO  utilrsw.logger   z = -1.7748
-2025-09-19T14:09:38.943699Z INFO  utilrsw.logger   p = 0.0759 (two-tailed)
-2025-09-19T14:09:38.943699Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.943699Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.943699Z INFO  utilrsw.logger   r = 0.56; AIC = 383.346204004139; inputs = ['mag_lat'] 
-2025-09-19T14:09:38.948095Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.949686Z INFO  utilrsw.logger   r = 0.78; AIC = 359.7216585022048; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.949686Z INFO  utilrsw.logger   z = -1.9298
-2025-09-19T14:09:38.949686Z INFO  utilrsw.logger   p = 0.0536 (two-tailed)
-2025-09-19T14:09:38.949686Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.952221Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.952221Z INFO  utilrsw.logger   r = 0.56; AIC = 383.346204004139; inputs = ['mag_lat'] 
-2025-09-19T14:09:38.952221Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.952221Z INFO  utilrsw.logger   r = 0.78; AIC = 360.75359045755596; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.956302Z INFO  utilrsw.logger   z = -1.9930
-2025-09-19T14:09:38.956302Z INFO  utilrsw.logger   p = 0.0463 (two-tailed)
-2025-09-19T14:09:38.956302Z INFO  utilrsw.logger   Reject null with alpha = 0.05)
-2025-09-19T14:09:38.956302Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.956302Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.956302Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.960707Z INFO  utilrsw.logger   r = 0.67; AIC = 372.4423437639639; inputs = ['mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.960707Z INFO  utilrsw.logger   z = -0.4535
-2025-09-19T14:09:38.960707Z INFO  utilrsw.logger   p = 0.6502 (two-tailed)
-2025-09-19T14:09:38.960707Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.964989Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.964989Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.964989Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.964989Z INFO  utilrsw.logger   r = 0.75; AIC = 363.85440004118976; inputs = ['mag_lat, interpolated_beta'] 
-2025-09-19T14:09:38.964989Z INFO  utilrsw.logger   z = -1.2080
-2025-09-19T14:09:38.967515Z INFO  utilrsw.logger   p = 0.2270 (two-tailed)
-2025-09-19T14:09:38.967515Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.969274Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.969274Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.969274Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.969274Z INFO  utilrsw.logger   r = 0.76; AIC = 362.06404048061967; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.973382Z INFO  utilrsw.logger   z = -1.3284
-2025-09-19T14:09:38.973382Z INFO  utilrsw.logger   p = 0.1841 (two-tailed)
-2025-09-19T14:09:38.973382Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.973382Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.973382Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.973382Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.977832Z INFO  utilrsw.logger   r = 0.78; AIC = 359.7216585022048; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.977832Z INFO  utilrsw.logger   z = -1.4833
-2025-09-19T14:09:38.977832Z INFO  utilrsw.logger   p = 0.1380 (two-tailed)
-2025-09-19T14:09:38.977832Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.981924Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.981924Z INFO  utilrsw.logger   r = 0.62; AIC = 378.19804658144744; inputs = ['interpolated_beta'] 
-2025-09-19T14:09:38.981924Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.981924Z INFO  utilrsw.logger   r = 0.78; AIC = 360.75359045755596; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.981924Z INFO  utilrsw.logger   z = -1.5466
-2025-09-19T14:09:38.981924Z INFO  utilrsw.logger   p = 0.1220 (two-tailed)
-2025-09-19T14:09:38.986083Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.986083Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.986083Z INFO  utilrsw.logger   r = 0.67; AIC = 372.4423437639639; inputs = ['mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.986083Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.990341Z INFO  utilrsw.logger   r = 0.75; AIC = 363.85440004118976; inputs = ['mag_lat, interpolated_beta'] 
-2025-09-19T14:09:38.990341Z INFO  utilrsw.logger   z = -0.7546
-2025-09-19T14:09:38.990341Z INFO  utilrsw.logger   p = 0.4505 (two-tailed)
-2025-09-19T14:09:38.990341Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:38.990341Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:38.994684Z INFO  utilrsw.logger   r = 0.67; AIC = 372.4423437639639; inputs = ['mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.994684Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:38.994684Z INFO  utilrsw.logger   r = 0.76; AIC = 362.06404048061967; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:38.994684Z INFO  utilrsw.logger   z = -0.8749
-2025-09-19T14:09:38.994684Z INFO  utilrsw.logger   p = 0.3816 (two-tailed)
-2025-09-19T14:09:38.994684Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:39.000440Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:39.001338Z INFO  utilrsw.logger   r = 0.67; AIC = 372.4423437639639; inputs = ['mag_lat*interpolated_beta'] 
-2025-09-19T14:09:39.001338Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:39.001338Z INFO  utilrsw.logger   r = 0.78; AIC = 359.7216585022048; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:39.003104Z INFO  utilrsw.logger   z = -1.0299
-2025-09-19T14:09:39.003104Z INFO  utilrsw.logger   p = 0.3031 (two-tailed)
-2025-09-19T14:09:39.003104Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:39.003104Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:39.007155Z INFO  utilrsw.logger   r = 0.67; AIC = 372.4423437639639; inputs = ['mag_lat*interpolated_beta'] 
-2025-09-19T14:09:39.007155Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:39.007155Z INFO  utilrsw.logger   r = 0.78; AIC = 360.75359045755596; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:39.007155Z INFO  utilrsw.logger   z = -1.0931
-2025-09-19T14:09:39.007155Z INFO  utilrsw.logger   p = 0.2743 (two-tailed)
-2025-09-19T14:09:39.007155Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:39.011406Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:39.011406Z INFO  utilrsw.logger   r = 0.75; AIC = 363.85440004118976; inputs = ['mag_lat, interpolated_beta'] 
-2025-09-19T14:09:39.011406Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:39.011406Z INFO  utilrsw.logger   r = 0.76; AIC = 362.06404048061967; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:39.011406Z INFO  utilrsw.logger   z = -0.1203
-2025-09-19T14:09:39.011406Z INFO  utilrsw.logger   p = 0.9042 (two-tailed)
-2025-09-19T14:09:39.011406Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:39.015729Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:39.015729Z INFO  utilrsw.logger   r = 0.75; AIC = 363.85440004118976; inputs = ['mag_lat, interpolated_beta'] 
-2025-09-19T14:09:39.015729Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:39.019830Z INFO  utilrsw.logger   r = 0.78; AIC = 359.7216585022048; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:39.019830Z INFO  utilrsw.logger   z = -0.2753
-2025-09-19T14:09:39.019830Z INFO  utilrsw.logger   p = 0.7831 (two-tailed)
-2025-09-19T14:09:39.019830Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:39.019830Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:39.024221Z INFO  utilrsw.logger   r = 0.75; AIC = 363.85440004118976; inputs = ['mag_lat, interpolated_beta'] 
-2025-09-19T14:09:39.024221Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:39.024221Z INFO  utilrsw.logger   r = 0.78; AIC = 360.75359045755596; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:39.024221Z INFO  utilrsw.logger   z = -0.3385
-2025-09-19T14:09:39.027075Z INFO  utilrsw.logger   p = 0.7350 (two-tailed)
-2025-09-19T14:09:39.027075Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:39.028595Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:39.028595Z INFO  utilrsw.logger   r = 0.76; AIC = 362.06404048061967; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:39.028595Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:39.028595Z INFO  utilrsw.logger   r = 0.78; AIC = 359.7216585022048; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:39.032625Z INFO  utilrsw.logger   z = -0.1549
-2025-09-19T14:09:39.032625Z INFO  utilrsw.logger   p = 0.8769 (two-tailed)
-2025-09-19T14:09:39.032625Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:39.036666Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:39.036666Z INFO  utilrsw.logger   r = 0.76; AIC = 362.06404048061967; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:39.036666Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:39.036666Z INFO  utilrsw.logger   r = 0.78; AIC = 360.75359045755596; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:39.038683Z INFO  utilrsw.logger   z = -0.2182
-2025-09-19T14:09:39.038683Z INFO  utilrsw.logger   p = 0.8273 (two-tailed)
-2025-09-19T14:09:39.038683Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:39.040704Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
-2025-09-19T14:09:39.040704Z INFO  utilrsw.logger   r = 0.78; AIC = 359.7216585022048; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:39.040704Z INFO  utilrsw.logger   vs
-2025-09-19T14:09:39.040704Z INFO  utilrsw.logger   r = 0.78; AIC = 360.75359045755596; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
-2025-09-19T14:09:39.040704Z INFO  utilrsw.logger   z = -0.0633
-2025-09-19T14:09:39.044734Z INFO  utilrsw.logger   p = 0.9495 (two-tailed)
-2025-09-19T14:09:39.045151Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
-2025-09-19T14:09:39.045151Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\fit_table_gic_max.md
-2025-09-19T14:09:39.272455Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\fit_table_gic_max.tex
+2025-11-12T16:30:28.705015Z INFO  utilrsw.logger   Reading gic_std and gic_maxabs from c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\gic_stats.pkl
+2025-11-12T16:30:28.710830Z INFO  utilrsw.logger output = gic_max
+2025-11-12T16:30:28.711378Z INFO  utilrsw.logger inputs = ['alpha']
+2025-11-12T16:30:28.742486Z INFO  utilrsw.logger   Equation: gic_max = +83.9 alpha +0.062
+2025-11-12T16:30:28.742486Z INFO  utilrsw.logger   rmse = 15.1465
+2025-11-12T16:30:28.742486Z INFO  utilrsw.logger   r = 0.5412
+2025-11-12T16:30:28.742486Z INFO  utilrsw.logger   r_2se = 0.1268
+2025-11-12T16:30:28.742486Z INFO  utilrsw.logger   r_ci_lower = 0.2977
+2025-11-12T16:30:28.742486Z INFO  utilrsw.logger   r_ci_upper = 0.7186
+2025-11-12T16:30:28.742486Z INFO  utilrsw.logger   r_2se_boot = 0.1985
+2025-11-12T16:30:28.742486Z INFO  utilrsw.logger   aic = 384.5772
+2025-11-12T16:30:28.742486Z INFO  utilrsw.logger   bic = 388.2345
+2025-11-12T16:30:28.742486Z INFO  utilrsw.logger   p-value for alpha = 1.0279e-04
+2025-11-12T16:30:31.279261Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\line_fit_alpha_gic_max.png
+2025-11-12T16:30:31.641810Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\line_fit_alpha_gic_max.pdf
+2025-11-12T16:30:33.536024Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\line_fit_alpha_gic_max.pdf
+2025-11-12T16:30:33.842155Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_alpha_gic_max.png
+2025-11-12T16:30:34.192908Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_alpha_gic_max.pdf
+2025-11-12T16:30:34.322483Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\scatter_fit_alpha_gic_max.pdf
+2025-11-12T16:30:34.576069Z INFO  utilrsw.logger output = gic_max
+2025-11-12T16:30:34.576069Z INFO  utilrsw.logger inputs = ['interpolated_beta']
+2025-11-12T16:30:34.628445Z INFO  utilrsw.logger   Equation: gic_max = +18.1 interpolated_beta +3
+2025-11-12T16:30:34.628445Z INFO  utilrsw.logger   rmse = 14.1885
+2025-11-12T16:30:34.628445Z INFO  utilrsw.logger   r = 0.6161
+2025-11-12T16:30:34.628445Z INFO  utilrsw.logger   r_2se = 0.1187
+2025-11-12T16:30:34.628445Z INFO  utilrsw.logger   r_ci_lower = 0.3967
+2025-11-12T16:30:34.628445Z INFO  utilrsw.logger   r_ci_upper = 0.7689
+2025-11-12T16:30:34.628445Z INFO  utilrsw.logger   r_2se_boot = 0.2755
+2025-11-12T16:30:34.628445Z INFO  utilrsw.logger   aic = 378.5660
+2025-11-12T16:30:34.628445Z INFO  utilrsw.logger   bic = 382.2233
+2025-11-12T16:30:34.628445Z INFO  utilrsw.logger   p-value for interpolated_beta = 5.1677e-06
+2025-11-12T16:30:34.736925Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\line_fit_interpolated_beta_gic_max.png
+2025-11-12T16:30:35.094296Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\line_fit_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:35.205290Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\line_fit_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:35.455291Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_interpolated_beta_gic_max.png
+2025-11-12T16:30:35.784628Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:35.965564Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\scatter_fit_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:36.093773Z INFO  utilrsw.logger output = gic_max
+2025-11-12T16:30:36.093773Z INFO  utilrsw.logger inputs = ['alpha*interpolated_beta']
+2025-11-12T16:30:36.125713Z INFO  utilrsw.logger   Equation: gic_max = +56 alpha*interpolated_beta +6.36
+2025-11-12T16:30:36.125713Z INFO  utilrsw.logger   rmse = 12.0258
+2025-11-12T16:30:36.125713Z INFO  utilrsw.logger   r = 0.7445
+2025-11-12T16:30:36.125713Z INFO  utilrsw.logger   r_2se = 0.1006
+2025-11-12T16:30:36.125713Z INFO  utilrsw.logger   r_ci_lower = 0.5794
+2025-11-12T16:30:36.125713Z INFO  utilrsw.logger   r_ci_upper = 0.8509
+2025-11-12T16:30:36.125713Z INFO  utilrsw.logger   r_2se_boot = 0.1436
+2025-11-12T16:30:36.125713Z INFO  utilrsw.logger   aic = 363.3511
+2025-11-12T16:30:36.125713Z INFO  utilrsw.logger   bic = 367.0084
+2025-11-12T16:30:36.125713Z INFO  utilrsw.logger   p-value for alpha*interpolated_beta = 3.0050e-09
+2025-11-12T16:30:36.229083Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\line_fit_alpha_interpolated_beta_gic_max.png
+2025-11-12T16:30:36.574622Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\line_fit_alpha_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:36.680750Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\line_fit_alpha_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:36.932618Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_alpha_interpolated_beta_gic_max.png
+2025-11-12T16:30:37.260414Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_alpha_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:37.376679Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\scatter_fit_alpha_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:37.524423Z INFO  utilrsw.logger output = gic_max
+2025-11-12T16:30:37.524423Z INFO  utilrsw.logger inputs = ['alpha', 'interpolated_beta']
+2025-11-12T16:30:37.579480Z INFO  utilrsw.logger   Equation: gic_max = +69 alpha+15.7 interpolated_beta -11.9
+2025-11-12T16:30:37.579480Z INFO  utilrsw.logger   rmse = 11.7950
+2025-11-12T16:30:37.579480Z INFO  utilrsw.logger   r = 0.7558
+2025-11-12T16:30:37.579480Z INFO  utilrsw.logger   r_2se = 0.0987
+2025-11-12T16:30:37.579480Z INFO  utilrsw.logger   r_ci_lower = 0.5963
+2025-11-12T16:30:37.579480Z INFO  utilrsw.logger   r_ci_upper = 0.8579
+2025-11-12T16:30:37.579480Z INFO  utilrsw.logger   r_2se_boot = 0.1280
+2025-11-12T16:30:37.579480Z INFO  utilrsw.logger   aic = 363.5687
+2025-11-12T16:30:37.579480Z INFO  utilrsw.logger   bic = 369.0547
+2025-11-12T16:30:37.579480Z INFO  utilrsw.logger   p-value for alpha = 7.3804e-05
+2025-11-12T16:30:37.579480Z INFO  utilrsw.logger   p-value for interpolated_beta = 3.9899e-06
+2025-11-12T16:30:37.579480Z WARN  utilrsw.logger   Skipping line plot because more than one input.
+2025-11-12T16:30:37.713300Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_alpha_gic_max.png
+2025-11-12T16:30:38.141260Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_alpha_gic_max.pdf
+2025-11-12T16:30:38.268115Z INFO  utilrsw.logger output = gic_max
+2025-11-12T16:30:38.268115Z INFO  utilrsw.logger inputs = ['alpha', 'alpha*interpolated_beta']
+2025-11-12T16:30:38.300795Z INFO  utilrsw.logger   Equation: gic_max = +25.3 alpha+48.8 alpha*interpolated_beta +1.92
+2025-11-12T16:30:38.300795Z INFO  utilrsw.logger   rmse = 11.7861
+2025-11-12T16:30:38.300795Z INFO  utilrsw.logger   r = 0.7562
+2025-11-12T16:30:38.300795Z INFO  utilrsw.logger   r_2se = 0.0986
+2025-11-12T16:30:38.300795Z INFO  utilrsw.logger   r_ci_lower = 0.5970
+2025-11-12T16:30:38.300795Z INFO  utilrsw.logger   r_ci_upper = 0.8581
+2025-11-12T16:30:38.300795Z INFO  utilrsw.logger   r_2se_boot = 0.1293
+2025-11-12T16:30:38.300795Z INFO  utilrsw.logger   aic = 363.4992
+2025-11-12T16:30:38.300795Z INFO  utilrsw.logger   bic = 368.9851
+2025-11-12T16:30:38.300795Z INFO  utilrsw.logger   p-value for alpha = 1.9083e-01
+2025-11-12T16:30:38.300795Z INFO  utilrsw.logger   p-value for alpha*interpolated_beta = 3.8582e-06
+2025-11-12T16:30:38.300795Z WARN  utilrsw.logger   Skipping line plot because more than one input.
+2025-11-12T16:30:38.435034Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_alpha_gic_max.png
+2025-11-12T16:30:38.804291Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_alpha_gic_max.pdf
+2025-11-12T16:30:38.962414Z INFO  utilrsw.logger output = gic_max
+2025-11-12T16:30:38.962414Z INFO  utilrsw.logger inputs = ['interpolated_beta', 'alpha*interpolated_beta']
+2025-11-12T16:30:39.000518Z INFO  utilrsw.logger   Equation: gic_max = -2.46 interpolated_beta+61.4 alpha*interpolated_beta +7.4
+2025-11-12T16:30:39.000518Z INFO  utilrsw.logger   rmse = 12.0006
+2025-11-12T16:30:39.000518Z INFO  utilrsw.logger   r = 0.7458
+2025-11-12T16:30:39.000518Z INFO  utilrsw.logger   r_2se = 0.1004
+2025-11-12T16:30:39.000518Z INFO  utilrsw.logger   r_ci_lower = 0.5813
+2025-11-12T16:30:39.000518Z INFO  utilrsw.logger   r_ci_upper = 0.8517
+2025-11-12T16:30:39.000518Z INFO  utilrsw.logger   r_2se_boot = 0.1475
+2025-11-12T16:30:39.000518Z INFO  utilrsw.logger   aic = 365.1587
+2025-11-12T16:30:39.000518Z INFO  utilrsw.logger   bic = 370.6446
+2025-11-12T16:30:39.000518Z INFO  utilrsw.logger   p-value for interpolated_beta = 6.7329e-01
+2025-11-12T16:30:39.000518Z INFO  utilrsw.logger   p-value for alpha*interpolated_beta = 1.6086e-04
+2025-11-12T16:30:39.000518Z WARN  utilrsw.logger   Skipping line plot because more than one input.
+2025-11-12T16:30:39.164196Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_interpolated_beta_gic_max.png
+2025-11-12T16:30:39.487152Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:39.627783Z INFO  utilrsw.logger output = gic_max
+2025-11-12T16:30:39.627783Z INFO  utilrsw.logger inputs = ['alpha', 'interpolated_beta', 'alpha*interpolated_beta']
+2025-11-12T16:30:39.673502Z INFO  utilrsw.logger   Equation: gic_max = +45.6 alpha+7.96 interpolated_beta+25.6 alpha*interpolated_beta -5.01
+2025-11-12T16:30:39.673502Z INFO  utilrsw.logger   rmse = 11.6739
+2025-11-12T16:30:39.673502Z INFO  utilrsw.logger   r = 0.7616
+2025-11-12T16:30:39.673502Z INFO  utilrsw.logger   r_2se = 0.0977
+2025-11-12T16:30:39.673502Z INFO  utilrsw.logger   r_ci_lower = 0.6050
+2025-11-12T16:30:39.673502Z INFO  utilrsw.logger   r_ci_upper = 0.8614
+2025-11-12T16:30:39.673502Z INFO  utilrsw.logger   r_2se_boot = 0.1252
+2025-11-12T16:30:39.673502Z INFO  utilrsw.logger   aic = 364.6189
+2025-11-12T16:30:39.673502Z INFO  utilrsw.logger   bic = 371.9334
+2025-11-12T16:30:39.673502Z INFO  utilrsw.logger   p-value for alpha = 1.3007e-01
+2025-11-12T16:30:39.673502Z INFO  utilrsw.logger   p-value for interpolated_beta = 3.7282e-01
+2025-11-12T16:30:39.673502Z INFO  utilrsw.logger   p-value for alpha*interpolated_beta = 3.5457e-01
+2025-11-12T16:30:39.681736Z WARN  utilrsw.logger   Skipping line plot because more than one input.
+2025-11-12T16:30:39.813979Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_alpha_gic_max.png
+2025-11-12T16:30:40.112451Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_alpha_gic_max.pdf
+2025-11-12T16:30:40.264364Z INFO  utilrsw.logger output = gic_max
+2025-11-12T16:30:40.264364Z INFO  utilrsw.logger inputs = ['mag_lat']
+2025-11-12T16:30:40.305079Z INFO  utilrsw.logger   Equation: gic_max = +2.19 mag_lat -82.1
+2025-11-12T16:30:40.305079Z INFO  utilrsw.logger   rmse = 15.4355
+2025-11-12T16:30:40.305079Z INFO  utilrsw.logger   r = 0.5155
+2025-11-12T16:30:40.305079Z INFO  utilrsw.logger   r_2se = 0.1292
+2025-11-12T16:30:40.305079Z INFO  utilrsw.logger   r_ci_lower = 0.2648
+2025-11-12T16:30:40.305079Z INFO  utilrsw.logger   r_ci_upper = 0.7009
+2025-11-12T16:30:40.305079Z INFO  utilrsw.logger   r_2se_boot = 0.1758
+2025-11-12T16:30:40.305079Z INFO  utilrsw.logger   aic = 386.3160
+2025-11-12T16:30:40.305079Z INFO  utilrsw.logger   bic = 389.9733
+2025-11-12T16:30:40.305079Z INFO  utilrsw.logger   p-value for mag_lat = 2.4641e-04
+2025-11-12T16:30:40.401452Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\line_fit_mag_lat_gic_max.png
+2025-11-12T16:30:40.734249Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\line_fit_mag_lat_gic_max.pdf
+2025-11-12T16:30:40.988787Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_mag_lat_gic_max.png
+2025-11-12T16:30:41.452909Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_mag_lat_gic_max.pdf
+2025-11-12T16:30:41.578996Z INFO  utilrsw.logger output = gic_max
+2025-11-12T16:30:41.578996Z INFO  utilrsw.logger inputs = ['interpolated_beta']
+2025-11-12T16:30:41.625574Z INFO  utilrsw.logger   Equation: gic_max = +18.1 interpolated_beta +3
+2025-11-12T16:30:41.625574Z INFO  utilrsw.logger   rmse = 14.1885
+2025-11-12T16:30:41.625574Z INFO  utilrsw.logger   r = 0.6161
+2025-11-12T16:30:41.625574Z INFO  utilrsw.logger   r_2se = 0.1187
+2025-11-12T16:30:41.625574Z INFO  utilrsw.logger   r_ci_lower = 0.3967
+2025-11-12T16:30:41.625574Z INFO  utilrsw.logger   r_ci_upper = 0.7689
+2025-11-12T16:30:41.625574Z INFO  utilrsw.logger   r_2se_boot = 0.2673
+2025-11-12T16:30:41.627088Z INFO  utilrsw.logger   aic = 378.5660
+2025-11-12T16:30:41.627088Z INFO  utilrsw.logger   bic = 382.2233
+2025-11-12T16:30:41.627088Z INFO  utilrsw.logger   p-value for interpolated_beta = 5.1677e-06
+2025-11-12T16:30:41.740156Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\line_fit_interpolated_beta_gic_max.png
+2025-11-12T16:30:42.068853Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\line_fit_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:42.197356Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\line_fit_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:42.440203Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_interpolated_beta_gic_max.png
+2025-11-12T16:30:42.761076Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:42.862375Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\scatter_fit_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:43.029113Z INFO  utilrsw.logger output = gic_max
+2025-11-12T16:30:43.029113Z INFO  utilrsw.logger inputs = ['mag_lat*interpolated_beta']
+2025-11-12T16:30:43.063278Z INFO  utilrsw.logger   Equation: gic_max = +0.386 mag_lat*interpolated_beta +2.72
+2025-11-12T16:30:43.063278Z INFO  utilrsw.logger   rmse = 13.4281
+2025-11-12T16:30:43.063278Z INFO  utilrsw.logger   r = 0.6665
+2025-11-12T16:30:43.063278Z INFO  utilrsw.logger   r_2se = 0.1124
+2025-11-12T16:30:43.063278Z INFO  utilrsw.logger   r_ci_lower = 0.4665
+2025-11-12T16:30:43.063278Z INFO  utilrsw.logger   r_ci_upper = 0.8017
+2025-11-12T16:30:43.063278Z INFO  utilrsw.logger   r_2se_boot = 0.2327
+2025-11-12T16:30:43.063278Z INFO  utilrsw.logger   aic = 373.4987
+2025-11-12T16:30:43.063278Z INFO  utilrsw.logger   bic = 377.1560
+2025-11-12T16:30:43.063278Z INFO  utilrsw.logger   p-value for mag_lat*interpolated_beta = 4.2635e-07
+2025-11-12T16:30:43.162728Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\line_fit_mag_lat_interpolated_beta_gic_max.png
+2025-11-12T16:30:43.516948Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\line_fit_mag_lat_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:43.804390Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_mag_lat_interpolated_beta_gic_max.png
+2025-11-12T16:30:44.165213Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_mag_lat_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:44.293250Z INFO  utilrsw.logger output = gic_max
+2025-11-12T16:30:44.293250Z INFO  utilrsw.logger inputs = ['mag_lat', 'interpolated_beta']
+2025-11-12T16:30:44.346113Z INFO  utilrsw.logger   Equation: gic_max = +1.7 mag_lat+15.5 interpolated_beta -74.2
+2025-11-12T16:30:44.346113Z INFO  utilrsw.logger   rmse = 12.3428
+2025-11-12T16:30:44.346113Z INFO  utilrsw.logger   r = 0.7283
+2025-11-12T16:30:44.346113Z INFO  utilrsw.logger   r_2se = 0.1033
+2025-11-12T16:30:44.346113Z INFO  utilrsw.logger   r_ci_lower = 0.5555
+2025-11-12T16:30:44.346113Z INFO  utilrsw.logger   r_ci_upper = 0.8408
+2025-11-12T16:30:44.346113Z INFO  utilrsw.logger   r_2se_boot = 0.1487
+2025-11-12T16:30:44.346113Z INFO  utilrsw.logger   aic = 367.7454
+2025-11-12T16:30:44.346113Z INFO  utilrsw.logger   bic = 373.2313
+2025-11-12T16:30:44.346113Z INFO  utilrsw.logger   p-value for mag_lat = 5.7688e-04
+2025-11-12T16:30:44.346113Z INFO  utilrsw.logger   p-value for interpolated_beta = 1.2969e-05
+2025-11-12T16:30:44.346113Z WARN  utilrsw.logger   Skipping line plot because more than one input.
+2025-11-12T16:30:45.712063Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_mag_lat_gic_max.png
+2025-11-12T16:30:46.148993Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_mag_lat_gic_max.pdf
+2025-11-12T16:30:46.290708Z INFO  utilrsw.logger output = gic_max
+2025-11-12T16:30:46.290708Z INFO  utilrsw.logger inputs = ['mag_lat', 'mag_lat*interpolated_beta']
+2025-11-12T16:30:46.337671Z INFO  utilrsw.logger   Equation: gic_max = +1.43 mag_lat+0.323 mag_lat*interpolated_beta -61.6
+2025-11-12T16:30:46.337671Z INFO  utilrsw.logger   rmse = 12.1428
+2025-11-12T16:30:46.338673Z INFO  utilrsw.logger   r = 0.7386
+2025-11-12T16:30:46.338673Z INFO  utilrsw.logger   r_2se = 0.1016
+2025-11-12T16:30:46.338673Z INFO  utilrsw.logger   r_ci_lower = 0.5707
+2025-11-12T16:30:46.339098Z INFO  utilrsw.logger   r_ci_upper = 0.8473
+2025-11-12T16:30:46.339098Z INFO  utilrsw.logger   r_2se_boot = 0.1622
+2025-11-12T16:30:46.339098Z INFO  utilrsw.logger   aic = 366.2422
+2025-11-12T16:30:46.339098Z INFO  utilrsw.logger   bic = 371.7281
+2025-11-12T16:30:46.339098Z INFO  utilrsw.logger   p-value for mag_lat = 3.4467e-03
+2025-11-12T16:30:46.340106Z INFO  utilrsw.logger   p-value for mag_lat*interpolated_beta = 6.2655e-06
+2025-11-12T16:30:46.340106Z WARN  utilrsw.logger   Skipping line plot because more than one input.
+2025-11-12T16:30:46.484346Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_mag_lat_gic_max.png
+2025-11-12T16:30:46.837651Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_mag_lat_gic_max.pdf
+2025-11-12T16:30:46.975745Z INFO  utilrsw.logger output = gic_max
+2025-11-12T16:30:46.975745Z INFO  utilrsw.logger inputs = ['interpolated_beta', 'mag_lat*interpolated_beta']
+2025-11-12T16:30:47.013601Z INFO  utilrsw.logger   Equation: gic_max = -77.2 interpolated_beta+1.9 mag_lat*interpolated_beta +8.07
+2025-11-12T16:30:47.013601Z INFO  utilrsw.logger   rmse = 11.9217
+2025-11-12T16:30:47.013601Z INFO  utilrsw.logger   r = 0.7496
+2025-11-12T16:30:47.013601Z INFO  utilrsw.logger   r_2se = 0.0998
+2025-11-12T16:30:47.013601Z INFO  utilrsw.logger   r_ci_lower = 0.5871
+2025-11-12T16:30:47.013601Z INFO  utilrsw.logger   r_ci_upper = 0.8541
+2025-11-12T16:30:47.013601Z INFO  utilrsw.logger   r_2se_boot = 0.1542
+2025-11-12T16:30:47.013601Z INFO  utilrsw.logger   aic = 364.5515
+2025-11-12T16:30:47.013601Z INFO  utilrsw.logger   bic = 370.0374
+2025-11-12T16:30:47.013601Z INFO  utilrsw.logger   p-value for interpolated_beta = 1.4688e-03
+2025-11-12T16:30:47.013601Z INFO  utilrsw.logger   p-value for mag_lat*interpolated_beta = 1.1940e-04
+2025-11-12T16:30:47.013601Z WARN  utilrsw.logger   Skipping line plot because more than one input.
+2025-11-12T16:30:47.153995Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_interpolated_beta_gic_max.png
+2025-11-12T16:30:47.439065Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_interpolated_beta_gic_max.pdf
+2025-11-12T16:30:47.548745Z INFO  utilrsw.logger output = gic_max
+2025-11-12T16:30:47.548745Z INFO  utilrsw.logger inputs = ['mag_lat', 'interpolated_beta', 'mag_lat*interpolated_beta']
+2025-11-12T16:30:47.587179Z INFO  utilrsw.logger   Equation: gic_max = +0.579 mag_lat-54.6 interpolated_beta+1.43 mag_lat*interpolated_beta -19.5
+2025-11-12T16:30:47.587179Z INFO  utilrsw.logger   rmse = 11.8335
+2025-11-12T16:30:47.587179Z INFO  utilrsw.logger   r = 0.7539
+2025-11-12T16:30:47.587179Z INFO  utilrsw.logger   r_2se = 0.0990
+2025-11-12T16:30:47.587179Z INFO  utilrsw.logger   r_ci_lower = 0.5935
+2025-11-12T16:30:47.589643Z INFO  utilrsw.logger   r_ci_upper = 0.8567
+2025-11-12T16:30:47.589643Z INFO  utilrsw.logger   r_2se_boot = 0.1473
+2025-11-12T16:30:47.589643Z INFO  utilrsw.logger   aic = 365.8681
+2025-11-12T16:30:47.589643Z INFO  utilrsw.logger   bic = 373.1827
+2025-11-12T16:30:47.589643Z INFO  utilrsw.logger   p-value for mag_lat = 4.3232e-01
+2025-11-12T16:30:47.589643Z INFO  utilrsw.logger   p-value for interpolated_beta = 1.4331e-01
+2025-11-12T16:30:47.589643Z INFO  utilrsw.logger   p-value for mag_lat*interpolated_beta = 6.1422e-02
+2025-11-12T16:30:47.589643Z WARN  utilrsw.logger   Skipping line plot because more than one input.
+2025-11-12T16:30:47.717849Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_mag_lat_gic_max.png
+2025-11-12T16:30:48.041126Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\scatter_fit_mag_lat_gic_max.pdf
+2025-11-12T16:30:48.166398Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.166398Z INFO  utilrsw.logger   r = 0.54; AIC = 384.57722150024404; inputs = ['alpha'] 
+2025-11-12T16:30:48.166398Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.166398Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.166398Z INFO  utilrsw.logger   z = -0.5289
+2025-11-12T16:30:48.166398Z INFO  utilrsw.logger   p = 0.5969 (two-tailed)
+2025-11-12T16:30:48.166398Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.166398Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.166398Z INFO  utilrsw.logger   r = 0.54; AIC = 384.57722150024404; inputs = ['alpha'] 
+2025-11-12T16:30:48.166398Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.166398Z INFO  utilrsw.logger   r = 0.74; AIC = 363.35109291027857; inputs = ['alpha*interpolated_beta'] 
+2025-11-12T16:30:48.166398Z INFO  utilrsw.logger   z = -1.6632
+2025-11-12T16:30:48.172219Z INFO  utilrsw.logger   p = 0.0963 (two-tailed)
+2025-11-12T16:30:48.172219Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.172219Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.172219Z INFO  utilrsw.logger   r = 0.54; AIC = 384.57722150024404; inputs = ['alpha'] 
+2025-11-12T16:30:48.172219Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.174999Z INFO  utilrsw.logger   r = 0.76; AIC = 363.5687373426533; inputs = ['alpha, interpolated_beta'] 
+2025-11-12T16:30:48.175884Z INFO  utilrsw.logger   z = -1.7844
+2025-11-12T16:30:48.176643Z INFO  utilrsw.logger   p = 0.0744 (two-tailed)
+2025-11-12T16:30:48.176643Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.178745Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.178745Z INFO  utilrsw.logger   r = 0.54; AIC = 384.57722150024404; inputs = ['alpha'] 
+2025-11-12T16:30:48.178745Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.178745Z INFO  utilrsw.logger   r = 0.76; AIC = 363.4991553821956; inputs = ['alpha, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.178745Z INFO  utilrsw.logger   z = -1.7891
+2025-11-12T16:30:48.179754Z INFO  utilrsw.logger   p = 0.0736 (two-tailed)
+2025-11-12T16:30:48.179754Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.179754Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.179754Z INFO  utilrsw.logger   r = 0.54; AIC = 384.57722150024404; inputs = ['alpha'] 
+2025-11-12T16:30:48.181674Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.181674Z INFO  utilrsw.logger   r = 0.75; AIC = 365.15869083764545; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.181674Z INFO  utilrsw.logger   z = -1.6764
+2025-11-12T16:30:48.182975Z INFO  utilrsw.logger   p = 0.0937 (two-tailed)
+2025-11-12T16:30:48.182975Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.182975Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.183980Z INFO  utilrsw.logger   r = 0.54; AIC = 384.57722150024404; inputs = ['alpha'] 
+2025-11-12T16:30:48.183980Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.183980Z INFO  utilrsw.logger   r = 0.76; AIC = 364.6188682349029; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.183980Z INFO  utilrsw.logger   z = -1.8482
+2025-11-12T16:30:48.184973Z INFO  utilrsw.logger   p = 0.0646 (two-tailed)
+2025-11-12T16:30:48.184973Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.185978Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.185978Z INFO  utilrsw.logger   r = 0.54; AIC = 384.57722150024404; inputs = ['alpha'] 
+2025-11-12T16:30:48.187074Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.187074Z INFO  utilrsw.logger   r = 0.52; AIC = 386.31604032957046; inputs = ['mag_lat'] 
+2025-11-12T16:30:48.187074Z INFO  utilrsw.logger   z = 0.1678
+2025-11-12T16:30:48.187074Z INFO  utilrsw.logger   p = 0.8668 (two-tailed)
+2025-11-12T16:30:48.187074Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.188358Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.188358Z INFO  utilrsw.logger   r = 0.54; AIC = 384.57722150024404; inputs = ['alpha'] 
+2025-11-12T16:30:48.189357Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.189357Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.189357Z INFO  utilrsw.logger   z = -0.5289
+2025-11-12T16:30:48.189357Z INFO  utilrsw.logger   p = 0.5969 (two-tailed)
+2025-11-12T16:30:48.189357Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.194266Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.194266Z INFO  utilrsw.logger   r = 0.54; AIC = 384.57722150024404; inputs = ['alpha'] 
+2025-11-12T16:30:48.194266Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.195272Z INFO  utilrsw.logger   r = 0.67; AIC = 373.498673062271; inputs = ['mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.195272Z INFO  utilrsw.logger   z = -0.9314
+2025-11-12T16:30:48.195272Z INFO  utilrsw.logger   p = 0.3516 (two-tailed)
+2025-11-12T16:30:48.195272Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.196274Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.196274Z INFO  utilrsw.logger   r = 0.54; AIC = 384.57722150024404; inputs = ['alpha'] 
+2025-11-12T16:30:48.196274Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.196274Z INFO  utilrsw.logger   r = 0.73; AIC = 367.7454193738782; inputs = ['mag_lat, interpolated_beta'] 
+2025-11-12T16:30:48.196274Z INFO  utilrsw.logger   z = -1.4975
+2025-11-12T16:30:48.197271Z INFO  utilrsw.logger   p = 0.1343 (two-tailed)
+2025-11-12T16:30:48.197271Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.197271Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.197271Z INFO  utilrsw.logger   r = 0.54; AIC = 384.57722150024404; inputs = ['alpha'] 
+2025-11-12T16:30:48.198272Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.198272Z INFO  utilrsw.logger   r = 0.74; AIC = 366.24215675885955; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.198272Z INFO  utilrsw.logger   z = -1.6020
+2025-11-12T16:30:48.198272Z INFO  utilrsw.logger   p = 0.1092 (two-tailed)
+2025-11-12T16:30:48.198272Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.199272Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.199272Z INFO  utilrsw.logger   r = 0.54; AIC = 384.57722150024404; inputs = ['alpha'] 
+2025-11-12T16:30:48.200219Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.200219Z INFO  utilrsw.logger   r = 0.75; AIC = 364.5514873653148; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.200219Z INFO  utilrsw.logger   z = -1.7178
+2025-11-12T16:30:48.200219Z INFO  utilrsw.logger   p = 0.0858 (two-tailed)
+2025-11-12T16:30:48.200219Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.201225Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.201225Z INFO  utilrsw.logger   r = 0.54; AIC = 384.57722150024404; inputs = ['alpha'] 
+2025-11-12T16:30:48.201225Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.201225Z INFO  utilrsw.logger   r = 0.75; AIC = 365.86809126711705; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.201225Z INFO  utilrsw.logger   z = -1.7641
+2025-11-12T16:30:48.201225Z INFO  utilrsw.logger   p = 0.0777 (two-tailed)
+2025-11-12T16:30:48.202225Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.202225Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.202225Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.202225Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.202225Z INFO  utilrsw.logger   r = 0.74; AIC = 363.35109291027857; inputs = ['alpha*interpolated_beta'] 
+2025-11-12T16:30:48.203224Z INFO  utilrsw.logger   z = -1.1344
+2025-11-12T16:30:48.203224Z INFO  utilrsw.logger   p = 0.2566 (two-tailed)
+2025-11-12T16:30:48.203224Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.203224Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.204223Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.204223Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.204223Z INFO  utilrsw.logger   r = 0.76; AIC = 363.5687373426533; inputs = ['alpha, interpolated_beta'] 
+2025-11-12T16:30:48.204776Z INFO  utilrsw.logger   z = -1.2555
+2025-11-12T16:30:48.204776Z INFO  utilrsw.logger   p = 0.2093 (two-tailed)
+2025-11-12T16:30:48.204776Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.205971Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.205971Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.205971Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.205971Z INFO  utilrsw.logger   r = 0.76; AIC = 363.4991553821956; inputs = ['alpha, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.205971Z INFO  utilrsw.logger   z = -1.2602
+2025-11-12T16:30:48.205971Z INFO  utilrsw.logger   p = 0.2076 (two-tailed)
+2025-11-12T16:30:48.205971Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.208406Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.209414Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.209414Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.211155Z INFO  utilrsw.logger   r = 0.75; AIC = 365.15869083764545; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.211155Z INFO  utilrsw.logger   z = -1.1475
+2025-11-12T16:30:48.211155Z INFO  utilrsw.logger   p = 0.2512 (two-tailed)
+2025-11-12T16:30:48.212370Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.212370Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.213366Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.213366Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.213366Z INFO  utilrsw.logger   r = 0.76; AIC = 364.6188682349029; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.213366Z INFO  utilrsw.logger   z = -1.3193
+2025-11-12T16:30:48.213366Z INFO  utilrsw.logger   p = 0.1871 (two-tailed)
+2025-11-12T16:30:48.213366Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.214368Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.214368Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.215008Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.215008Z INFO  utilrsw.logger   r = 0.52; AIC = 386.31604032957046; inputs = ['mag_lat'] 
+2025-11-12T16:30:48.215008Z INFO  utilrsw.logger   z = 0.6966
+2025-11-12T16:30:48.215008Z INFO  utilrsw.logger   p = 0.4860 (two-tailed)
+2025-11-12T16:30:48.215008Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger   z = 0.0000
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger   p = 1.0000 (two-tailed)
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger   r = 0.67; AIC = 373.498673062271; inputs = ['mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger   z = -0.4026
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger   p = 0.6873 (two-tailed)
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.216273Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.220091Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.220091Z INFO  utilrsw.logger   r = 0.73; AIC = 367.7454193738782; inputs = ['mag_lat, interpolated_beta'] 
+2025-11-12T16:30:48.220091Z INFO  utilrsw.logger   z = -0.9686
+2025-11-12T16:30:48.220091Z INFO  utilrsw.logger   p = 0.3327 (two-tailed)
+2025-11-12T16:30:48.221190Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.221190Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.221190Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.222199Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.222199Z INFO  utilrsw.logger   r = 0.74; AIC = 366.24215675885955; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.222199Z INFO  utilrsw.logger   z = -1.0731
+2025-11-12T16:30:48.222199Z INFO  utilrsw.logger   p = 0.2832 (two-tailed)
+2025-11-12T16:30:48.222199Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.223205Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.223205Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.223205Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.223205Z INFO  utilrsw.logger   r = 0.75; AIC = 364.5514873653148; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.223205Z INFO  utilrsw.logger   z = -1.1889
+2025-11-12T16:30:48.223205Z INFO  utilrsw.logger   p = 0.2345 (two-tailed)
+2025-11-12T16:30:48.223205Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.227982Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.227982Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.227982Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.227982Z INFO  utilrsw.logger   r = 0.75; AIC = 365.86809126711705; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.227982Z INFO  utilrsw.logger   z = -1.2353
+2025-11-12T16:30:48.227982Z INFO  utilrsw.logger   p = 0.2167 (two-tailed)
+2025-11-12T16:30:48.227982Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.228968Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.228968Z INFO  utilrsw.logger   r = 0.74; AIC = 363.35109291027857; inputs = ['alpha*interpolated_beta'] 
+2025-11-12T16:30:48.228968Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.228968Z INFO  utilrsw.logger   r = 0.76; AIC = 363.5687373426533; inputs = ['alpha, interpolated_beta'] 
+2025-11-12T16:30:48.229968Z INFO  utilrsw.logger   z = -0.1211
+2025-11-12T16:30:48.229968Z INFO  utilrsw.logger   p = 0.9036 (two-tailed)
+2025-11-12T16:30:48.229968Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.230977Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.230977Z INFO  utilrsw.logger   r = 0.74; AIC = 363.35109291027857; inputs = ['alpha*interpolated_beta'] 
+2025-11-12T16:30:48.230977Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.230977Z INFO  utilrsw.logger   r = 0.76; AIC = 363.4991553821956; inputs = ['alpha, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.230977Z INFO  utilrsw.logger   z = -0.1258
+2025-11-12T16:30:48.230977Z INFO  utilrsw.logger   p = 0.8999 (two-tailed)
+2025-11-12T16:30:48.230977Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.232233Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.232233Z INFO  utilrsw.logger   r = 0.74; AIC = 363.35109291027857; inputs = ['alpha*interpolated_beta'] 
+2025-11-12T16:30:48.232233Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.232233Z INFO  utilrsw.logger   r = 0.75; AIC = 365.15869083764545; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.232233Z INFO  utilrsw.logger   z = -0.0132
+2025-11-12T16:30:48.233424Z INFO  utilrsw.logger   p = 0.9895 (two-tailed)
+2025-11-12T16:30:48.233424Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.233926Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.233926Z INFO  utilrsw.logger   r = 0.74; AIC = 363.35109291027857; inputs = ['alpha*interpolated_beta'] 
+2025-11-12T16:30:48.233926Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.233926Z INFO  utilrsw.logger   r = 0.76; AIC = 364.6188682349029; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.233926Z INFO  utilrsw.logger   z = -0.1850
+2025-11-12T16:30:48.233926Z INFO  utilrsw.logger   p = 0.8533 (two-tailed)
+2025-11-12T16:30:48.233926Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.234930Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.234930Z INFO  utilrsw.logger   r = 0.74; AIC = 363.35109291027857; inputs = ['alpha*interpolated_beta'] 
+2025-11-12T16:30:48.234930Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.234930Z INFO  utilrsw.logger   r = 0.52; AIC = 386.31604032957046; inputs = ['mag_lat'] 
+2025-11-12T16:30:48.234930Z INFO  utilrsw.logger   z = 1.8310
+2025-11-12T16:30:48.234930Z INFO  utilrsw.logger   p = 0.0671 (two-tailed)
+2025-11-12T16:30:48.235931Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.235931Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.235931Z INFO  utilrsw.logger   r = 0.74; AIC = 363.35109291027857; inputs = ['alpha*interpolated_beta'] 
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger   z = 1.1344
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger   p = 0.2566 (two-tailed)
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger   r = 0.74; AIC = 363.35109291027857; inputs = ['alpha*interpolated_beta'] 
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger   r = 0.67; AIC = 373.498673062271; inputs = ['mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger   z = 0.7318
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger   p = 0.4643 (two-tailed)
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger   r = 0.74; AIC = 363.35109291027857; inputs = ['alpha*interpolated_beta'] 
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger   r = 0.73; AIC = 367.7454193738782; inputs = ['mag_lat, interpolated_beta'] 
+2025-11-12T16:30:48.236931Z INFO  utilrsw.logger   z = 0.1657
+2025-11-12T16:30:48.241894Z INFO  utilrsw.logger   p = 0.8684 (two-tailed)
+2025-11-12T16:30:48.242858Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.244162Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.244162Z INFO  utilrsw.logger   r = 0.74; AIC = 363.35109291027857; inputs = ['alpha*interpolated_beta'] 
+2025-11-12T16:30:48.245160Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.245160Z INFO  utilrsw.logger   r = 0.74; AIC = 366.24215675885955; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.245160Z INFO  utilrsw.logger   z = 0.0613
+2025-11-12T16:30:48.245160Z INFO  utilrsw.logger   p = 0.9512 (two-tailed)
+2025-11-12T16:30:48.245160Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.246160Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.246160Z INFO  utilrsw.logger   r = 0.74; AIC = 363.35109291027857; inputs = ['alpha*interpolated_beta'] 
+2025-11-12T16:30:48.246160Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.246160Z INFO  utilrsw.logger   r = 0.75; AIC = 364.5514873653148; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.246160Z INFO  utilrsw.logger   z = -0.0546
+2025-11-12T16:30:48.246160Z INFO  utilrsw.logger   p = 0.9565 (two-tailed)
+2025-11-12T16:30:48.246160Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.247161Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.247161Z INFO  utilrsw.logger   r = 0.74; AIC = 363.35109291027857; inputs = ['alpha*interpolated_beta'] 
+2025-11-12T16:30:48.247161Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.247161Z INFO  utilrsw.logger   r = 0.75; AIC = 365.86809126711705; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.248159Z INFO  utilrsw.logger   z = -0.1009
+2025-11-12T16:30:48.248159Z INFO  utilrsw.logger   p = 0.9196 (two-tailed)
+2025-11-12T16:30:48.248159Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.249113Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.249113Z INFO  utilrsw.logger   r = 0.76; AIC = 363.5687373426533; inputs = ['alpha, interpolated_beta'] 
+2025-11-12T16:30:48.249113Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.249113Z INFO  utilrsw.logger   r = 0.76; AIC = 363.4991553821956; inputs = ['alpha, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.250117Z INFO  utilrsw.logger   z = -0.0047
+2025-11-12T16:30:48.250117Z INFO  utilrsw.logger   p = 0.9963 (two-tailed)
+2025-11-12T16:30:48.250117Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.250117Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.250117Z INFO  utilrsw.logger   r = 0.76; AIC = 363.5687373426533; inputs = ['alpha, interpolated_beta'] 
+2025-11-12T16:30:48.251116Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.251116Z INFO  utilrsw.logger   r = 0.75; AIC = 365.15869083764545; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.251116Z INFO  utilrsw.logger   z = 0.1080
+2025-11-12T16:30:48.251116Z INFO  utilrsw.logger   p = 0.9140 (two-tailed)
+2025-11-12T16:30:48.251116Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.252118Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.252118Z INFO  utilrsw.logger   r = 0.76; AIC = 363.5687373426533; inputs = ['alpha, interpolated_beta'] 
+2025-11-12T16:30:48.252118Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.252118Z INFO  utilrsw.logger   r = 0.76; AIC = 364.6188682349029; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.252118Z INFO  utilrsw.logger   z = -0.0638
+2025-11-12T16:30:48.252118Z INFO  utilrsw.logger   p = 0.9491 (two-tailed)
+2025-11-12T16:30:48.252118Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.253117Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.253117Z INFO  utilrsw.logger   r = 0.76; AIC = 363.5687373426533; inputs = ['alpha, interpolated_beta'] 
+2025-11-12T16:30:48.253117Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger   r = 0.52; AIC = 386.31604032957046; inputs = ['mag_lat'] 
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger   z = 1.9521
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger   p = 0.0509 (two-tailed)
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger   r = 0.76; AIC = 363.5687373426533; inputs = ['alpha, interpolated_beta'] 
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger   z = 1.2555
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger   p = 0.2093 (two-tailed)
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger   r = 0.76; AIC = 363.5687373426533; inputs = ['alpha, interpolated_beta'] 
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger   r = 0.67; AIC = 373.498673062271; inputs = ['mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger   z = 0.8529
+2025-11-12T16:30:48.253844Z INFO  utilrsw.logger   p = 0.3937 (two-tailed)
+2025-11-12T16:30:48.260084Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.260084Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.261105Z INFO  utilrsw.logger   r = 0.76; AIC = 363.5687373426533; inputs = ['alpha, interpolated_beta'] 
+2025-11-12T16:30:48.261105Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.261105Z INFO  utilrsw.logger   r = 0.73; AIC = 367.7454193738782; inputs = ['mag_lat, interpolated_beta'] 
+2025-11-12T16:30:48.261105Z INFO  utilrsw.logger   z = 0.2869
+2025-11-12T16:30:48.261105Z INFO  utilrsw.logger   p = 0.7742 (two-tailed)
+2025-11-12T16:30:48.261105Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.262089Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.262089Z INFO  utilrsw.logger   r = 0.76; AIC = 363.5687373426533; inputs = ['alpha, interpolated_beta'] 
+2025-11-12T16:30:48.262089Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.262089Z INFO  utilrsw.logger   r = 0.74; AIC = 366.24215675885955; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.262089Z INFO  utilrsw.logger   z = 0.1824
+2025-11-12T16:30:48.263089Z INFO  utilrsw.logger   p = 0.8553 (two-tailed)
+2025-11-12T16:30:48.263089Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.263089Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.263089Z INFO  utilrsw.logger   r = 0.76; AIC = 363.5687373426533; inputs = ['alpha, interpolated_beta'] 
+2025-11-12T16:30:48.264089Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.264089Z INFO  utilrsw.logger   r = 0.75; AIC = 364.5514873653148; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.264089Z INFO  utilrsw.logger   z = 0.0666
+2025-11-12T16:30:48.264089Z INFO  utilrsw.logger   p = 0.9469 (two-tailed)
+2025-11-12T16:30:48.264089Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.265342Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.265342Z INFO  utilrsw.logger   r = 0.76; AIC = 363.5687373426533; inputs = ['alpha, interpolated_beta'] 
+2025-11-12T16:30:48.265342Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.265342Z INFO  utilrsw.logger   r = 0.75; AIC = 365.86809126711705; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.265342Z INFO  utilrsw.logger   z = 0.0202
+2025-11-12T16:30:48.265342Z INFO  utilrsw.logger   p = 0.9839 (two-tailed)
+2025-11-12T16:30:48.266578Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.266578Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.266578Z INFO  utilrsw.logger   r = 0.76; AIC = 363.4991553821956; inputs = ['alpha, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.266578Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.266578Z INFO  utilrsw.logger   r = 0.75; AIC = 365.15869083764545; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.267577Z INFO  utilrsw.logger   z = 0.1127
+2025-11-12T16:30:48.267577Z INFO  utilrsw.logger   p = 0.9103 (two-tailed)
+2025-11-12T16:30:48.267577Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.267577Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.267577Z INFO  utilrsw.logger   r = 0.76; AIC = 363.4991553821956; inputs = ['alpha, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.268578Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.268578Z INFO  utilrsw.logger   r = 0.76; AIC = 364.6188682349029; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.268578Z INFO  utilrsw.logger   z = -0.0591
+2025-11-12T16:30:48.268578Z INFO  utilrsw.logger   p = 0.9528 (two-tailed)
+2025-11-12T16:30:48.268578Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.269578Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.269578Z INFO  utilrsw.logger   r = 0.76; AIC = 363.4991553821956; inputs = ['alpha, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.269578Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   r = 0.52; AIC = 386.31604032957046; inputs = ['mag_lat'] 
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   z = 1.9568
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   p = 0.0504 (two-tailed)
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   r = 0.76; AIC = 363.4991553821956; inputs = ['alpha, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   z = 1.2602
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   p = 0.2076 (two-tailed)
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   r = 0.76; AIC = 363.4991553821956; inputs = ['alpha, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   r = 0.67; AIC = 373.498673062271; inputs = ['mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   z = 0.8576
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   p = 0.3911 (two-tailed)
+2025-11-12T16:30:48.270214Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.276733Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.277485Z INFO  utilrsw.logger   r = 0.76; AIC = 363.4991553821956; inputs = ['alpha, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.277485Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.277485Z INFO  utilrsw.logger   r = 0.73; AIC = 367.7454193738782; inputs = ['mag_lat, interpolated_beta'] 
+2025-11-12T16:30:48.277485Z INFO  utilrsw.logger   z = 0.2916
+2025-11-12T16:30:48.277485Z INFO  utilrsw.logger   p = 0.7706 (two-tailed)
+2025-11-12T16:30:48.277485Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.278498Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.278498Z INFO  utilrsw.logger   r = 0.76; AIC = 363.4991553821956; inputs = ['alpha, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.278498Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.278498Z INFO  utilrsw.logger   r = 0.74; AIC = 366.24215675885955; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.279497Z INFO  utilrsw.logger   z = 0.1871
+2025-11-12T16:30:48.279497Z INFO  utilrsw.logger   p = 0.8516 (two-tailed)
+2025-11-12T16:30:48.279497Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.279497Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.280501Z INFO  utilrsw.logger   r = 0.76; AIC = 363.4991553821956; inputs = ['alpha, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.280501Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.280501Z INFO  utilrsw.logger   r = 0.75; AIC = 364.5514873653148; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.280501Z INFO  utilrsw.logger   z = 0.0713
+2025-11-12T16:30:48.280501Z INFO  utilrsw.logger   p = 0.9432 (two-tailed)
+2025-11-12T16:30:48.280501Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.281497Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.281497Z INFO  utilrsw.logger   r = 0.76; AIC = 363.4991553821956; inputs = ['alpha, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.281497Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.281497Z INFO  utilrsw.logger   r = 0.75; AIC = 365.86809126711705; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.281497Z INFO  utilrsw.logger   z = 0.0249
+2025-11-12T16:30:48.281497Z INFO  utilrsw.logger   p = 0.9801 (two-tailed)
+2025-11-12T16:30:48.281497Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.283318Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.283318Z INFO  utilrsw.logger   r = 0.75; AIC = 365.15869083764545; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.283318Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.283318Z INFO  utilrsw.logger   r = 0.76; AIC = 364.6188682349029; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.284494Z INFO  utilrsw.logger   z = -0.1718
+2025-11-12T16:30:48.284494Z INFO  utilrsw.logger   p = 0.8636 (two-tailed)
+2025-11-12T16:30:48.284494Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.284494Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.285495Z INFO  utilrsw.logger   r = 0.75; AIC = 365.15869083764545; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.285495Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.285495Z INFO  utilrsw.logger   r = 0.52; AIC = 386.31604032957046; inputs = ['mag_lat'] 
+2025-11-12T16:30:48.285495Z INFO  utilrsw.logger   z = 1.8442
+2025-11-12T16:30:48.285495Z INFO  utilrsw.logger   p = 0.0652 (two-tailed)
+2025-11-12T16:30:48.285495Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.286495Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.286495Z INFO  utilrsw.logger   r = 0.75; AIC = 365.15869083764545; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.286495Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.286495Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.286495Z INFO  utilrsw.logger   z = 1.1475
+2025-11-12T16:30:48.286495Z INFO  utilrsw.logger   p = 0.2512 (two-tailed)
+2025-11-12T16:30:48.286495Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.287879Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.287879Z INFO  utilrsw.logger   r = 0.75; AIC = 365.15869083764545; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.287879Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.287879Z INFO  utilrsw.logger   r = 0.67; AIC = 373.498673062271; inputs = ['mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.288879Z INFO  utilrsw.logger   z = 0.7450
+2025-11-12T16:30:48.288879Z INFO  utilrsw.logger   p = 0.4563 (two-tailed)
+2025-11-12T16:30:48.288879Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.288879Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.288879Z INFO  utilrsw.logger   r = 0.75; AIC = 365.15869083764545; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.288879Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.288879Z INFO  utilrsw.logger   r = 0.73; AIC = 367.7454193738782; inputs = ['mag_lat, interpolated_beta'] 
+2025-11-12T16:30:48.288879Z INFO  utilrsw.logger   z = 0.1789
+2025-11-12T16:30:48.292416Z INFO  utilrsw.logger   p = 0.8580 (two-tailed)
+2025-11-12T16:30:48.292416Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.293778Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.293778Z INFO  utilrsw.logger   r = 0.75; AIC = 365.15869083764545; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.294784Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.294784Z INFO  utilrsw.logger   r = 0.74; AIC = 366.24215675885955; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.294784Z INFO  utilrsw.logger   z = 0.0744
+2025-11-12T16:30:48.294784Z INFO  utilrsw.logger   p = 0.9407 (two-tailed)
+2025-11-12T16:30:48.294784Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.295785Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.295785Z INFO  utilrsw.logger   r = 0.75; AIC = 365.15869083764545; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.295785Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.295785Z INFO  utilrsw.logger   r = 0.75; AIC = 364.5514873653148; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.295785Z INFO  utilrsw.logger   z = -0.0414
+2025-11-12T16:30:48.296407Z INFO  utilrsw.logger   p = 0.9670 (two-tailed)
+2025-11-12T16:30:48.296407Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.296407Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.296407Z INFO  utilrsw.logger   r = 0.75; AIC = 365.15869083764545; inputs = ['interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.297412Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.297412Z INFO  utilrsw.logger   r = 0.75; AIC = 365.86809126711705; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.297412Z INFO  utilrsw.logger   z = -0.0877
+2025-11-12T16:30:48.297412Z INFO  utilrsw.logger   p = 0.9301 (two-tailed)
+2025-11-12T16:30:48.297412Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.298417Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.298417Z INFO  utilrsw.logger   r = 0.76; AIC = 364.6188682349029; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.298417Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.299019Z INFO  utilrsw.logger   r = 0.52; AIC = 386.31604032957046; inputs = ['mag_lat'] 
+2025-11-12T16:30:48.299019Z INFO  utilrsw.logger   z = 2.0160
+2025-11-12T16:30:48.299332Z INFO  utilrsw.logger   p = 0.0438 (two-tailed)
+2025-11-12T16:30:48.299332Z INFO  utilrsw.logger   Reject null with alpha = 0.05)
+2025-11-12T16:30:48.299332Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.300588Z INFO  utilrsw.logger   r = 0.76; AIC = 364.6188682349029; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.300588Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.300588Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.300588Z INFO  utilrsw.logger   z = 1.3193
+2025-11-12T16:30:48.300588Z INFO  utilrsw.logger   p = 0.1871 (two-tailed)
+2025-11-12T16:30:48.300588Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.301589Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.301589Z INFO  utilrsw.logger   r = 0.76; AIC = 364.6188682349029; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.301589Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.301589Z INFO  utilrsw.logger   r = 0.67; AIC = 373.498673062271; inputs = ['mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.301589Z INFO  utilrsw.logger   z = 0.9168
+2025-11-12T16:30:48.301589Z INFO  utilrsw.logger   p = 0.3593 (two-tailed)
+2025-11-12T16:30:48.301589Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.302589Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.302589Z INFO  utilrsw.logger   r = 0.76; AIC = 364.6188682349029; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.302589Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.302589Z INFO  utilrsw.logger   r = 0.73; AIC = 367.7454193738782; inputs = ['mag_lat, interpolated_beta'] 
+2025-11-12T16:30:48.302589Z INFO  utilrsw.logger   z = 0.3507
+2025-11-12T16:30:48.303590Z INFO  utilrsw.logger   p = 0.7258 (two-tailed)
+2025-11-12T16:30:48.304102Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.304102Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.304102Z INFO  utilrsw.logger   r = 0.76; AIC = 364.6188682349029; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.304102Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.305107Z INFO  utilrsw.logger   r = 0.74; AIC = 366.24215675885955; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.305107Z INFO  utilrsw.logger   z = 0.2462
+2025-11-12T16:30:48.305107Z INFO  utilrsw.logger   p = 0.8055 (two-tailed)
+2025-11-12T16:30:48.305107Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.305107Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.305107Z INFO  utilrsw.logger   r = 0.76; AIC = 364.6188682349029; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.305107Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.305107Z INFO  utilrsw.logger   r = 0.75; AIC = 364.5514873653148; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.305107Z INFO  utilrsw.logger   z = 0.1304
+2025-11-12T16:30:48.305107Z INFO  utilrsw.logger   p = 0.8963 (two-tailed)
+2025-11-12T16:30:48.305107Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.310437Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.310437Z INFO  utilrsw.logger   r = 0.76; AIC = 364.6188682349029; inputs = ['alpha, interpolated_beta, alpha*interpolated_beta'] 
+2025-11-12T16:30:48.310437Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.310437Z INFO  utilrsw.logger   r = 0.75; AIC = 365.86809126711705; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.311610Z INFO  utilrsw.logger   z = 0.0840
+2025-11-12T16:30:48.311610Z INFO  utilrsw.logger   p = 0.9330 (two-tailed)
+2025-11-12T16:30:48.311610Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.311610Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.312608Z INFO  utilrsw.logger   r = 0.52; AIC = 386.31604032957046; inputs = ['mag_lat'] 
+2025-11-12T16:30:48.312608Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.312608Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.312608Z INFO  utilrsw.logger   z = -0.6966
+2025-11-12T16:30:48.312608Z INFO  utilrsw.logger   p = 0.4860 (two-tailed)
+2025-11-12T16:30:48.312608Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.313609Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.313609Z INFO  utilrsw.logger   r = 0.52; AIC = 386.31604032957046; inputs = ['mag_lat'] 
+2025-11-12T16:30:48.313609Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.313609Z INFO  utilrsw.logger   r = 0.67; AIC = 373.498673062271; inputs = ['mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.313609Z INFO  utilrsw.logger   z = -1.0992
+2025-11-12T16:30:48.313609Z INFO  utilrsw.logger   p = 0.2717 (two-tailed)
+2025-11-12T16:30:48.314608Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.314608Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.314608Z INFO  utilrsw.logger   r = 0.52; AIC = 386.31604032957046; inputs = ['mag_lat'] 
+2025-11-12T16:30:48.314608Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.314608Z INFO  utilrsw.logger   r = 0.73; AIC = 367.7454193738782; inputs = ['mag_lat, interpolated_beta'] 
+2025-11-12T16:30:48.316061Z INFO  utilrsw.logger   z = -1.6652
+2025-11-12T16:30:48.316061Z INFO  utilrsw.logger   p = 0.0959 (two-tailed)
+2025-11-12T16:30:48.316061Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.316061Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.317245Z INFO  utilrsw.logger   r = 0.52; AIC = 386.31604032957046; inputs = ['mag_lat'] 
+2025-11-12T16:30:48.317245Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.317245Z INFO  utilrsw.logger   r = 0.74; AIC = 366.24215675885955; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.317245Z INFO  utilrsw.logger   z = -1.7697
+2025-11-12T16:30:48.317245Z INFO  utilrsw.logger   p = 0.0768 (two-tailed)
+2025-11-12T16:30:48.317245Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.318239Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.318239Z INFO  utilrsw.logger   r = 0.52; AIC = 386.31604032957046; inputs = ['mag_lat'] 
+2025-11-12T16:30:48.318239Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.318239Z INFO  utilrsw.logger   r = 0.75; AIC = 364.5514873653148; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.318239Z INFO  utilrsw.logger   z = -1.8856
+2025-11-12T16:30:48.318239Z INFO  utilrsw.logger   p = 0.0594 (two-tailed)
+2025-11-12T16:30:48.318239Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.319242Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.319242Z INFO  utilrsw.logger   r = 0.52; AIC = 386.31604032957046; inputs = ['mag_lat'] 
+2025-11-12T16:30:48.319242Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.319242Z INFO  utilrsw.logger   r = 0.75; AIC = 365.86809126711705; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.319242Z INFO  utilrsw.logger   z = -1.9319
+2025-11-12T16:30:48.320243Z INFO  utilrsw.logger   p = 0.0534 (two-tailed)
+2025-11-12T16:30:48.320243Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.320243Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.320243Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.321463Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.321463Z INFO  utilrsw.logger   r = 0.67; AIC = 373.498673062271; inputs = ['mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.321463Z INFO  utilrsw.logger   z = -0.4026
+2025-11-12T16:30:48.321463Z INFO  utilrsw.logger   p = 0.6873 (two-tailed)
+2025-11-12T16:30:48.321463Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.322704Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.322704Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.322704Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.322704Z INFO  utilrsw.logger   r = 0.73; AIC = 367.7454193738782; inputs = ['mag_lat, interpolated_beta'] 
+2025-11-12T16:30:48.322704Z INFO  utilrsw.logger   z = -0.9686
+2025-11-12T16:30:48.323703Z INFO  utilrsw.logger   p = 0.3327 (two-tailed)
+2025-11-12T16:30:48.323703Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.325704Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.327661Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.327661Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.327661Z INFO  utilrsw.logger   r = 0.74; AIC = 366.24215675885955; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.327661Z INFO  utilrsw.logger   z = -1.0731
+2025-11-12T16:30:48.327661Z INFO  utilrsw.logger   p = 0.2832 (two-tailed)
+2025-11-12T16:30:48.327661Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.328667Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.328667Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.328667Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.328667Z INFO  utilrsw.logger   r = 0.75; AIC = 364.5514873653148; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.328667Z INFO  utilrsw.logger   z = -1.1889
+2025-11-12T16:30:48.329665Z INFO  utilrsw.logger   p = 0.2345 (two-tailed)
+2025-11-12T16:30:48.329665Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.329665Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.329665Z INFO  utilrsw.logger   r = 0.62; AIC = 378.565988645628; inputs = ['interpolated_beta'] 
+2025-11-12T16:30:48.329665Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.330666Z INFO  utilrsw.logger   r = 0.75; AIC = 365.86809126711705; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.330666Z INFO  utilrsw.logger   z = -1.2353
+2025-11-12T16:30:48.330666Z INFO  utilrsw.logger   p = 0.2167 (two-tailed)
+2025-11-12T16:30:48.330666Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.331671Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.331671Z INFO  utilrsw.logger   r = 0.67; AIC = 373.498673062271; inputs = ['mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.331671Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.331671Z INFO  utilrsw.logger   r = 0.73; AIC = 367.7454193738782; inputs = ['mag_lat, interpolated_beta'] 
+2025-11-12T16:30:48.331671Z INFO  utilrsw.logger   z = -0.5661
+2025-11-12T16:30:48.331671Z INFO  utilrsw.logger   p = 0.5714 (two-tailed)
+2025-11-12T16:30:48.331671Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.332984Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.332984Z INFO  utilrsw.logger   r = 0.67; AIC = 373.498673062271; inputs = ['mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.332984Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.332984Z INFO  utilrsw.logger   r = 0.74; AIC = 366.24215675885955; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.334240Z INFO  utilrsw.logger   z = -0.6705
+2025-11-12T16:30:48.334240Z INFO  utilrsw.logger   p = 0.5025 (two-tailed)
+2025-11-12T16:30:48.334240Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.334240Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.335244Z INFO  utilrsw.logger   r = 0.67; AIC = 373.498673062271; inputs = ['mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.335244Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.335244Z INFO  utilrsw.logger   r = 0.75; AIC = 364.5514873653148; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.335244Z INFO  utilrsw.logger   z = -0.7864
+2025-11-12T16:30:48.335244Z INFO  utilrsw.logger   p = 0.4316 (two-tailed)
+2025-11-12T16:30:48.335244Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.336245Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.336245Z INFO  utilrsw.logger   r = 0.67; AIC = 373.498673062271; inputs = ['mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.336245Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.336245Z INFO  utilrsw.logger   r = 0.75; AIC = 365.86809126711705; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.336245Z INFO  utilrsw.logger   z = -0.8327
+2025-11-12T16:30:48.336245Z INFO  utilrsw.logger   p = 0.4050 (two-tailed)
+2025-11-12T16:30:48.336245Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.337244Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.337244Z INFO  utilrsw.logger   r = 0.73; AIC = 367.7454193738782; inputs = ['mag_lat, interpolated_beta'] 
+2025-11-12T16:30:48.338859Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.339059Z INFO  utilrsw.logger   r = 0.74; AIC = 366.24215675885955; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.339059Z INFO  utilrsw.logger   z = -0.1045
+2025-11-12T16:30:48.339059Z INFO  utilrsw.logger   p = 0.9168 (two-tailed)
+2025-11-12T16:30:48.339059Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.340069Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.340069Z INFO  utilrsw.logger   r = 0.73; AIC = 367.7454193738782; inputs = ['mag_lat, interpolated_beta'] 
+2025-11-12T16:30:48.341068Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.342804Z INFO  utilrsw.logger   r = 0.75; AIC = 364.5514873653148; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   z = -0.2203
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   p = 0.8256 (two-tailed)
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   r = 0.73; AIC = 367.7454193738782; inputs = ['mag_lat, interpolated_beta'] 
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   r = 0.75; AIC = 365.86809126711705; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   z = -0.2667
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   p = 0.7897 (two-tailed)
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   r = 0.74; AIC = 366.24215675885955; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   r = 0.75; AIC = 364.5514873653148; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   z = -0.1158
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   p = 0.9078 (two-tailed)
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   r = 0.74; AIC = 366.24215675885955; inputs = ['mag_lat, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   r = 0.75; AIC = 365.86809126711705; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.343130Z INFO  utilrsw.logger   z = -0.1622
+2025-11-12T16:30:48.348894Z INFO  utilrsw.logger   p = 0.8712 (two-tailed)
+2025-11-12T16:30:48.348894Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.348894Z INFO  utilrsw.logger Running Fisher-z hyp. test on equality of rs for models:
+2025-11-12T16:30:48.349900Z INFO  utilrsw.logger   r = 0.75; AIC = 364.5514873653148; inputs = ['interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.349900Z INFO  utilrsw.logger   vs
+2025-11-12T16:30:48.349900Z INFO  utilrsw.logger   r = 0.75; AIC = 365.86809126711705; inputs = ['mag_lat, interpolated_beta, mag_lat*interpolated_beta'] 
+2025-11-12T16:30:48.349900Z INFO  utilrsw.logger   z = -0.0463
+2025-11-12T16:30:48.349900Z INFO  utilrsw.logger   p = 0.9630 (two-tailed)
+2025-11-12T16:30:48.349900Z INFO  utilrsw.logger   Do not reject null with alpha = 0.05
+2025-11-12T16:30:48.349900Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\fit_table_gic_max.md
+2025-11-12T16:30:49.175897Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression\fit_table_gic_max.tex
