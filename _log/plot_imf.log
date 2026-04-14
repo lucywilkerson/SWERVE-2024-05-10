@@ -1,4 +1,9 @@
-2026-01-16T16:19:45.999267Z INFO  utilrsw.logger Reading cached data from C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\imf_data\bcwind.pkl
-2026-01-16T16:19:53.679081Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed/summary/_imf\imf_hapi.png
-2026-01-16T16:19:55.128978Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed/summary/_imf\imf_hapi.pdf
-2026-01-16T16:19:56.351177Z INFO  utilrsw.logger Saving IMF parameters for 2024-05-10 to C:\Users\lwilker\Documents\GitHub\SWERVE-common\regression_results\regression_results_gic_max.pkl
+2026-04-14T12:33:47.878871Z INFO  plot_imf Reading cached data from c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\imf_data\bcwind.pkl
+2026-04-14T12:34:10.515826Z INFO  plot_imf Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed/summary/_imf\imf_mage.png
+2026-04-14T12:34:14.607653Z INFO  plot_imf Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed/summary/_imf\imf_mage.pdf
+2026-04-14T12:34:17.048092Z INFO  plot_imf Writing c:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures/_imf\imf_mage.pdf
+2026-04-14T12:34:19.105033Z INFO  plot_imf Reading c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\imf_data\Dean_IMF.txt
+2026-04-14T12:34:22.457880Z INFO  plot_imf Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed/summary/_imf\imf_all.png
+2026-04-14T12:34:26.926661Z INFO  plot_imf Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed/summary/_imf\imf_all.pdf
+2026-04-14T12:34:35.969556Z INFO  plot_imf Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed/summary/_imf\imf_vx_by_bz.png
+2026-04-14T12:34:39.130098Z INFO  plot_imf Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed/summary/_imf\imf_vx_by_bz.pdf
