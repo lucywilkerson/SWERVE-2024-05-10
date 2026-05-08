@@ -1,9 +1,9 @@
 |    | Fit Equation                                                                                   | r $\pm$ 2SE     | r$^2$   | RMSE (A)   | AIC     |
 |---:|:-----------------------------------------------------------------------------------------------|:----------------|:--------|:-----------|:--------|
-|  1 | $\vert{\text{GIC}\vert_\text{max}} = +83.9 \alpha  +0.062$                                     | $0.54 \pm 0.13$ | $0.29$  | $15.1$     | $384.6$ |
-|  2 | $\vert{\text{GIC}\vert_\text{max}} = +18.1 \beta  +3$                                          | $0.62 \pm 0.12$ | $0.38$  | $14.2$     | $378.6$ |
-|  3 | $\vert{\text{GIC}\vert_\text{max}} = +56 \alpha \cdot \beta  +6.36$                            | $0.74 \pm 0.10$ | $0.55$  | $12.0$     | $363.4$ |
-|  4 | $\vert{\text{GIC}\vert_\text{max}} = +25.3 \alpha +48.8 \alpha \cdot \beta  +1.92$             | $0.76 \pm 0.10$ | $0.57$  | $11.8$     | $363.5$ |
-|  5 | $\vert{\text{GIC}\vert_\text{max}} = -2.46 \beta +61.4 \alpha \cdot \beta  +7.4$               | $0.75 \pm 0.10$ | $0.56$  | $12.0$     | $365.2$ |
-|  6 | $\vert{\text{GIC}\vert_\text{max}} = +69 \alpha +15.7 \beta  -11.9$                            | $0.76 \pm 0.10$ | $0.57$  | $11.8$     | $363.6$ |
-|  7 | $\vert{\text{GIC}\vert_\text{max}} = +45.6 \alpha +7.96 \beta +25.6 \alpha \cdot \beta  -5.01$ | $0.76 \pm 0.10$ | $0.58$  | $11.7$     | $364.6$ |
+|  1 | $\vert{\text{GIC}\vert_\text{max}} = +106 \alpha  -2.87$                                       | $0.47 \pm 0.13$ | $0.22$  | $23.2$     | $432.9$ |
+|  2 | $\vert{\text{GIC}\vert_\text{max}} = +21 \beta  +2.75$                                         | $0.49 \pm 0.13$ | $0.24$  | $22.9$     | $431.8$ |
+|  3 | $\vert{\text{GIC}\vert_\text{max}} = +66.9 \alpha \cdot \beta  +5.98$                          | $0.61 \pm 0.12$ | $0.37$  | $20.8$     | $422.6$ |
+|  4 | $\vert{\text{GIC}\vert_\text{max}} = +37.3 \alpha +56.2 \alpha \cdot \beta  -0.584$            | $0.63 \pm 0.12$ | $0.39$  | $20.5$     | $423.3$ |
+|  5 | $\vert{\text{GIC}\vert_\text{max}} = -6 \beta +80 \alpha \cdot \beta  +8.51$                   | $0.62 \pm 0.12$ | $0.38$  | $20.7$     | $424.2$ |
+|  6 | $\vert{\text{GIC}\vert_\text{max}} = +88.1 \alpha +17.8 \beta  -16.3$                          | $0.62 \pm 0.12$ | $0.38$  | $20.6$     | $423.8$ |
+|  7 | $\vert{\text{GIC}\vert_\text{max}} = +53.1 \alpha +6.15 \beta +38.3 \alpha \cdot \beta  -5.94$ | $0.63 \pm 0.12$ | $0.39$  | $20.5$     | $425.1$ |
