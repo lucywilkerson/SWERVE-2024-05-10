@@ -1,0 +1,20 @@
+2026-02-26T15:31:42.594007Z INFO  utilrsw.logger Saving all events fit plot to results dir: C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all
+2026-02-26T15:31:42.598009Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_linear_fit_alpha_beta_gic_max_automated_error.png
+2026-02-26T15:31:43.370644Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_linear_fit_alpha_beta_gic_max_automated_error.pdf
+2026-02-26T15:31:46.926219Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_slope_vs_dst_gic_max_automated_error.png
+2026-02-26T15:31:47.436929Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_slope_vs_dst_gic_max_automated_error.pdf
+2026-02-26T15:31:47.950441Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_slope_vs_params_gic_max_automated_error.png
+2026-02-26T15:31:49.528536Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_slope_vs_params_gic_max_automated_error.pdf
+2026-02-26T15:31:50.004225Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_semilog_slope_vs_params_gic_max_automated_error.png
+2026-02-26T15:31:52.468825Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_semilog_slope_vs_params_gic_max_automated_error.pdf
+2026-02-26T15:31:52.932956Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_log_slope_vs_params_gic_max_automated_error.png
+2026-02-26T15:31:54.941210Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_log_slope_vs_params_gic_max_automated_error.pdf
+2026-02-26T15:31:55.672718Z INFO  utilrsw.logger Saving all events fit plot to results dir: C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all
+2026-02-26T15:31:55.674742Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_linear_fit_alpha_beta_gic_max_dst_slope.png
+2026-02-26T15:31:56.626379Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_linear_fit_alpha_beta_gic_max_dst_slope.pdf
+2026-02-26T15:31:57.072295Z INFO  utilrsw.logger Saving all events residuals plot to results dir: C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all
+2026-02-26T15:31:57.074312Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_linear_residuals_alpha_beta_gic_max_dst_slope.png
+2026-02-26T15:31:57.940848Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_linear_residuals_alpha_beta_gic_max_dst_slope.pdf
+2026-02-26T15:32:00.133181Z INFO  utilrsw.logger Saving all events qq plot to results dir: C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all
+2026-02-26T15:32:00.135175Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_linear_qq_alpha_beta_gic_max_dst_slope.png
+2026-02-26T15:32:00.895581Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\regression_all\all_events_linear_qq_alpha_beta_gic_max_dst_slope.pdf

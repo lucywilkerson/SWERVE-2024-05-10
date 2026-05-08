@@ -1,0 +1,2136 @@
+2026-04-17T15:56:34.742730Z INFO  cropped_B_table     Excluding sites with manual_error
+2026-04-17T15:56:34.751237Z INFO  cropped_B_table Reading '50100' data
+2026-04-17T15:56:34.768156Z INFO  cropped_B_table   Reading 'B/measured/NERC' data
+2026-04-17T15:56:34.768156Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\nerc\mag\2024E04_50100.csv
+2026-04-17T15:56:39.348289Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:39.993029Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50100\data\B_measured_NERC.pkl
+2026-04-17T15:56:40.578016Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:56:40.585270Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\50100\dB_50100.pkl
+2026-04-17T15:56:40.587899Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:40.621532Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50100\data\B_calculated_SWMF.pkl
+2026-04-17T15:56:40.636301Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:56:40.638328Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:56:41.548915Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:41.573146Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50100\data\B_calculated_MAGE.pkl
+2026-04-17T15:56:41.589720Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:56:41.589720Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\50100\dB_OpenGGCM_50100.pkl
+2026-04-17T15:56:41.598262Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:41.628134Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50100\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:56:41.651838Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50100\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:56:41.651838Z INFO  cropped_B_table Computing stats for '50100' data
+2026-04-17T15:56:42.211960Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000]
+2026-04-17T15:56:42.211960Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:42.213697Z INFO  cropped_B_table   Stats for B/measured/NERC:
+2026-04-17T15:56:42.213697Z INFO  cropped_B_table 
+    std: : [131.8611964322525, 77.76740716688067, 49.67364160478599, 113.06657461281227]
+    ave: : [-161.1415372426575, -20.22435276428401, 26.219430025448457, 192.46053173492922]
+    min: : [-411.7975000000019, -251.77933333333328, -94.84166666666364, 3.2802843512424573]
+    max: : [91.80066666666504, 164.8183333333334, 127.50333333333656, 412.18265747595837]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000]
+2026-04-17T15:56:42.230915Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:42.230915Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:42.232526Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:56:42.232526Z INFO  cropped_B_table 
+    std: : [40.572463074153035, 32.95538735021536, 35.28090879665306, 45.50622492910751]
+    ave: : [51.08079566810995, 6.7611088918018885, -11.100340730591727, 57.58755149806002]
+    min: : [-18.11061871280173, -49.66318207844887, -100.11079018074162, 4.509055448389174]
+    max: : [159.9516953685619, 136.32229717639055, 84.370080855956, 206.8103072711103]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:56:42.238097Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:42.238097Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:42.238097Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:56:42.238097Z INFO  cropped_B_table 
+    std: : [176.0588822066773, 86.26149948352828, 230.9312472903583, 170.40951464307642]
+    ave: : [190.18935799518047, 60.68186224962831, 320.9027215185156, 221.92938948418757]
+    min: : [-143.24851535070047, -94.91897151909086, -80.16562481739629, 2.5046410461811144]
+    max: : [583.7551902687774, 299.07370729878426, 816.6133122027641, 629.0162232826202]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:56:42.253749Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:42.253749Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:42.258637Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:56:42.258637Z INFO  cropped_B_table 
+    std: : [76.02286260164685, 420.5364345865645, 175.44873326133052, 301.8063854421268]
+    ave: : [-52.92401673138103, 150.27836868998855, 44.065561185578794, 341.94709210986787]
+    min: : [-247.06452722303152, -615.0561963740815, -622.6022653338661, 8.755403381103603]
+    max: : [183.05224328812216, 1745.1939154646295, 727.5443127173116, 1758.2725530625705]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:56:42.258637Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:42.258637Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:42.258637Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:56:42.258637Z INFO  cropped_B_table 
+    err_rms: : [267.08061469593093, 89.53936012921974, 67.31006031522817, 161.3435760056892]
+    err_ave: : [-212.19575388570422, -26.976097201987017, 37.32012406392824, 134.86618045781285]
+    err: : [[-8.24555471  8.71010658  4.50014373 -1.19846651]]
+         ...
+         [[-240.10440143  108.89656811   33.64311081  185.54206304]]
+         (1440 rows, 4 columns)
+    cc: : [-0.6783404814181868, -0.02958331330524303, 0.1642978084717238, 0.6820290640739016]
+    pe: : [-0.37320498094262833, -0.18430383356587354, -0.8348750834944583, -1.0348652691399107]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:56:42.258637Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:42.266722Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:42.268234Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:56:42.268234Z INFO  cropped_B_table 
+    err_rms: : [448.57627225703186, 149.7212178872367, 359.2074878635507, 145.73491876606266]
+    err_ave: : [-351.33089523783775, -80.90621501391237, -294.68329149306726, -29.46885774925828]
+    err: : [[ 4.76282331  8.34779357 -3.55330513  3.39115762]]
+         ...
+         [[-482.03411508  -37.02689878 -514.81609954  -67.71739599]]
+         (1441 rows, 4 columns)
+    cc: : [-0.6332704039073478, -0.17752633126393028, 0.5930041896936858, 0.5567163949452462]
+    pe: : [-0.14017854459873247, -1.1071924433792502, -51.29242271907657, -0.6613409723988712]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:56:42.268234Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:42.268234Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:42.273465Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:56:42.273465Z INFO  cropped_B_table 
+    err_rms: : [173.89140978545655, 490.23727437737034, 210.28840033893746, 325.6391747376065]
+    err_ave: : [-108.21752051127625, -170.50272145427257, -17.846131160130312, -149.48656037493876]
+    err: : [[  79.89062629   83.10587937  -41.25919442 -101.83507162]]
+         ...
+         [[-133.25324186  183.23209949 -210.70257067   95.98990201]]
+         (1441 rows, 4 columns)
+    cc: : [0.23141682996053314, -0.43362769586952754, -0.6111750593308363, 0.2956332427181906]
+    pe: : [-0.7390907011885541, -27.34928834958931, -10.15989371142116, -7.294779016002611]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:56:42.283370Z INFO  cropped_B_table Reading '50127' data
+2026-04-17T15:56:42.291726Z INFO  cropped_B_table   Reading 'B/measured/NERC' data
+2026-04-17T15:56:42.297911Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\nerc\mag\2024E04_50127.csv
+2026-04-17T15:56:42.408551Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:42.438142Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50127\data\B_measured_NERC.pkl
+2026-04-17T15:56:42.447913Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:56:42.447913Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\50127\dB_50127.pkl
+2026-04-17T15:56:42.508188Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:42.538341Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50127\data\B_calculated_SWMF.pkl
+2026-04-17T15:56:42.548872Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:56:42.557102Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:56:43.480371Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:43.503190Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50127\data\B_calculated_MAGE.pkl
+2026-04-17T15:56:43.518072Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:56:43.521261Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\50127\dB_OpenGGCM_50127.pkl
+2026-04-17T15:56:43.618179Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:43.651377Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50127\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:56:43.678131Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50127\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:56:43.678131Z INFO  cropped_B_table Computing stats for '50127' data
+2026-04-17T15:56:43.689798Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:43.689798Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:43.695951Z INFO  cropped_B_table   Stats for B/measured/NERC:
+2026-04-17T15:56:43.695951Z INFO  cropped_B_table 
+    std: : [108.73208842992773, 85.89714724625688, 84.71605553249249, 94.68840462779924]
+    ave: : [-172.42131852880047, -7.4968355308812, 59.1530673143649, 200.05101003146186]
+    min: : [-386.84000000000015, -289.47000000000025, -78.44999999999709, 34.34979184798726]
+    max: : [13.200000000000728, 197.10000000000036, 300.6399999999994, 387.96547075738596]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:56:43.708178Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:43.708178Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:43.708178Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:56:43.708178Z INFO  cropped_B_table 
+    std: : [52.37289748371478, 25.57663610181171, 40.47915553971305, 46.403222395336236]
+    ave: : [43.15060710199543, 7.658983297325666, -7.881041425815431, 56.25353833202543]
+    min: : [-86.42180461637676, -91.59847347364875, -129.01490549220534, 2.8628398131931503]
+    max: : [184.90233783950737, 88.19553904825335, 107.20444226309772, 194.50165353200873]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:56:43.719385Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:43.719385Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:43.719385Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:56:43.719385Z INFO  cropped_B_table 
+    std: : [168.8408448949617, 108.5390278498234, 321.5932695165417, 160.74079289598984]
+    ave: : [173.6657761589693, 51.09257997476731, 443.4525297122825, 217.30302001576752]
+    min: : [-160.86067204166056, -177.19144461481585, -110.24192327868639, 4.52784223631028]
+    max: : [589.4895394617888, 363.68842349842356, 1130.5275150732236, 638.5313214239329]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:56:43.738340Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:43.738340Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:43.738340Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:56:43.738340Z INFO  cropped_B_table 
+    std: : [82.76056157416777, 390.0109065339051, 236.6088322361749, 285.8110359439989]
+    ave: : [-37.16194114608269, 140.02270806823728, 65.14890913244706, 313.46010614525784]
+    min: : [-262.26730694774955, -607.5382182926505, -935.2562394750585, 5.564976555192359]
+    max: : [190.5240563551739, 1693.775925376698, 750.5693163475262, 1697.3437166844847]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:56:43.738340Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:43.743049Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:56:43.744809Z INFO  cropped_B_table 
+    err_rms: : [252.1837009686019, 89.7852412664164, 107.26653038357921, 167.62861197553843]
+    err_ave: : [-215.49406543532982, -15.173559686214439, 67.07992337025966, 143.73840161433282]
+    err: : [[-23.2135382   35.78874856  26.47248046  24.65150722]]
+         ...
+         [[-260.79234467   39.44016112   79.20068168  119.1001204 ]]
+         (1440 rows, 4 columns)
+    cc: : [-0.22775224251152001, 0.04686856064221763, 0.2640081713558854, 0.4189360429300385]
+    pe: : [-1.4244329806248572, -0.09188680060864529, -0.6027968041978418, -2.1336079520122873]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:56:43.744809Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:43.747982Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:43.749555Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:56:43.749555Z INFO  cropped_B_table 
+    err_rms: : [427.27800949185485, 165.2009235227798, 491.74900377421255, 125.23599975522413]
+    err_ave: : [-346.0870946877699, -58.58941550564853, -384.29946239791826, -17.252009984305456]
+    err: : [[-5.74278238 35.32106057 15.02068746 29.85266051]]
+         ...
+         [[-412.81842524 -107.72237549 -708.11791248  -59.46007793]]
+         (1441 rows, 4 columns)
+    cc: : [-0.6117172710914325, -0.25203731832254084, 0.30223107246935044, 0.6378680582892703]
+    pe: : [-0.5115983749790765, -1.2173129606651902, -32.69422912454591, -0.7493019307939639]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:56:43.751130Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:43.752687Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:43.752687Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:56:43.754274Z INFO  cropped_B_table 
+    err_rms: : [188.03948954630664, 455.87228520166565, 300.2272811929621, 298.5550070668115]
+    err_ave: : [-135.25937738271776, -147.5195435991185, -5.995841818082455, -113.40909611379563]
+    err: : [[ 40.98388436  91.74418153 -19.13399987 -42.10390729]]
+         ...
+         [[-136.64019557  105.4330336  -172.10731097   85.36868477]]
+         (1441 rows, 4 columns)
+    cc: : [0.08935857503976799, -0.3965678178502246, -0.6720005659131884, 0.26568336561845557]
+    pe: : [-1.9907676048336853, -19.394783419255692, -6.199801825825153, -8.941573314762445]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:56:43.764383Z INFO  cropped_B_table Reading '50112' data
+2026-04-17T15:56:43.769675Z INFO  cropped_B_table   Reading 'B/measured/NERC' data
+2026-04-17T15:56:43.778233Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\nerc\mag\2024E04_50112.csv
+2026-04-17T15:56:43.898324Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:43.921346Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50112\data\B_measured_NERC.pkl
+2026-04-17T15:56:43.932784Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:56:43.938055Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\50112\dB_50112.pkl
+2026-04-17T15:56:43.998332Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:44.038079Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50112\data\B_calculated_SWMF.pkl
+2026-04-17T15:56:44.048282Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:56:44.048282Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:56:45.101812Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:45.130312Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50112\data\B_calculated_MAGE.pkl
+2026-04-17T15:56:45.151155Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:56:45.151155Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\50112\dB_OpenGGCM_50112.pkl
+2026-04-17T15:56:45.230548Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:45.270329Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50112\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:56:45.298091Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50112\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:56:45.298091Z INFO  cropped_B_table Computing stats for '50112' data
+2026-04-17T15:56:45.316210Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:45.316210Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:45.318219Z INFO  cropped_B_table   Stats for B/measured/NERC:
+2026-04-17T15:56:45.318219Z INFO  cropped_B_table 
+    std: : [393.8945031077217, 201.3452441870062, 191.3829397046634, 314.33461445116023]
+    ave: : [-134.13046495489243, 11.914642609299097, 5.136710617626648, 339.1452158450236]
+    min: : [-1888.0, -1149.0, -670.0, 5.0]
+    max: : [789.0, 566.0, 533.0, 1937.0165203219099]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:56:45.334386Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:45.337940Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:45.337940Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:56:45.337940Z INFO  cropped_B_table 
+    std: : [93.22922541279623, 43.50927683676425, 72.91827067482576, 81.70549647942629]
+    ave: : [65.86825050284978, 18.31575105148765, -20.715140164417583, 92.64475510175873]
+    min: : [-124.47206554155566, -82.45023346041934, -320.60033833444476, 4.789881128313778]
+    max: : [401.86117271826254, 171.5783168935444, 129.0412180413988, 407.34185402858833]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:56:45.346453Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:45.346453Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:45.348300Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:56:45.348300Z INFO  cropped_B_table 
+    std: : [165.799231431884, 105.06179434065878, 315.2241151090254, 155.40719009024622]
+    ave: : [176.39666635891192, 42.465514837909986, 433.8499813008348, 217.47430858545687]
+    min: : [-158.27407081970887, -187.487846760885, -108.00498986274903, 4.449964992059052]
+    max: : [572.2872205610802, 343.7102273178661, 1109.16015294324, 609.6210390224048]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:56:45.359356Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:45.359356Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:45.359356Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:56:45.367755Z INFO  cropped_B_table 
+    std: : [385.48626204854514, 344.41558438621644, 297.52502997112686, 355.4127542171257]
+    ave: : [-92.13372770463907, 93.19018428396468, 90.48581133552561, 397.5884321301204]
+    min: : [-2580.950500124185, -550.7526142963212, -1013.4774419784277, 20.33125200123678]
+    max: : [727.4740235340757, 1160.9433675428738, 1189.2471516491446, 2767.9600658995464]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:56:45.368270Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:56:45.368270Z INFO  cropped_B_table 
+    err_rms: : [435.9686654668895, 195.75910332117718, 185.9381968958869, 381.2732144505575]
+    err_ave: : [-199.61963939173862, -6.228945495932051, 25.7311123866398, 246.23612488070572]
+    err: : [[-21.98841964  46.14775559   6.96282815  31.48311904]]
+         ...
+         [[-633.52932962 -136.35393526  -69.82364027  517.37645494]]
+         (1440 rows, 4 columns)
+    cc: : [0.184204577393103, 0.2360810306330336, 0.2879736232924372, 0.40330961614988003]
+    pe: : [-0.22582598923061692, 0.054378857963525706, 0.05620369199797659, -0.471733478418789]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:56:45.368270Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:45.376052Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:45.378068Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:45.378068Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:56:45.378068Z INFO  cropped_B_table 
+    err_rms: : [572.7128802762935, 252.3860282874459, 576.3644563909853, 282.9713917511913]
+    err_ave: : [-310.5271313138043, -30.5508722286109, -428.7132706832079, 121.67090725956672]
+    err: : [[ -5.99258652  42.34487444 -10.94055238  36.56390762]]
+         ...
+         [[-796.7464424  -323.98584073 -916.90038304  368.63316165]]
+         (1441 rows, 4 columns)
+    cc: : [-0.3746181506584067, -0.26443287435333523, -0.10283068624931013, 0.5904689047838297]
+    pe: : [0.12668061565711686, -0.06925814199271696, -7.635488365711588, 0.18959773620069298]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:56:45.378068Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:45.378068Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:56:45.378068Z INFO  cropped_B_table 
+    err_rms: : [692.5436339055012, 385.11733665513697, 359.3218558780378, 449.9160265039154]
+    err_ave: : [-41.99673725025341, -81.27554167466536, -85.34910071789906, -58.44321628509703]
+    err: : [[ -1.97006922 110.53915457 -75.74912122 -27.5387425 ]]
+         ...
+         [[-1081.02029903    18.06862249  -573.34136399    58.61062695]]
+         (1441 rows, 4 columns)
+    cc: : [-0.5732987574245036, 0.1258345260555191, 0.02916030118539164, 0.11688147918438421]
+    pe: : [-0.16560905644230228, -2.658502760928045, -2.525013834888139, -1.048700676611443]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:56:45.400316Z INFO  cropped_B_table Reading '50131' data
+2026-04-17T15:56:45.412202Z INFO  cropped_B_table   Reading 'B/measured/NERC' data
+2026-04-17T15:56:45.414261Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\nerc\mag\2024E04_50131.csv
+2026-04-17T15:56:45.998583Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:46.104699Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50131\data\B_measured_NERC.pkl
+2026-04-17T15:56:46.148279Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:56:46.148279Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\50131\dB_50131.pkl
+2026-04-17T15:56:46.219773Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:46.252552Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50131\data\B_calculated_SWMF.pkl
+2026-04-17T15:56:46.323228Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:56:46.326753Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:56:47.238018Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:47.263684Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50131\data\B_calculated_MAGE.pkl
+2026-04-17T15:56:47.277938Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:56:47.287889Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\50131\dB_OpenGGCM_50131.pkl
+2026-04-17T15:56:47.364530Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:47.397918Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50131\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:56:47.428028Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50131\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:56:47.429727Z INFO  cropped_B_table Computing stats for '50131' data
+2026-04-17T15:56:47.498059Z INFO  cropped_B_table   Uniq dts [ns] = [10000000000]
+2026-04-17T15:56:47.498059Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:47.498059Z INFO  cropped_B_table   Stats for B/measured/NERC:
+2026-04-17T15:56:47.498059Z INFO  cropped_B_table 
+    std: : [148.84735536369493, 84.05555768434782, 111.5144174729043, 109.34126100357015]
+    ave: : [-120.90029493407428, -31.8840724034235, 41.485025445295705, 181.46508056432003]
+    min: : [-578.7166666666677, -355.25666666666666, -366.5899999999953, 6.615137405995171]
+    max: : [427.34499999999935, 202.9766666666667, 530.6500000000027, 675.6305842542026]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [10000000000]
+2026-04-17T15:56:47.513546Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:47.513546Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:47.513546Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:56:47.513546Z INFO  cropped_B_table 
+    std: : [53.83614753017262, 43.38027898680593, 47.14295126437601, 59.531063892914055]
+    ave: : [63.10598269405495, 9.10211381259683, -21.492193038592653, 72.81102488827665]
+    min: : [-30.356884873730277, -73.4948241823549, -165.47792485847594, 1.2024281635049627]
+    max: : [207.04870599598598, 169.4784245704846, 90.68898382841118, 260.3572926407277]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:56:47.519851Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:47.519851Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:47.522880Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:56:47.522880Z INFO  cropped_B_table 
+    std: : [239.6541610124549, 311.09912940841247, 486.9627313566973, 213.10967185019086]
+    ave: : [-54.04122675197035, 88.90933690504666, 324.20468545977997, 345.8704632530978]
+    min: : [-756.0575058629734, -753.9973214775039, -1247.8510954431722, 1.2654767130206734]
+    max: : [464.67863065588125, 1571.5885314845002, 2346.3003393297035, 1587.5895164376668]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:56:47.538116Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:47.538116Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:47.538116Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:56:47.538116Z INFO  cropped_B_table 
+    std: : [64.44823968908761, 404.02179370498885, 219.8032014708185, 287.5031782825541]
+    ave: : [-46.52483724343105, 152.45594116330932, 22.074493986892936, 331.8681701241723]
+    min: : [-223.7646824768563, -540.8222585184703, -704.5716611208464, 7.192529961873399]
+    max: : [165.847605908863, 1328.593611185272, 538.2313725109307, 1340.6362907162063]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:56:47.541908Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:47.543437Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:47.544630Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:56:47.544630Z INFO  cropped_B_table 
+    err_rms: : [255.43303538978404, 110.22133020745966, 118.8286998520499, 143.28059524102017]
+    err_ave: : [-183.9575104718334, -41.029080247782, 63.06607498304028, 108.64547090286825]
+    err: : [[-5.68728412 19.91067709 22.95108201 10.34040887]]
+         ...
+         [[-298.48142263  -55.51610404 -112.58642404  249.73563734]]
+         (1440 rows, 4 columns)
+    cc: : [-0.39547258517474426, -0.20783417462701573, 0.4292036309263852, 0.5207889815975214]
+    pe: : [0.004825372736950606, -0.12548925757922436, -0.1357334316601022, -0.7159671285989646]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:56:47.548163Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:56:47.548163Z INFO  cropped_B_table 
+    err_rms: : [254.96035711273782, 315.4510865192821, 529.9437304799909, 236.16428396111982]
+    err_ave: : [-66.85906818210402, -120.79340930847022, -282.71966001448396, -164.4053826887782]
+    err: : [[ 15.93255066  15.45643795 188.6898292    2.60046931]]
+         ...
+         [[-594.80982974 -321.06311579 -166.05166771  -80.01879618]]
+         (1441 rows, 4 columns)
+    cc: : [0.2670871156556803, 0.3619492652213855, 0.4480221016983034, 0.6142648109994606]
+    pe: : [-1.934020014225395, -13.084167693365238, -21.58382381377077, -3.665092721629457]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:56:47.551386Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:47.551386Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:47.551386Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:56:47.554430Z INFO  cropped_B_table 
+    err_rms: : [174.0670180780021, 489.5086370018901, 305.09311547173655, 312.9667242413003]
+    err_ave: : [-74.37545769064323, -184.34001356673255, 19.41053145840283, -150.40308955985194]
+    err: : [[ 65.54483447  93.71770867 -54.04727857 -82.22844927]]
+         ...
+         [[-260.68737266   50.65787278 -608.79363905  144.74233975]]
+         (1441 rows, 4 columns)
+    cc: : [0.08034508238853252, -0.5202919625386094, -0.6518671839142754, 0.30675868834472036]
+    pe: : [-0.36757367902604443, -20.15935988280648, -1.6402387600706638, -7.192721126730399]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:56:47.568348Z INFO  cropped_B_table Reading '50132' data
+2026-04-17T15:56:47.627952Z INFO  cropped_B_table   Reading 'B/measured/NERC' data
+2026-04-17T15:56:47.631154Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\nerc\mag\2024E04_50132.csv
+2026-04-17T15:56:48.343809Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:48.434037Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50132\data\B_measured_NERC.pkl
+2026-04-17T15:56:48.478306Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:56:48.485091Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\50132\dB_50132.pkl
+2026-04-17T15:56:48.560527Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:48.592327Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50132\data\B_calculated_SWMF.pkl
+2026-04-17T15:56:48.606713Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:56:48.608229Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:56:49.608037Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:49.627903Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50132\data\B_calculated_MAGE.pkl
+2026-04-17T15:56:49.649198Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:56:49.649198Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\50132\dB_OpenGGCM_50132.pkl
+2026-04-17T15:56:49.724639Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:49.748629Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50132\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:56:49.782356Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50132\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:56:49.782356Z INFO  cropped_B_table Computing stats for '50132' data
+2026-04-17T15:56:49.852635Z INFO  cropped_B_table   Uniq dts [ns] = [10000000000]
+2026-04-17T15:56:49.856663Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:49.856663Z INFO  cropped_B_table   Stats for B/measured/NERC:
+2026-04-17T15:56:49.858177Z INFO  cropped_B_table 
+    std: : [154.8421369010676, 81.28675208133639, 122.87759496201326, 114.40506024284012]
+    ave: : [-129.1138804071249, -24.89825352764288, 28.34921350913425, 186.59111927258138]
+    min: : [-613.806666666666, -338.88500000000005, -376.76666666667006, 3.3567126291582667]
+    max: : [416.24333333333317, 206.48999999999992, 543.4349999999953, 696.1642872487495]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [10000000000]
+2026-04-17T15:56:49.869258Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:49.869258Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:49.873300Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:56:49.873300Z INFO  cropped_B_table 
+    std: : [54.43339429004208, 43.66380979814998, 47.490176536872745, 60.066690215005664]
+    ave: : [63.62602643686143, 9.069555135390264, -21.99338157863191, 73.43053518214896]
+    min: : [-31.06414517448735, -74.7440401454863, -168.2387572864902, 1.5886061197975159]
+    max: : [208.4229107473536, 170.88346405252213, 91.15227642407568, 262.7857425947097]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:56:49.878277Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:49.878277Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:49.878277Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:56:49.881984Z INFO  cropped_B_table 
+    std: : [240.46129611188888, 311.97521665578563, 485.14631788561576, 213.93714587128977]
+    ave: : [-54.61498013184179, 89.00644629166221, 323.06672910974453, 346.8227384240436]
+    min: : [-755.6567435593645, -763.2332990835421, -1246.00902253314, 1.9364651877068306]
+    max: : [467.12045681126006, 1592.0006377155946, 2352.731835273385, 1608.4726809077015]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:56:49.898298Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:49.898298Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:49.898298Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:56:49.898298Z INFO  cropped_B_table 
+    std: : [63.42610347345111, 401.1576585938482, 225.4642278806899, 286.23677462619156]
+    ave: : [-46.63406713069358, 151.96099701138309, 21.086776349073478, 329.067967647661]
+    min: : [-220.86866914473373, -539.0539002101516, -719.5308741804566, 6.998419504450436]
+    max: : [165.1501418502642, 1324.6612458122017, 541.6531749196464, 1336.1855845363411]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:56:49.902360Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:49.902360Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:49.907915Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:56:49.907915Z INFO  cropped_B_table 
+    err_rms: : [265.428283131887, 106.01588246411278, 120.57852522520142, 149.48690703910856]
+    err_ave: : [-192.68638176093563, -34.00491045946438, 50.44710264344377, 113.14536461319786]
+    err: : [[-12.39969839  13.94032113   0.07628406   5.55805386]]
+         ...
+         [[-315.666752    -36.88605601 -124.71837791  259.6990896 ]]
+         (1440 rows, 4 columns)
+    cc: : [-0.3779321410846114, -0.22061535212928648, 0.4588850915828775, 0.5208450441233998]
+    pe: : [-0.036355484507951896, -0.08954238909949574, 0.03673528798192205, -0.7061822645464169]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:56:49.910634Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:56:49.914692Z INFO  cropped_B_table 
+    err_rms: : [261.65100075796704, 316.4010170176659, 536.2598012749448, 233.53380230447002]
+    err_ave: : [-74.498900275283, -113.9046998193052, -294.71751560061034, -160.231619151462]
+    err: : [[  7.62703487   8.49748471 165.31163096  -0.79588408]]
+         ...
+         [[-610.98372986 -303.29132036 -181.47220274  -68.47708481]]
+         (1441 rows, 4 columns)
+    cc: : [0.2536229668162612, 0.3312522069017595, 0.41726788855726316, 0.6127303809534421]
+    pe: : [-1.8553969281746783, -14.150822122071109, -18.04605704919713, -3.1668611842803136]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:56:49.918159Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:49.921307Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:49.923366Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:56:49.923366Z INFO  cropped_B_table 
+    err_rms: : [183.16321697310235, 482.9039766141284, 320.8839317667385, 312.3102025830667]
+    err_ave: : [-82.47981327643126, -176.8592505390259, 7.26243716006071, -142.47684837507938]
+    err: : [[ 58.27848176  86.93599242 -78.33610687 -86.1006153 ]]
+         ...
+         [[-282.0508744    71.6730636  -633.91066741  152.83798594]]
+         (1441 rows, 4 columns)
+    cc: : [0.06379743645196831, -0.5271897418135864, -0.6674137867386465, 0.27150630129882636]
+    pe: : [-0.39925933485634935, -21.59509285055734, -1.0793699052891266, -6.452154939129597]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:56:49.940796Z INFO  cropped_B_table Reading '50103' data
+2026-04-17T15:56:49.962139Z INFO  cropped_B_table   Reading 'B/measured/NERC' data
+2026-04-17T15:56:49.966327Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\nerc\mag\2024E04_50103.csv
+2026-04-17T15:56:55.932240Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:56.600907Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50103\data\B_measured_NERC.pkl
+2026-04-17T15:56:57.138108Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:56:57.140894Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\50103\dB_50103.pkl
+2026-04-17T15:56:57.228151Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:57.260802Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50103\data\B_calculated_SWMF.pkl
+2026-04-17T15:56:57.273084Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:56:57.278280Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:56:58.182449Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:58.203188Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50103\data\B_calculated_MAGE.pkl
+2026-04-17T15:56:58.224074Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:56:58.228125Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\50103\dB_OpenGGCM_50103.pkl
+2026-04-17T15:56:58.314718Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:56:58.343500Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50103\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:56:58.369392Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50103\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:56:58.369392Z INFO  cropped_B_table Computing stats for '50103' data
+2026-04-17T15:56:58.949211Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000]
+2026-04-17T15:56:58.949211Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:58.949211Z INFO  cropped_B_table   Stats for B/measured/NERC:
+2026-04-17T15:56:58.949211Z INFO  cropped_B_table 
+    std: : [122.69919708382405, 77.68134253906157, 68.39103862504042, 104.19382042794138]
+    ave: : [-145.07184050427935, -15.384055285681216, 32.017610455701174, 177.58294863273323]
+    min: : [-402.61533333333335, -245.5635, -215.59283333333417, 8.203568802073491]
+    max: : [214.34000000000026, 153.72466666666668, 361.0778333333323, 437.13626835228484]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000]
+2026-04-17T15:56:58.965568Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:58.965568Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:58.965568Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:56:58.965568Z INFO  cropped_B_table 
+    std: : [44.67909594141405, 36.16402659499728, 38.937750456889006, 49.96556723931203]
+    ave: : [54.66210226155493, 7.628431852538664, -14.085174636406627, 62.07768456008211]
+    min: : [-23.97432081995197, -54.00469856030762, -120.37533706096458, 3.9772424532581168]
+    max: : [173.41108754137218, 149.9877292025075, 89.67658728318756, 226.78138521289478]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:56:58.973885Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:58.973885Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:58.973885Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:56:58.973885Z INFO  cropped_B_table 
+    std: : [175.02514399164556, 85.14139206321964, 229.99662496995577, 168.74358412824222]
+    ave: : [190.73975013956488, 58.40984709160921, 319.5236419576618, 221.81483946725186]
+    min: : [-142.74413414557603, -93.43350255995438, -79.36637199952793, 2.504656992588792]
+    max: : [579.8864750616558, 294.4165360175025, 813.5350186570158, 623.8723075424668]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:56:58.990620Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:56:58.990620Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:56:58.990620Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:56:58.990620Z INFO  cropped_B_table 
+    std: : [80.19543427001814, 410.79037806038986, 160.74841071647938, 292.1925651977282]
+    ave: : [-48.74055792959424, 151.62702405943938, 39.50875498790728, 339.3669748816703]
+    min: : [-248.91269396219985, -584.14427659623, -579.9492982232056, 10.667805905701922]
+    max: : [233.38196920562686, 1584.8571783828338, 593.1328587269004, 1598.3423890608665]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:56:58.995073Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:58.995073Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:58.999857Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:56:59.019939Z INFO  cropped_B_table 
+    err_rms: : [252.57409136415933, 91.19705647860823, 79.96214592224524, 140.9335875782805]
+    err_ave: : [-199.69677598840653, -22.99998694513123, 46.14277162714652, 115.48873007853183]
+    err: : [[-8.514191   11.91103655  7.15289012  1.76601607]]
+         ...
+         [[-230.00019979  115.1975456     4.43101941  172.19420677]]
+         (1440 rows, 4 columns)
+    cc: : [-0.6250503999496404, -0.0785907808032221, 0.36226952374143884, 0.6562660458856353]
+    pe: : [-0.21962494493251672, -0.15336661080699643, -0.3667303265049997, -0.8283500554816725]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:56:59.022941Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:59.023953Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:59.027152Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:56:59.029751Z INFO  cropped_B_table 
+    err_rms: : [430.51276199651954, 145.90643476302805, 358.3321575162637, 143.00826950502042]
+    err_ave: : [-335.81159064384394, -73.7939023772904, -287.5060315019608, -44.23189083451874]
+    err: : [[ 4.02766375 11.00982714 -1.39939711  6.0109964 ]]
+         ...
+         [[-472.94825394  -35.09211801 -541.69334392  -74.60313393]]
+         (1441 rows, 4 columns)
+    cc: : [-0.6258990277243295, -0.1935091979759681, 0.3761533480126753, 0.5925320940229276]
+    pe: : [-0.387672077250113, -1.0838832568279457, -26.45194818294508, -0.8838155525081537]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:56:59.032838Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:59.035925Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:56:59.038578Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:56:59.040117Z INFO  cropped_B_table 
+    err_rms: : [157.05126665795314, 483.5457790616104, 204.3145895796764, 326.9159419901922]
+    err_ave: : [-96.33128257468483, -167.01107934512063, -7.491144532206108, -161.78402624893724]
+    err: : [[ 73.42747693  90.75057365 -46.0015501  -98.78648634]]
+         ...
+         [[-132.7088114   223.79824013 -292.4232118    55.977474  ]]
+         (1441 rows, 4 columns)
+    cc: : [0.31001365568966427, -0.487934254478059, -0.5080590234473603, 0.25510032897831036]
+    pe: : [-0.638322686959427, -25.8800246223143, -4.230000091977024, -8.844377835865123]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:56:59.055360Z INFO  cropped_B_table Reading '50104' data
+2026-04-17T15:56:59.077921Z INFO  cropped_B_table   Reading 'B/measured/NERC' data
+2026-04-17T15:56:59.082417Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\nerc\mag\2024E04_50104.csv
+2026-04-17T15:57:04.820606Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:05.510225Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50104\data\B_measured_NERC.pkl
+2026-04-17T15:57:05.998255Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:57:06.000032Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\50104\dB_50104.pkl
+2026-04-17T15:57:06.103411Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:06.140723Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50104\data\B_calculated_SWMF.pkl
+2026-04-17T15:57:06.153306Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:57:06.159561Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:57:07.093002Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:07.117932Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50104\data\B_calculated_MAGE.pkl
+2026-04-17T15:57:07.131300Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:57:07.137895Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\50104\dB_OpenGGCM_50104.pkl
+2026-04-17T15:57:07.218057Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:07.250620Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50104\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:57:07.283153Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50104\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:57:07.283153Z INFO  cropped_B_table Computing stats for '50104' data
+2026-04-17T15:57:07.838324Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000]
+2026-04-17T15:57:07.839941Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:07.839941Z INFO  cropped_B_table   Stats for B/measured/NERC:
+2026-04-17T15:57:07.839941Z INFO  cropped_B_table 
+    std: : [134.65487043591045, 103.09186620440013, 96.688699408888, 115.37957021083481]
+    ave: : [-136.17146622715703, -28.019698010640763, 12.943337844089193, 186.58112806346912]
+    min: : [-509.17933333333315, -352.04800000000006, -283.40733333333384, 3.8825148482371077]
+    max: : [366.59966666666674, 214.32349999999994, 397.8826666666658, 613.6628665469054]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000]
+2026-04-17T15:57:07.856085Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:07.858179Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:07.858717Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:57:07.858717Z INFO  cropped_B_table 
+    std: : [50.20505243983515, 40.64699205401906, 43.497747597744905, 55.80874742514722]
+    ave: : [60.64446891380414, 8.282717540265754, -19.032126656377976, 69.31424084595734]
+    min: : [-26.631494005632405, -66.36395805017595, -142.20606873847805, 2.6984879289298696]
+    max: : [198.29021306861992, 157.10178452879484, 84.71271195955484, 245.23099925218955]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:57:07.868159Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:07.868159Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:07.868159Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:57:07.869538Z INFO  cropped_B_table 
+    std: : [235.87703130315026, 306.3682459756648, 498.2658455843651, 208.2600204973934]
+    ave: : [-51.718176855977674, 87.59610178910201, 331.4307047744985, 341.28446604990853]
+    min: : [-765.0547285885611, -692.3451673536324, -1244.7624485433303, 12.079249234860807]
+    max: : [449.84518432039954, 1431.57421966338, 2299.214758671893, 1443.4180868133285]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:57:07.888016Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:07.888016Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:07.888016Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:57:07.891000Z INFO  cropped_B_table 
+    std: : [73.20160109078043, 409.90455058590356, 180.37942501443348, 289.27218890818756]
+    ave: : [-47.18690963996514, 151.82724145173114, 28.557281653556785, 339.08690833732265]
+    min: : [-246.47873818841373, -586.4357127854407, -545.4800705990831, 9.926601866414547]
+    max: : [166.30431917816077, 1407.7979300199545, 493.8285816885534, 1414.517132648769]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:57:07.892460Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:07.892460Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:07.895427Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:57:07.895427Z INFO  cropped_B_table 
+    err_rms: : [256.96424703884406, 118.92707642220283, 87.64061948455358, 149.2369669042992]
+    err_ave: : [-196.75328048787807, -36.27173362822876, 32.0771464480441, 117.23142181035944]
+    err: : [[-7.517138    5.70746495  4.99830831 -3.32682179]]
+         ...
+         [[-235.93342644  103.92126497  -65.69990327  184.97156134]]
+         (1440 rows, 4 columns)
+    cc: : [-0.4924358021820582, -0.0646389185064465, 0.5447884607584089, 0.6137280151776585]
+    pe: : [-0.08578592633749649, -0.14092968027089237, 0.17766240042444703, -0.6720628476227914]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:57:07.899725Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:57:07.899725Z INFO  cropped_B_table 
+    err_rms: : [242.7090601069781, 318.8853224772934, 557.8144494906096, 226.80283001227716]
+    err_ave: : [-84.45328937117922, -115.6157997997428, -318.48736693040973, -154.7033379864392]
+    err: : [[ 22.41049721   6.14731181 174.7305668  -19.19673938]]
+         ...
+         [[-538.04161317 -159.13806284  -99.69475781 -156.95656467]]
+         (1441 rows, 4 columns)
+    cc: : [0.3462405457282927, 0.255961266700976, 0.49707455675177437, 0.6071484278335594]
+    pe: : [-2.248836413633696, -8.567979969714541, -32.28343054938026, -2.86401767996962]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:57:07.903795Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:07.903795Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:07.910050Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:57:07.912259Z INFO  cropped_B_table 
+    err_rms: : [159.0726898128366, 497.6421180072033, 246.23633793410028, 322.3693612613666]
+    err_ave: : [-88.98455658719175, -179.84693946237184, -15.613943809467628, -152.50578027385322]
+    err: : [[  68.51232644   85.68569114  -58.00724382 -103.20835843]]
+         ...
+         [[-172.51390119  213.17369406 -457.80306161   70.70083166]]
+         (1441 rows, 4 columns)
+    cc: : [0.3096565313805937, -0.4336839678562393, -0.5304588759334267, 0.24458897277608305]
+    pe: : [-0.3955555132685511, -13.802963152153334, -1.685360887580941, -6.806379920950409]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:57:07.923802Z INFO  cropped_B_table Reading '50109' data
+2026-04-17T15:57:07.938008Z INFO  cropped_B_table   Reading 'B/measured/NERC' data
+2026-04-17T15:57:07.942086Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\nerc\mag\2024E04_50109.csv
+2026-04-17T15:57:13.240317Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:13.908067Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50109\data\B_measured_NERC.pkl
+2026-04-17T15:57:14.415161Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:57:14.418196Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\50109\dB_50109.pkl
+2026-04-17T15:57:14.491496Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:14.533066Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50109\data\B_calculated_SWMF.pkl
+2026-04-17T15:57:14.541437Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:57:14.545471Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:57:15.468332Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:15.489404Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50109\data\B_calculated_MAGE.pkl
+2026-04-17T15:57:15.506501Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:57:15.510732Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\50109\dB_OpenGGCM_50109.pkl
+2026-04-17T15:57:15.589356Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:15.618131Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50109\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:57:15.648129Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50109\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:57:15.648129Z INFO  cropped_B_table Computing stats for '50109' data
+2026-04-17T15:57:16.231489Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000]
+2026-04-17T15:57:16.231489Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:16.231489Z INFO  cropped_B_table   Stats for B/measured/NERC:
+2026-04-17T15:57:16.231489Z INFO  cropped_B_table 
+    std: : [133.72587664419405, 91.30200568970587, 88.41717085201294, 110.18224404660818]
+    ave: : [-133.84847293546204, -32.25322380291462, 29.96181621559041, 181.8335605740699]
+    min: : [-489.05650000000065, -318.9720000000001, -237.29766666666777, 5.559103072626144]
+    max: : [391.67983333333245, 179.61266666666657, 376.364333333333, 575.8702649129482]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000]
+2026-04-17T15:57:16.247991Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:16.247991Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:16.247991Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:57:16.252194Z INFO  cropped_B_table 
+    std: : [49.037993969151, 40.005071103756116, 42.7850658588374, 54.718238610194625]
+    ave: : [59.36598011712307, 8.372063076464986, -18.17359770324009, 67.86350982196423]
+    min: : [-25.235620217534237, -63.94146283071498, -139.95637785852716, 2.902613202231403]
+    max: : [191.12598591270054, 156.20494010901987, 87.99003539991803, 240.0952893924171]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:57:16.260804Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:16.260804Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:16.260804Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:57:16.260804Z INFO  cropped_B_table 
+    std: : [240.3345564226839, 310.8650731386611, 485.8376585612391, 212.86524588373297]
+    ave: : [-57.74787702458802, 85.96299745448307, 325.3324076599168, 346.136727371508]
+    min: : [-769.849352458246, -733.7457307597515, -1220.3487042532424, 0.6903291610725224]
+    max: : [466.0830308346923, 1549.0688044533777, 2323.0969334769825, 1570.5386246567953]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:57:16.277217Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:16.278268Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:16.278268Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:57:16.278268Z INFO  cropped_B_table 
+    std: : [74.5322470056382, 406.65871157211757, 173.41712756308257, 287.4839693125272]
+    ave: : [-47.34912642245545, 150.9262439808811, 30.01695641857234, 336.60065630456546]
+    min: : [-243.35731794066098, -549.2300000191223, -624.710521369003, 5.688645613010301]
+    max: : [173.28620981591783, 1430.044269975659, 452.09872547928524, 1444.5944033939363]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:57:16.278268Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:16.281531Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:16.283970Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:57:16.285712Z INFO  cropped_B_table 
+    err_rms: : [252.29879211779803, 111.60602891987628, 91.26962516756741, 144.152768245133]
+    err_ave: : [-193.1518869458275, -40.59440080794657, 48.22619237916544, 113.9319237265135]
+    err: : [[-10.27474712   8.44563832   9.7154395   -0.27229149]]
+         ...
+         [[-244.5125094    94.97842505  -26.46230252  187.54926117]]
+         (1440 rows, 4 columns)
+    cc: : [-0.4614283257040569, -0.11866999486386816, 0.48095382605857456, 0.6086517339279092]
+    pe: : [-0.10565671078238537, -0.1561203579585151, -0.06644276123127502, -0.7107878170616799]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:57:16.288235Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:57:16.288235Z INFO  cropped_B_table 
+    err_rms: : [243.4676743555584, 324.6001233681333, 530.6958512327712, 236.3177443370888]
+    err_ave: : [-76.10059591087418, -118.2162212573979, -295.37059144432624, -164.30316679743842]
+    err: : [[  9.4778918    1.46610184 176.0266223   -6.17711219]]
+         ...
+         [[-532.47112565 -174.62884594  -85.77538932 -149.99839428]]
+         (1441 rows, 4 columns)
+    cc: : [0.3447234875005016, 0.23928362060293065, 0.5757178954931836, 0.6097303263587427]
+    pe: : [-2.314757083938462, -11.639698799963343, -35.02617516432858, -3.600122942215396]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:57:16.290002Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:16.290002Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:16.294071Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:57:16.294071Z INFO  cropped_B_table 
+    err_rms: : [154.65901387530212, 492.22625797903214, 232.5170328803364, 322.0003202643674]
+    err_ave: : [-86.49934651300678, -183.1794677837958, -0.05514020298191974, -154.76709573049564]
+    err: : [[ 66.59815343  83.917098   -57.29648013 -96.65923028]]
+         ...
+         [[-174.44764415  186.23662309 -432.91056024   90.57187762]]
+         (1441 rows, 4 columns)
+    cc: : [0.3511823775388912, -0.47166416898230246, -0.5273924434637081, 0.23765601069655415]
+    pe: : [-0.3375793835563641, -17.32593705225392, -2.2382688701841307, -7.540619639114627]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:57:16.306348Z INFO  cropped_B_table Reading '50115' data
+2026-04-17T15:57:16.317923Z INFO  cropped_B_table   Reading 'B/measured/NERC' data
+2026-04-17T15:57:16.319155Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\nerc\mag\2024E04_50115.csv
+2026-04-17T15:57:21.626282Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:22.301252Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50115\data\B_measured_NERC.pkl
+2026-04-17T15:57:22.837981Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:57:22.842048Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\50115\dB_50115.pkl
+2026-04-17T15:57:22.922110Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:22.954382Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50115\data\B_calculated_SWMF.pkl
+2026-04-17T15:57:22.964534Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:57:22.969135Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:57:23.883914Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:23.907917Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50115\data\B_calculated_MAGE.pkl
+2026-04-17T15:57:23.924828Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:57:23.929093Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\50115\dB_OpenGGCM_50115.pkl
+2026-04-17T15:57:23.998160Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:24.028902Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50115\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:57:24.059619Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50115\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:57:24.060463Z INFO  cropped_B_table Computing stats for '50115' data
+2026-04-17T15:57:24.676189Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000]
+2026-04-17T15:57:24.676189Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:24.678198Z INFO  cropped_B_table   Stats for B/measured/NERC:
+2026-04-17T15:57:24.678198Z INFO  cropped_B_table 
+    std: : [263.9193206017218, 90.56601398391588, 160.31216616853555, 187.53217673492173]
+    ave: : [-108.87073108952272, -10.151393361091795, 25.905821998608968, 233.87562220977858]
+    min: : [-955.1400000000017, -465.33449999999993, -587.8123333333365, 5.07669839080919]
+    max: : [997.5466666666653, 265.1358333333334, 572.231999999997, 1045.795831880205]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000]
+2026-04-17T15:57:24.691731Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:24.695419Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:24.695419Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:57:24.695419Z INFO  cropped_B_table 
+    std: : [63.15549917840147, 47.482394304225764, 55.70516013103947, 67.44288923165477]
+    ave: : [67.21897899865586, 11.188098141195104, -25.539916535726928, 79.61291487604588]
+    min: : [-45.28374168515292, -83.4928645033601, -224.2921415846632, 1.5993952076756845]
+    max: : [247.92252129926908, 190.3907760980793, 117.22681998652774, 306.2321048465736]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:57:24.703796Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:24.703796Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:24.703796Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:57:24.705811Z INFO  cropped_B_table 
+    std: : [172.01341746896037, 84.0244511575879, 234.60126167918935, 163.88193582312127]
+    ave: : [190.87947613035897, 51.805986966228915, 325.4600828583176, 221.15666389665154]
+    min: : [-142.80743189192253, -98.93026919541398, -79.63460823133977, 2.6626343477381162]
+    max: : [567.2266709913783, 287.32132977405513, 829.8692588648805, 609.3630043053569]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:57:24.723150Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:24.723150Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:24.723150Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:57:24.724890Z INFO  cropped_B_table 
+    std: : [136.1300546871022, 403.3898207021249, 319.1599192218936, 307.96173415074134]
+    ave: : [-70.36319944727596, 154.95133769345645, 4.659964993018844, 339.6692603452991]
+    min: : [-620.3965028024471, -582.6866972959269, -1071.0286425866125, 9.61245031677588]
+    max: : [205.14453929172367, 1312.7360893145517, 709.665831990849, 1431.7690105416502]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:57:24.727920Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:24.728980Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:57:24.728980Z INFO  cropped_B_table 
+    err_rms: : [321.90817182574455, 116.7659087589762, 152.57830070385617, 230.64001438732308]
+    err_ave: : [-175.81939635976858, -21.316952886565428, 51.69211804035335, 154.07792799911473]
+    err: : [[-21.86622834  19.39962503   0.50390017  13.95049431]]
+         ...
+         [[-330.87998084  158.1170781   -64.67406917  256.009995  ]]
+         (1440 rows, 4 columns)
+    cc: : [0.026189412697140993, -0.31594351432151035, 0.45555432391005135, 0.40485119035852707]
+    pe: : [-0.48893828510052373, 0.05634350943857169, 0.09169698393508385, -0.5136442595980999]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:57:24.733347Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:24.734242Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:24.735503Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:24.738730Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:57:24.739241Z INFO  cropped_B_table 
+    err_rms: : [473.81435770874265, 142.42747837498777, 422.743660861225, 149.15179299957504]
+    err_ave: : [-299.7502072198819, -61.95738032732076, -299.55426085970896, 12.718958313126883]
+    err: : [[-11.21532993  15.94610195  -9.8983026   17.24232185]]
+         ...
+         [[-578.25726396  -15.56953608 -625.56698497   41.28168078]]
+         (1441 rows, 4 columns)
+    cc: : [-0.38997419617890605, -0.07783152145045016, -0.10956964228825639, 0.6498054827131589]
+    pe: : [-0.013010343857627227, -0.9278794155464647, -6.624673471201743, 0.3674346953168228]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:57:24.740786Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:24.743907Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:24.745399Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:24.746561Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:57:24.746561Z INFO  cropped_B_table 
+    err_rms: : [355.906428519908, 478.6634052762393, 426.49357818010765, 346.9029279486989]
+    err_ave: : [-38.50753164224661, -165.10273105454795, 21.245857005590004, -105.79363813552085]
+    err: : [[ 33.50247712 100.60772997 -98.79904598 -76.95381297]]
+         ...
+         [[-485.69773453  327.29064308 -726.55480704   33.14271057]]
+         (1441 rows, 4 columns)
+    cc: : [-0.5149524623982396, -0.42336856847760995, -0.5265524435439045, 0.18059231043443755]
+    pe: : [-0.19603401737260961, -18.62379899391123, -1.903307318771711, -2.4218765815659897]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:57:24.758099Z INFO  cropped_B_table Reading '50116' data
+2026-04-17T15:57:24.772221Z INFO  cropped_B_table   Reading 'B/measured/NERC' data
+2026-04-17T15:57:24.775707Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\nerc\mag\2024E04_50116.csv
+2026-04-17T15:57:30.115144Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:30.777902Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50116\data\B_measured_NERC.pkl
+2026-04-17T15:57:31.274482Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:57:31.278004Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\50116\dB_50116.pkl
+2026-04-17T15:57:31.348261Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:31.378164Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50116\data\B_calculated_SWMF.pkl
+2026-04-17T15:57:31.392060Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:57:31.392060Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:57:32.249041Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:32.274153Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50116\data\B_calculated_MAGE.pkl
+2026-04-17T15:57:32.290537Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:57:32.294567Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\50116\dB_OpenGGCM_50116.pkl
+2026-04-17T15:57:32.364654Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:32.394858Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50116\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:57:32.424606Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50116\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:57:32.427995Z INFO  cropped_B_table Computing stats for '50116' data
+2026-04-17T15:57:32.980774Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000 2000000000 3000000000]
+2026-04-17T15:57:32.980774Z INFO  cropped_B_table   Uniq dts [#]  = 3
+2026-04-17T15:57:32.980774Z INFO  cropped_B_table   Stats for B/measured/NERC:
+2026-04-17T15:57:32.980774Z INFO  cropped_B_table 
+    std: : [139.51841555497882, 81.06134160962905, 106.2435224159199, 108.22598117904228]
+    ave: : [-128.5906470043962, -27.478433148276647, 34.86755424473823, 177.88543244965658]
+    min: : [-565.9511666666677, -288.0623333333333, -216.49266666666554, 7.681889957768248]
+    max: : [454.27399999999886, 150.29083333333335, 555.1295000000007, 614.6941022481626]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000, 2000000000, 3000000000]
+2026-04-17T15:57:32.996178Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:32.997752Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:32.998840Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:57:32.998840Z INFO  cropped_B_table 
+    std: : [52.213923886523304, 41.90644831072252, 45.50475065481211, 57.7985339122233]
+    ave: : [61.29109075697559, 8.910121152799354, -20.017863049143404, 70.55325506581438]
+    min: : [-31.308190836415886, -68.26558428041324, -158.39369589813782, 1.7636255651412696]
+    max: : [199.97413496961656, 168.63959947460503, 95.07718041366559, 257.0719466411175]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:57:33.006688Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:33.006688Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:33.006688Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:57:33.008234Z INFO  cropped_B_table 
+    std: : [258.94987194500834, 325.70199586736055, 442.2546945333123, 219.79951199768]
+    ave: : [-65.7473019896881, 83.55423504430459, 301.1982764061469, 368.9566624017816]
+    min: : [-814.3137372524653, -960.926507558174, -1136.731438881201, 19.581848186150122]
+    max: : [477.1310657582233, 1613.6874420402003, 2292.906785539744, 1613.8859303071]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:57:33.023515Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:33.023515Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:33.023515Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:57:33.023515Z INFO  cropped_B_table 
+    std: : [67.93960438034593, 410.6305981917392, 197.03055152808406, 290.88380568202194]
+    ave: : [-45.771087101227124, 155.1829794445825, 26.065712747780797, 338.8165272390543]
+    min: : [-226.08492273066986, -565.9915774734147, -667.4378769368254, 8.789097841243562]
+    max: : [166.42647639626279, 1398.6622912925172, 518.5201025156902, 1398.8956900671612]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:57:33.028140Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:33.028140Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:33.028140Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:57:33.032372Z INFO  cropped_B_table 
+    err_rms: : [251.34678988255408, 104.93893250512994, 106.16742819772942, 139.28891618506165]
+    err_ave: : [-189.8072917986434, -36.35279372224378, 55.024108998218374, 107.28301664326706]
+    err: : [[-17.15459826  14.09052189   5.26508511   7.5549674 ]]
+         ...
+         [[-262.33103915  106.64000983  -35.70702921  196.5687202 ]]
+         (1440 rows, 4 columns)
+    cc: : [-0.339781553987685, -0.20025953522360931, 0.5273576537599298, 0.5727145266239932]
+    pe: : [-0.11783326256224602, -0.1123823944135649, -0.0003298139022418489, -0.6557609046352673]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:57:33.032372Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:57:33.036411Z INFO  cropped_B_table 
+    err_rms: : [270.6180329637115, 337.1844988038678, 472.5996004767477, 262.85727308296845]
+    err_ave: : [-62.84334501470823, -111.03266819258116, -266.3307221614087, -191.07122995212504]
+    err: : [[-21.10539726 -12.27389866 149.92056457 -11.16251712]]
+         ...
+         [[-489.34237333 -191.96712239 -160.99789879 -103.29453646]]
+         (1441 rows, 4 columns)
+    cc: : [0.2385332583016979, 0.21376536762702966, 0.5795105432431894, 0.5767390447156547]
+    pe: : [-2.76227377104327, -16.30245096431322, -18.787083134286668, -4.898980121242308]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:57:33.037926Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:33.040553Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:33.040553Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:57:33.040553Z INFO  cropped_B_table 
+    err_rms: : [157.35612566214752, 492.24026313492806, 272.82322549359156, 333.88750610697787]
+    err_ave: : [-82.81955990316912, -182.66141259285916, 8.801841496957502, -160.93109478939778]
+    err: : [[ 55.64485678  89.64096823 -64.4369106  -86.62358834]]
+         ...
+         [[-208.38061572  213.05715202 -469.75127674   90.7411485 ]]
+         (1441 rows, 4 columns)
+    cc: : [0.32595320189387506, -0.5069185969062779, -0.5791348840530312, 0.17064481293778308]
+    pe: : [-0.27205016044558294, -23.007219393343945, -1.6201359169624712, -8.517815303885783]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:57:33.052346Z INFO  cropped_B_table Reading '50117' data
+2026-04-17T15:57:33.065004Z INFO  cropped_B_table   Reading 'B/measured/NERC' data
+2026-04-17T15:57:33.069184Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\nerc\mag\2024E04_50117.csv
+2026-04-17T15:57:38.390956Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:39.070880Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50117\data\B_measured_NERC.pkl
+2026-04-17T15:57:39.579091Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:57:39.587247Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\50117\dB_50117.pkl
+2026-04-17T15:57:39.678194Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:39.718261Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50117\data\B_calculated_SWMF.pkl
+2026-04-17T15:57:39.730152Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:57:39.732175Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:57:40.653245Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:40.669231Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50117\data\B_calculated_MAGE.pkl
+2026-04-17T15:57:40.688167Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:57:40.693306Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\50117\dB_OpenGGCM_50117.pkl
+2026-04-17T15:57:40.791574Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:40.817859Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50117\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:57:40.848260Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50117\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:57:40.853611Z INFO  cropped_B_table Computing stats for '50117' data
+2026-04-17T15:57:41.407048Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000]
+2026-04-17T15:57:41.407048Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:41.408059Z INFO  cropped_B_table   Stats for B/measured/NERC:
+2026-04-17T15:57:41.408059Z INFO  cropped_B_table 
+    std: : [126.29697629020195, 84.37430858018334, 91.54359907881727, 106.59779604371143]
+    ave: : [-130.97351561415772, -3.478525445292761, 31.113797594266195, 169.97266895056964]
+    min: : [-616.8940000000009, -268.80083333333346, -245.44716666666403, 4.176437074030877]
+    max: : [258.46166666666596, 206.6731666666665, 304.27850000000313, 664.6762486940464]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000]
+2026-04-17T15:57:41.425339Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:41.425339Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:41.427978Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:57:41.427978Z INFO  cropped_B_table 
+    std: : [51.00600844450694, 41.13945488764397, 43.87062909380658, 56.44322912081776]
+    ave: : [61.90452856443148, 8.095194266105208, -20.405648481704738, 70.75261379835355]
+    min: : [-23.570940951747108, -69.36938294969981, -141.9327392982605, 2.523939179756223]
+    max: : [206.65289490950653, 150.78686645502336, 88.33616563568302, 242.7071586246657]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:57:41.432203Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:41.436368Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:41.436368Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:57:41.438411Z INFO  cropped_B_table 
+    std: : [231.6651912989569, 286.5190260454857, 564.8452657222371, 197.00831730977634]
+    ave: : [-19.15903812857138, 94.25215426812443, 357.49019441317387, 325.88368075526785]
+    min: : [-798.6605550224016, -537.5953019270162, -1445.6167458547034, 12.798863383800406]
+    max: : [764.9644293763843, 954.0578815471335, 2604.8061440223237, 958.3660093527543]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:57:41.453305Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:41.453305Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:41.453305Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:57:41.453305Z INFO  cropped_B_table 
+    std: : [73.05652449334872, 412.9308669435576, 189.7541560764478, 290.4757347569409]
+    ave: : [-48.06922832195356, 150.34944701889248, 26.695117916864458, 341.1577510383954]
+    min: : [-258.8854993190403, -611.6037275484325, -540.6459383667627, 5.817730973186879]
+    max: : [160.36867097256868, 1426.6447459814926, 513.256870930304, 1426.7975193980321]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:57:41.457312Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:41.458327Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:41.458327Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:57:41.460975Z INFO  cropped_B_table 
+    err_rms: : [247.36505321257388, 100.03087127739107, 95.1701375572173, 131.90034047201522]
+    err_ave: : [-192.79512428202494, -11.547360469809059, 51.59281711596688, 99.16184994800189]
+    err: : [[-10.17026004  18.25071423   0.19824644  10.34100088]]
+         ...
+         [[-227.66978681  150.86659256  -49.93664049  203.2516261 ]]
+         (1440 rows, 4 columns)
+    cc: : [-0.42422244340203313, -0.15227388663856706, 0.4865247952296126, 0.5805804999672616]
+    pe: : [-0.11878621366927056, -0.09218069840363485, -0.08105019865265284, -0.5306658337885817]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:57:41.464879Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:57:41.464879Z INFO  cropped_B_table 
+    err_rms: : [268.1245239837796, 282.53353034032097, 611.8526376657558, 225.4434526571688]
+    err_ave: : [-111.81447748558631, -97.7306797134171, -326.3763968189078, -155.9110118046979]
+    err: : [[ 82.84491202  58.21367873 161.04197637 -78.73354235]]
+         ...
+         [[-566.48104924  -85.13880319   50.46849055 -157.30346867]]
+         (1441 rows, 4 columns)
+    cc: : [0.17484431051239538, 0.39169364780424487, 0.5762004251732952, 0.5632887013453511]
+    pe: : [-3.506995980658038, -10.212941035924619, -43.67223768791141, -3.4727930345612226]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:57:41.468033Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:41.468033Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:41.468033Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:57:41.468033Z INFO  cropped_B_table 
+    err_rms: : [146.97006694235287, 485.88869379060725, 249.37913647819101, 341.3796278585364]
+    err_ave: : [-82.90428729220417, -153.8279724641855, 4.418679677401653, -171.1850820878258]
+    err: : [[ 66.04840455 109.08635829 -62.76918944 -98.53121294]]
+         ...
+         [[-168.15641485  295.65899517 -456.68061953   53.59069771]]
+         (1441 rows, 4 columns)
+    cc: : [0.3555452250529158, -0.4993268864301404, -0.5118814569883163, 0.13731275890358532]
+    pe: : [-0.3541659135688071, -22.094196732739313, -2.573312473660833, -9.25601742765316]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:57:41.481408Z INFO  cropped_B_table Reading '50118' data
+2026-04-17T15:57:41.500149Z INFO  cropped_B_table   Reading 'B/measured/NERC' data
+2026-04-17T15:57:41.509279Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\nerc\mag\2024E04_50118.csv
+2026-04-17T15:57:46.825154Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:47.479621Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50118\data\B_measured_NERC.pkl
+2026-04-17T15:57:47.997995Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:57:47.997995Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\50118\dB_50118.pkl
+2026-04-17T15:57:48.077847Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:48.107863Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50118\data\B_calculated_SWMF.pkl
+2026-04-17T15:57:48.119180Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:57:48.125334Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:57:49.087849Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:49.112479Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50118\data\B_calculated_MAGE.pkl
+2026-04-17T15:57:49.128288Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:57:49.135582Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\50118\dB_OpenGGCM_50118.pkl
+2026-04-17T15:57:49.202379Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:49.232569Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50118\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:57:49.260918Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50118\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:57:49.260918Z INFO  cropped_B_table Computing stats for '50118' data
+2026-04-17T15:57:49.867840Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000]
+2026-04-17T15:57:49.870481Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:49.870481Z INFO  cropped_B_table   Stats for B/measured/NERC:
+2026-04-17T15:57:49.870481Z INFO  cropped_B_table 
+    std: : [183.29620720533606, 87.24549697999447, 139.34529055548714, 133.5977159022153]
+    ave: : [-118.3962362942393, -15.033884917881155, 29.351059796434104, 194.04215516401425]
+    min: : [-748.5253333333327, -312.016, -463.08850000000336, 16.552492232628076]
+    max: : [674.4158333333339, 241.53699999999995, 556.0594999999964, 781.2122161766997]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000]
+2026-04-17T15:57:49.890444Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:49.890444Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:49.892087Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:57:49.892087Z INFO  cropped_B_table 
+    std: : [57.46281209293771, 45.41978862513615, 50.41496790892841, 62.872766538460894]
+    ave: : [64.6812737166008, 9.953406899291068, -23.737058344116264, 75.46313456705346]
+    min: : [-37.27480994922879, -77.62526296392244, -189.47529612326397, 2.120720162536445]
+    max: : [223.1897538198779, 182.0340365147259, 103.82706545019516, 280.721485369171]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:57:49.897836Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:49.897836Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:49.897836Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:57:49.897836Z INFO  cropped_B_table 
+    std: : [263.26259499553083, 327.71649001598536, 432.87886656823554, 219.8549397649568]
+    ave: : [-62.98839795074465, 84.88923722701759, 296.29081835353963, 373.55430406637214]
+    min: : [-810.7864248606396, -1015.1338375726488, -1122.490217244597, 22.711559649999632]
+    max: : [528.5703516143828, 1547.1170640744688, 2273.8881630344213, 1548.50280984895]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:57:49.920976Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:49.920976Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:49.922823Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:57:49.922823Z INFO  cropped_B_table 
+    std: : [62.95022342120982, 406.3594933961563, 265.75462044139226, 293.4916796682688]
+    ave: : [-50.0915213092441, 155.82186231082662, 12.736577412252846, 331.2748341612265]
+    min: : [-265.7685295368195, -547.0446118688697, -889.8368030431732, 6.09948909804182]
+    max: : [159.41696107477446, 1319.859229513565, 603.2916667107794, 1326.048844528733]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:57:49.922823Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:49.922823Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:49.928245Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:57:49.928245Z INFO  cropped_B_table 
+    err_rms: : [270.51139066672886, 110.49119786127848, 132.55731062953143, 167.16433349140294]
+    err_ave: : [-182.93463702678528, -24.941769283550364, 53.33317593670543, 118.48182317421023]
+    err: : [[-18.99211942  15.59885883   0.74484781  10.20487255]]
+         ...
+         [[-285.69724462  138.18388831  -62.50291496  221.60192135]]
+         (1440 rows, 4 columns)
+    cc: : [-0.1337829229312312, -0.24085905603778354, 0.5104717288820625, 0.4699246767583537]
+    pe: : [-0.09984704761572005, -0.023525996569011554, 0.09163623946290733, -0.5657370788538396]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:57:49.931736Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:57:49.931736Z INFO  cropped_B_table 
+    err_rms: : [320.98177851073484, 334.06933561572885, 465.9386592914946, 261.59618022185316]
+    err_ave: : [-55.40783834349467, -99.92312214489873, -266.9397585571052, -179.51214890235786]
+    err: : [[-26.42885128 -13.92737247 141.12682258 -12.20322914]]
+         ...
+         [[-504.50336431 -173.19880971 -184.71274345  -64.74515277]]
+         (1441 rows, 4 columns)
+    cc: : [0.030519301289035565, 0.234196334510547, 0.5053016915475327, 0.5102899721477422]
+    pe: : [-2.066576484457698, -13.661796419235566, -10.180800552833679, -2.8341114264788763]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:57:49.936076Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:49.938197Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:49.939877Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:49.941552Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:57:49.941552Z INFO  cropped_B_table 
+    err_rms: : [208.23594213172981, 485.931005718696, 366.38601437809194, 332.2476914290149]
+    err_ave: : [-68.30471498499524, -170.85574722870788, 16.614482384181375, -137.23267899721253]
+    err: : [[ 46.71756842  89.8263222  -86.6041099  -80.0120704 ]]
+         ...
+         [[-295.3765665   263.78736162 -641.49770714   96.42520224]]
+         (1441 rows, 4 columns)
+    cc: : [-0.04924555350378496, -0.4822921425645536, -0.5930067459314664, 0.15850616089262204]
+    pe: : [-0.929069489795926, -19.805080494945997, -1.4665851545745627, -5.184803096682445]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:57:49.953560Z INFO  cropped_B_table Reading '50119' data
+2026-04-17T15:57:49.967875Z INFO  cropped_B_table   Reading 'B/measured/NERC' data
+2026-04-17T15:57:49.970111Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\nerc\mag\2024E04_50119.csv
+2026-04-17T15:57:54.950539Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:55.638199Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50119\data\B_measured_NERC.pkl
+2026-04-17T15:57:56.148300Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:57:56.148300Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\50119\dB_50119.pkl
+2026-04-17T15:57:56.218434Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:56.258230Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50119\data\B_calculated_SWMF.pkl
+2026-04-17T15:57:56.271183Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:57:56.273872Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:57:57.268117Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:57.288257Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50119\data\B_calculated_MAGE.pkl
+2026-04-17T15:57:57.312651Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:57:57.316832Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\50119\dB_OpenGGCM_50119.pkl
+2026-04-17T15:57:57.388069Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:57:57.417954Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50119\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:57:57.446351Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50119\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:57:57.446351Z INFO  cropped_B_table Computing stats for '50119' data
+2026-04-17T15:57:58.019765Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000 3000000000]
+2026-04-17T15:57:58.019765Z INFO  cropped_B_table   Uniq dts [#]  = 2
+2026-04-17T15:57:58.019765Z INFO  cropped_B_table   Stats for B/measured/NERC:
+2026-04-17T15:57:58.019765Z INFO  cropped_B_table 
+    std: : [130.63351997877004, 87.52937038231741, 81.7917858130465, 107.83786968175596]
+    ave: : [-133.9664755956524, -29.426115660421058, 33.862799329173086, 178.70749106567118]
+    min: : [-467.9136666666679, -299.41316666666677, -219.37299999999644, 0.3346963505178922]
+    max: : [365.6479999999987, 173.15033333333324, 362.72016666666946, 529.6893069177265]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000, 3000000000]
+2026-04-17T15:57:58.038249Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:58.038249Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:58.038249Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:57:58.044646Z INFO  cropped_B_table 
+    std: : [48.036095619588004, 39.032115590786965, 41.71675648845376, 53.60194535257893]
+    ave: : [58.62893582805224, 8.053106074476792, -17.1691511065306, 66.78329595087796]
+    min: : [-25.21062750739063, -60.63516513952282, -133.3330179268885, 3.091695328091741]
+    max: : [185.95964055832238, 153.8364275545768, 88.30453259873258, 237.24454651813147]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:57:58.051078Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:58.051078Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:58.051078Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:57:58.051078Z INFO  cropped_B_table 
+    std: : [244.99243667076632, 314.91940851800575, 473.1047598597355, 215.61480730800463]
+    ave: : [-62.6488714577424, 83.94305562368893, 319.2226078326949, 351.67755179867913]
+    min: : [-782.3630815196268, -782.360299952303, -1186.3611433147162, 3.157869884297196]
+    max: : [473.10809861048745, 1609.339827590333, 2322.8524528514795, 1631.8324340858712]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:57:58.072883Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:57:58.072883Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:57:58.072883Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:57:58.072883Z INFO  cropped_B_table 
+    std: : [76.47449939449461, 404.2205762783747, 165.205119434838, 286.6617332198223]
+    ave: : [-47.74561282948071, 149.80440936419453, 32.00291987609511, 334.3481399100127]
+    min: : [-246.97632564698978, -551.9255815978529, -655.8861888932282, 4.0384766657338265]
+    max: : [177.55314582992816, 1480.4897847498953, 473.0767030197819, 1494.2155230112025]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:57:58.075409Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:58.075409Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:58.078111Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:57:58.080053Z INFO  cropped_B_table 
+    err_rms: : [250.5719992056663, 106.55321737945914, 89.1032296975355, 140.62868095365334]
+    err_ave: : [-192.5390020317571, -37.45162540318058, 51.11117691671924, 111.8913218558656]
+    err: : [[-7.94677004  9.33759268 11.27901643 -0.14737877]]
+         ...
+         [[-233.74685794  101.48330615  -14.97874611  177.80551935]]
+         (1440 rows, 4 columns)
+    cc: : [-0.5046802687760866, -0.11146553093725282, 0.45423374748287854, 0.6271196089105324]
+    pe: : [-0.09603253357042218, -0.15879857878325154, -0.18755351496876393, -0.6996591521407394]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:57:58.084955Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:57:58.084955Z INFO  cropped_B_table 
+    err_rms: : [238.3959673295025, 324.3990618048783, 516.1497314399991, 244.27519732162173]
+    err_ave: : [-71.31760413790985, -113.36917128411007, -285.3598085035218, -172.97006073300764]
+    err: : [[  3.51534552  -4.49087404 172.80864149  -5.08230497]]
+         ...
+         [[-503.94983616 -176.60567988  -96.51218914 -153.5486629 ]]
+         (1441 rows, 4 columns)
+    cc: : [0.3958848321957785, 0.2621730605433401, 0.5884017363413402, 0.6100056454836742]
+    pe: : [-2.3303398250430547, -12.73572445288888, -38.822821796664805, -4.13116695622867]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:57:58.088271Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:58.088271Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:57:58.088271Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:57:58.092008Z INFO  cropped_B_table 
+    err_rms: : [153.2758325826942, 486.6898617597186, 218.5561591910229, 320.41735595245245]
+    err_ave: : [-86.22086276617162, -179.2305250246153, 1.859879453077999, -155.64064884434137]
+    err: : [[ 70.60115006  86.45901145 -57.0181113  -98.40517808]]
+         ...
+         [[-155.65369606  207.47183099 -420.09029563   65.63026292]]
+         (1441 rows, 4 columns)
+    cc: : [0.3430395717136548, -0.47606923480710267, -0.5099273881408741, 0.24845032289529112]
+    pe: : [-0.3766961858148854, -18.821313054100376, -2.6682501484023247, -7.82855170782784]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:57:58.102170Z INFO  cropped_B_table Reading '50120' data
+2026-04-17T15:57:58.117993Z INFO  cropped_B_table   Reading 'B/measured/NERC' data
+2026-04-17T15:57:58.120372Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\nerc\mag\2024E04_50120.csv
+2026-04-17T15:58:03.048217Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:03.677972Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50120\data\B_measured_NERC.pkl
+2026-04-17T15:58:04.196379Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:58:04.201136Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\50120\dB_50120.pkl
+2026-04-17T15:58:04.279740Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:04.300845Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50120\data\B_calculated_SWMF.pkl
+2026-04-17T15:58:04.319820Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:58:04.319820Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:58:05.278026Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:05.318201Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50120\data\B_calculated_MAGE.pkl
+2026-04-17T15:58:05.339833Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:58:05.344450Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\50120\dB_OpenGGCM_50120.pkl
+2026-04-17T15:58:05.410723Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:05.447936Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50120\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:58:05.467854Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50120\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:58:05.467854Z INFO  cropped_B_table Computing stats for '50120' data
+2026-04-17T15:58:06.037985Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000 2000000000 3000000000 4000000000]
+2026-04-17T15:58:06.037985Z INFO  cropped_B_table   Uniq dts [#]  = 4
+2026-04-17T15:58:06.037985Z INFO  cropped_B_table   Stats for B/measured/NERC:
+2026-04-17T15:58:06.037985Z INFO  cropped_B_table 
+    std: : [118.49648823137981, 77.11321618103823, 73.83460380989906, 102.53680352289814]
+    ave: : [-143.13777682534635, -10.649747708517268, 35.96619149062709, 173.4720371685498]
+    min: : [-455.54250000000013, -246.60899999999995, -179.3484999999986, 1.6928302935780069]
+    max: : [200.99983333333282, 153.95950000000005, 321.10816666666835, 479.9149538218001]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000, 2000000000, 3000000000, 4000000000]
+2026-04-17T15:58:06.061275Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:58:06.061829Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:58:06.062138Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:58:06.062993Z INFO  cropped_B_table 
+    std: : [46.32981241164045, 37.46369621835961, 40.38288348468102, 51.72411214317897]
+    ave: : [56.126801298742215, 7.955263635078002, -15.392835103924972, 63.938253956229175]
+    min: : [-25.235475396107436, -56.488207467760205, -128.74321339586461, 3.8225536097468087]
+    max: : [178.18882738714657, 154.80714747713984, 92.41371562923409, 232.94235393792584]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:58:06.068511Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:58:06.068511Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:58:06.068511Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:58:06.068511Z INFO  cropped_B_table 
+    std: : [278.951785226808, 334.251067993592, 404.69228642539196, 220.90299245032352]
+    ave: : [-71.27214261983521, 73.86153877345647, 285.5792633942925, 388.94085422616314]
+    min: : [-848.6233667037558, -1159.662749805944, -1044.2701630005777, 36.84227932699026]
+    max: : [600.9412199992948, 1461.9025953336713, 2164.1309178168685, 1462.4431443582519]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:58:06.077983Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:58:06.089347Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:58:06.089347Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:58:06.090966Z INFO  cropped_B_table 
+    std: : [78.99664588572675, 404.67050279962655, 160.85818049448935, 288.08863692284086]
+    ave: : [-47.46209636277683, 150.94891549470037, 37.04596320347831, 334.72652845780334]
+    min: : [-247.90133438610542, -578.9086492897677, -600.8613723009389, 8.0908738003321]
+    max: : [236.1721165388124, 1539.5644984744374, 546.4759944111645, 1552.4467348398177]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:58:06.094055Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:58:06.095777Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:58:06.096924Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:58:06.098225Z INFO  cropped_B_table 
+    err_rms: : [250.09778074097463, 90.62488223156338, 84.33488202326764, 135.41365733734074]
+    err_ave: : [-199.22046141818026, -18.58925827487426, 51.4195979080872, 109.50887150513509]
+    err: : [[-10.47347855  13.04269459   6.67258377   3.06915487]]
+         ...
+         [[-232.34811218  123.17207968    2.93314777  174.94513129]]
+         (1440 rows, 4 columns)
+    cc: : [-0.6068980872400852, -0.08885548789342872, 0.43814393204584645, 0.6456748480957718]
+    pe: : [-0.21670807887845167, -0.1507749131862306, -0.3050110339050851, -0.7430137524590963]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:58:06.098225Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:58:06.098225Z INFO  cropped_B_table 
+    err_rms: : [252.83011711329615, 324.3560915444729, 440.8365083327688, 280.32355679159855]
+    err_ave: : [-71.86563420551118, -84.51128648197367, -249.61307190366557, -215.46881705761345]
+    err: : [[-20.21080411 -29.47302422 135.92924532 -33.01818164]]
+         ...
+         [[-357.25508625 -221.85458106 -116.71565494 -118.60828966]]
+         (1441 rows, 4 columns)
+    cc: : [0.5006400056951182, 0.3803176523187365, 0.6224378717617614, 0.5994838721766566]
+    pe: : [-3.552465383466549, -16.69238916739431, -34.64800335993567, -6.474112672442697]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:58:06.103498Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:58:06.104731Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:58:06.104731Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:58:06.104731Z INFO  cropped_B_table 
+    err_rms: : [153.5182548447246, 475.8051829779854, 210.7095249393688, 324.49228569757383]
+    err_ave: : [-95.67568046256955, -161.59866320321768, -1.07977171285114, -161.2544912892539]
+    err: : [[ 69.50454229  92.061734   -53.1512521  -96.64435458]]
+         ...
+         [[-139.9438753   248.05711782 -333.93309859   45.27242759]]
+         (1441 rows, 4 columns)
+    cc: : [0.31342691327158534, -0.489846904414545, -0.5502460664153155, 0.24063602674275855]
+    pe: : [-0.6784526345712816, -25.70783251472817, -3.326704915588844, -9.014959650078278]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:58:06.118020Z INFO  cropped_B_table Reading '50122' data
+2026-04-17T15:58:06.134408Z INFO  cropped_B_table   Reading 'B/measured/NERC' data
+2026-04-17T15:58:06.136080Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\nerc\mag\2024E04_50122.csv
+2026-04-17T15:58:11.220320Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:11.850498Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50122\data\B_measured_NERC.pkl
+2026-04-17T15:58:12.418639Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:58:12.418639Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\50122\dB_50122.pkl
+2026-04-17T15:58:12.487973Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:12.520864Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50122\data\B_calculated_SWMF.pkl
+2026-04-17T15:58:12.530065Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:58:12.539849Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:58:13.467926Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:13.509905Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50122\data\B_calculated_MAGE.pkl
+2026-04-17T15:58:13.527855Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:58:13.531467Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\50122\dB_OpenGGCM_50122.pkl
+2026-04-17T15:58:13.601862Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:13.628258Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50122\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:58:13.657922Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\50122\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:58:13.657922Z INFO  cropped_B_table Computing stats for '50122' data
+2026-04-17T15:58:14.177828Z INFO  cropped_B_table   Uniq dts [ns] = [   1000000000    2000000000    3000000000 3601000000000 7201000000000]
+2026-04-17T15:58:14.177828Z INFO  cropped_B_table   Uniq dts [#]  = 5
+2026-04-17T15:58:14.177828Z INFO  cropped_B_table   Stats for B/measured/NERC:
+2026-04-17T15:58:14.177828Z INFO  cropped_B_table 
+    std: : [119.51652923558409, 78.9535707145269, 90.55942509953505, 100.60347390972488]
+    ave: : [-133.87677951399198, -32.283514210549015, 42.31980155220299, 171.41957351338647]
+    min: : [-456.0733333333343, -288.165, -197.13399999999965, 7.771788328328029]
+    max: : [311.4303333333322, 123.69516666666664, 525.7495000000009, 519.3090597868829]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000 nanoseconds, 2000000000 nanoseconds, ..., 3601000000000 nanoseconds, 7201000000000 nanoseconds] (5 elements)
+2026-04-17T15:58:14.199844Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:58:14.199844Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:58:14.199844Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:58:14.199844Z INFO  cropped_B_table 
+    std: : [48.499689367291936, 39.05086906493688, 42.39880582631104, 53.95238464952178]
+    ave: : [57.385838326129104, 8.553201116713083, -16.912455630399386, 65.82265661469667]
+    min: : [-29.266186195319243, -60.88832768375275, -142.21228843329513, 1.9299840917828912]
+    max: : [188.5518244870437, 161.59664001927254, 97.17061471853734, 244.05238317800922]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:58:14.207938Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:58:14.207938Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:58:14.207938Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:58:14.207938Z INFO  cropped_B_table 
+    std: : [174.16725957184465, 84.57524857989787, 230.496972391117, 167.3645600581352]
+    ave: : [190.93694199681917, 56.54953375620435, 320.12090296935867, 221.65531034199338]
+    min: : [-142.59664425086385, -92.41530684954648, -79.1618099004404, 2.5320779651609406]
+    max: : [576.473153794992, 291.72149948083415, 815.4034501902047, 619.7391240281148]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:58:14.223211Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:58:14.223211Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:58:14.228277Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:58:14.230062Z INFO  cropped_B_table 
+    std: : [75.71071111654763, 402.0863660225128, 169.0870999987106, 286.0992956511433]
+    ave: : [-45.87000334051417, 152.46681218943667, 34.12988888397751, 333.02092512716246]
+    min: : [-234.8808075263604, -565.9508980732192, -622.2440229371412, 12.050013153274904]
+    max: : [207.37559838668838, 1463.9762136842364, 474.83606285329927, 1477.2487045968253]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:58:14.230062Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:58:14.230062Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:58:14.230062Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:58:14.230062Z INFO  cropped_B_table 
+    err_rms: : [243.1487083808188, 102.31950794440773, 100.16182550597831, 132.01637767576153]
+    err_ave: : [-191.21461814996883, -40.81613975842686, 59.30020137349503, 105.5685689752839]
+    err: : [[-13.77338552  13.24719209  13.42255131   4.34070419]]
+         ...
+         [[-244.90731611   93.25963188    5.42260232  175.24438289]]
+         (1440 rows, 4 columns)
+    cc: : [-0.5101236230608969, -0.1687624238270371, 0.4534360974987757, 0.622004627965955]
+    pe: : [-0.15957812864988563, -0.16772303406506794, -0.22345453879369193, -0.7209879862024324]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:58:14.235638Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:58:14.237813Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:58:14.238646Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:58:14.241048Z INFO  cropped_B_table 
+    err_rms: : [417.66983446168166, 156.39962741965118, 362.59516289360835, 140.50491401576596]
+    err_ave: : [-324.8137215108112, -88.83304796675333, -277.80110141715534, -50.23573682860683]
+    err: : [[-1.73938959 11.75508864  4.39347777  8.2069739 ]]
+         ...
+         [[-489.23354321  -62.17668128 -542.49061377  -64.69693917]]
+         (1441 rows, 4 columns)
+    cc: : [-0.5843067359601575, -0.23832912971884387, 0.16834755069777363, 0.6210544256347255]
+    pe: : [-0.6485763350988032, -0.731338203173892, -15.031593740370589, -0.9505499311212513]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:58:14.241910Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:58:14.241910Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:58:14.241910Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:58:14.245494Z INFO  cropped_B_table 
+    err_rms: : [146.9356525820893, 483.9495910032946, 231.36347045130205, 324.7369708215513]
+    err_ave: : [-88.0067761734778, -184.7503263999855, 8.189912668225446, -161.60135161377517]
+    err: : [[ 62.51746924  86.6555242  -47.97563989 -89.56434869]]
+         ...
+         [[-166.4547789   194.36586944 -350.76248945   70.59507963]]
+         (1441 rows, 4 columns)
+    cc: : [0.3410120715669572, -0.5066347740905118, -0.5443461067724036, 0.21948625230362295]
+    pe: : [-0.5114661549280961, -23.092358783601348, -2.166133166883896, -9.419275355172516]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:58:14.255809Z INFO  cropped_B_table Reading 'Ackerman' data
+2026-04-17T15:58:14.258423Z INFO  cropped_B_table   Reading 'B/measured/TVA' data
+2026-04-17T15:58:14.271922Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\tva\mag\ackerman_mag_20240509.csv
+2026-04-17T15:58:20.429192Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:21.288026Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\ackerman\data\B_measured_TVA.pkl
+2026-04-17T15:58:21.982282Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\ackerman\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:58:21.982282Z INFO  cropped_B_table Computing stats for 'Ackerman' data
+2026-04-17T15:58:22.728249Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000]
+2026-04-17T15:58:22.728249Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:58:22.728249Z INFO  cropped_B_table   Stats for B/measured/TVA:
+2026-04-17T15:58:22.728249Z INFO  cropped_B_table 
+    std: : [122.69919708382407, 77.68134253906157, 68.39103862504042, 104.13791272866125]
+    ave: : [-144.28184050427822, -16.324055285681304, 23.9776104557003, 177.0552537796761]
+    min: : [-401.8253333333325, -246.50350000000006, -223.63283333333504, 7.910460421537325]
+    max: : [215.13000000000113, 152.78466666666662, 353.03783333333143, 436.7761253897435]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000]
+2026-04-17T15:58:22.737939Z INFO  cropped_B_table Reading 'Bull Run' data
+2026-04-17T15:58:22.756264Z INFO  cropped_B_table   Not reading 'Bull Run/GIC' data type data b/c not in requested data_types = B.
+2026-04-17T15:58:22.757712Z INFO  cropped_B_table   Reading 'B/measured/TVA' data
+2026-04-17T15:58:22.758228Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\tva\mag\bullrun_mag_20240509.csv
+2026-04-17T15:58:28.808106Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:29.627928Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\bullrun\data\B_measured_TVA.pkl
+2026-04-17T15:58:30.289248Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:58:30.292453Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\bullrun\dB_BullRun.pkl
+2026-04-17T15:58:30.373403Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:30.405197Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\bullrun\data\B_calculated_SWMF.pkl
+2026-04-17T15:58:30.415515Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:58:30.418046Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:58:31.318267Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:31.339227Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\bullrun\data\B_calculated_MAGE.pkl
+2026-04-17T15:58:31.358077Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:58:31.358077Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\bullrun\dB_OpenGGCM_BullRun.pkl
+2026-04-17T15:58:31.458271Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:31.496423Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\bullrun\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:58:31.520103Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\bullrun\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:58:31.521124Z INFO  cropped_B_table Computing stats for 'Bull Run' data
+2026-04-17T15:58:31.522015Z INFO  cropped_B_table   Not computing stats for 'Bull Run/GIC' data type b/c not in requested data_types = B.
+2026-04-17T15:58:32.248103Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000]
+2026-04-17T15:58:32.248103Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:58:32.248103Z INFO  cropped_B_table   Stats for B/measured/TVA:
+2026-04-17T15:58:32.248103Z INFO  cropped_B_table 
+    std: : [134.65487043591048, 103.09186620440015, 96.688699408888, 115.3457011244035]
+    ave: : [-140.5114662271571, -23.209698010640686, 10.01333784408889, 189.1426425649481]
+    min: : [-513.5193333333333, -347.23799999999994, -286.33733333333413, 5.386857447330596]
+    max: : [362.2596666666666, 219.13350000000008, 394.9526666666655, 614.6266756749555]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000]
+2026-04-17T15:58:32.270194Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:58:32.270914Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:58:32.271473Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:58:32.271822Z INFO  cropped_B_table 
+    std: : [50.23564982490143, 40.66845513860346, 43.51893578145862, 55.84075788506827]
+    ave: : [60.65177136786535, 8.28744504096422, -19.067565566614327, 69.33017114416158]
+    min: : [-26.582872411965717, -66.51103204365464, -142.66570389274963, 2.681093545755872]
+    max: : [199.42933484181862, 157.34768187685782, 84.84397466975045, 245.20294982050717]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:58:32.278147Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:58:32.278147Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:58:32.278147Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:58:32.278147Z INFO  cropped_B_table 
+    std: : [236.20662107423755, 306.7902564989587, 497.07370771705206, 208.69339964069925]
+    ave: : [-52.2009796516106, 87.51960531267973, 330.818634538456, 341.68043236200657]
+    min: : [-765.1959937267541, -696.8384393552686, -1243.1106559395264, 10.8028745403721]
+    max: : [451.3534728283322, 1443.407065876623, 2302.083379954639, 1455.9417187017696]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:58:32.288719Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:58:32.288719Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:58:32.288719Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:58:32.288719Z INFO  cropped_B_table 
+    std: : [73.11082554726435, 409.99609522728014, 180.65073943797435, 289.3153152620976]
+    ave: : [-47.15592157298313, 151.9159623214452, 28.531513711628314, 339.17662038539805]
+    min: : [-245.5909307036691, -582.6144315681111, -553.6198755715895, 9.319096963984322]
+    max: : [167.9481899175918, 1404.6725994295084, 492.4624525371642, 1412.9918490829991]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:58:32.298998Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:58:32.298998Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:58:32.298998Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:58:32.302783Z INFO  cropped_B_table 
+    err_rms: : [260.329163809057, 117.5582729549799, 86.63565377182513, 151.35548060080055]
+    err_ave: : [-201.1005829419395, -31.466461128927058, 29.182585358280125, 119.77687750499847]
+    err: : [[-11.85460449  10.527989     2.07614765   2.73258997]]
+         ...
+         [[-240.33271472  108.82862095  -68.53459716  190.36227823]]
+         (1440 rows, 4 columns)
+    cc: : [-0.4927259718165399, -0.06461115208420502, 0.5444834368862518, 0.6106251226142967]
+    pe: : [-0.12260127923606601, -0.12542394952388491, 0.1964135880603627, -0.7208837897435507]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1440, 1440, 1440, 1440]
+2026-04-17T15:58:32.305526Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:58:32.307891Z INFO  cropped_B_table 
+    err_rms: : [244.08314821804166, 317.46834260494705, 558.1970335095411, 226.17112178032096]
+    err_ave: : [-88.3104865755464, -110.72930332332041, -320.80529669436675, -152.537789797059]
+    err: : [[ 17.11463162  10.32057808 171.47553713 -12.12891693]]
+         ...
+         [[-541.53962176 -154.77474578 -104.7851619  -151.02003527]]
+         (1441 rows, 4 columns)
+    cc: : [0.3481638961627293, 0.25646958097103356, 0.49689642228218417, 0.601780147317494]
+    pe: : [-2.2857268733686653, -8.483137475364218, -32.329101920646195, -2.844779852956322]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:58:32.307891Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:58:32.311802Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:58:32.312364Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:58:32.312364Z INFO  cropped_B_table 
+    err_rms: : [161.56712249812628, 496.0841117035415, 246.72743758595092, 322.6393828762727]
+    err_ave: : [-93.35554465417397, -175.1256603320859, -18.518175867539426, -150.03397782045005]
+    err: : [[ 64.07240521  89.90408188 -61.34457278 -96.6325232 ]]
+         ...
+         [[-177.20554885  215.36783576 -463.07984924   78.80072966]]
+         (1441 rows, 4 columns)
+    cc: : [0.30922383691404237, -0.43420978490889234, -0.5309507482643276, 0.2310670508949054]
+    pe: : [-0.4396663302506807, -13.921463776722694, -1.6657156847766257, -6.824055638889941]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:58:32.329961Z INFO  cropped_B_table Reading 'Lagoon Creek' data
+2026-04-17T15:58:32.347956Z INFO  cropped_B_table   Reading 'B/measured/TVA' data
+2026-04-17T15:58:32.350136Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\tva\mag\lagooncreek_mag_20240509.csv
+2026-04-17T15:58:38.447920Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:39.313727Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\lagooncreek\data\B_measured_TVA.pkl
+2026-04-17T15:58:40.025889Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\lagooncreek\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:58:40.027890Z INFO  cropped_B_table Computing stats for 'Lagoon Creek' data
+2026-04-17T15:58:40.772275Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000 2000000000 3000000000]
+2026-04-17T15:58:40.774267Z INFO  cropped_B_table   Uniq dts [#]  = 3
+2026-04-17T15:58:40.774267Z INFO  cropped_B_table   Stats for B/measured/TVA:
+2026-04-17T15:58:40.774267Z INFO  cropped_B_table 
+    std: : [119.51652923558404, 78.9535707145269, 90.55942509953505, 101.75477422637505]
+    ave: : [-134.22677951399046, -35.813514210548995, 33.50980155220527, 171.7146043650942]
+    min: : [-456.42333333333283, -291.695, -205.94399999999732, 7.766586084966694]
+    max: : [311.08033333333367, 120.16516666666666, 516.9395000000032, 521.5660495346241]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000, 2000000000, 3000000000]
+2026-04-17T15:58:40.778795Z INFO  cropped_B_table Reading 'Montgomery' data
+2026-04-17T15:58:40.792104Z INFO  cropped_B_table   Not reading 'Montgomery/GIC' data type data b/c not in requested data_types = B.
+2026-04-17T15:58:40.792104Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:58:40.796121Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\montgomery\dB_Montgomery.pkl
+2026-04-17T15:58:40.890558Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:40.920683Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\montgomery\data\B_calculated_SWMF.pkl
+2026-04-17T15:58:40.932224Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:58:40.936228Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:58:41.782898Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:41.806710Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\montgomery\data\B_calculated_MAGE.pkl
+2026-04-17T15:58:41.819995Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:58:41.819995Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\montgomery\dB_OpenGGCM_Montgomery.pkl
+2026-04-17T15:58:41.888203Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:41.918491Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\montgomery\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:58:41.947888Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\montgomery\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:58:41.951524Z INFO  cropped_B_table Computing stats for 'Montgomery' data
+2026-04-17T15:58:41.951524Z INFO  cropped_B_table   Not computing stats for 'Montgomery/GIC' data type b/c not in requested data_types = B.
+2026-04-17T15:58:41.959858Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:58:41.959858Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:58:41.968041Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:58:41.968041Z INFO  cropped_B_table 
+    std: : [50.619192148604505, 40.95720658757717, 44.32224044540887, 56.27402068918986]
+    ave: : [59.726596594710976, 8.870345855895577, -18.915093844422014, 68.69482773177323]
+    min: : [-30.45400418445917, -65.00613175118342, -150.62690975246682, 1.6951845902582685]
+    max: : [195.91015692804717, 165.5046590450019, 93.92235513017854, 251.93177198363006]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:58:41.968041Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:58:41.968041Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:58:41.968041Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:58:41.976223Z INFO  cropped_B_table 
+    std: : [262.344238722913, 327.23095441458025, 434.7099821799613, 219.6997927230778]
+    ave: : [-67.26207073098338, 81.70454443837113, 298.21621858333447, 372.60759108815813]
+    min: : [-822.784978802125, -993.616323751843, -1117.9932439277186, 23.16054243031746]
+    max: : [493.3573166453091, 1596.5685331650302, 2269.692670869892, 1596.7549563117132]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:58:41.987824Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:58:41.987824Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:58:41.993030Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:58:41.993030Z INFO  cropped_B_table 
+    std: : [70.92116955828183, 410.83904073578924, 184.61071262652354, 290.675232730973]
+    ave: : [-45.810623846536735, 154.8494618297169, 28.755688398889422, 339.7107708730681]
+    min: : [-228.9228237288007, -553.0475137912356, -699.3729928056378, 7.962444012698946]
+    max: : [178.45483258694105, 1395.117061323388, 472.7445774288307, 1408.5973524783265]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:58:42.001432Z INFO  cropped_B_table Reading 'Paradise' data
+2026-04-17T15:58:42.009662Z INFO  cropped_B_table   Reading 'B/measured/TVA' data
+2026-04-17T15:58:42.009662Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\tva\mag\paradise_mag_20240509.csv
+2026-04-17T15:58:48.459189Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:49.301599Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\paradise\data\B_measured_TVA.pkl
+2026-04-17T15:58:50.007910Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\paradise\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:58:50.011940Z INFO  cropped_B_table Computing stats for 'Paradise' data
+2026-04-17T15:58:50.739259Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000 2000000000 3000000000]
+2026-04-17T15:58:50.741265Z INFO  cropped_B_table   Uniq dts [#]  = 3
+2026-04-17T15:58:50.741265Z INFO  cropped_B_table   Stats for B/measured/TVA:
+2026-04-17T15:58:50.741265Z INFO  cropped_B_table 
+    std: : [139.51841555497882, 81.06134160962904, 106.24352241591988, 110.73943195825771]
+    ave: : [-135.82064700439577, -35.3084331482766, 34.79755424473853, 183.01793466640225]
+    min: : [-573.1811666666673, -295.8923333333332, -216.56266666666525, 4.125587693692435]
+    max: : [447.0439999999993, 142.46083333333343, 555.059500000001, 624.5854996458543]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000, 2000000000, 3000000000]
+2026-04-17T15:58:50.747259Z INFO  cropped_B_table Reading 'Raccoon Mountain' data
+2026-04-17T15:58:50.765342Z INFO  cropped_B_table   Not reading 'Raccoon Mountain/GIC' data type data b/c not in requested data_types = B.
+2026-04-17T15:58:50.765342Z INFO  cropped_B_table   Reading 'B/measured/TVA' data
+2026-04-17T15:58:50.770108Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\tva\mag\raccoonmountain_mag_20240509.csv
+2026-04-17T15:58:56.985065Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:58:57.836174Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\raccoonmountain\data\B_measured_TVA.pkl
+2026-04-17T15:58:58.459034Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\raccoonmountain\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:58:58.461041Z INFO  cropped_B_table Computing stats for 'Raccoon Mountain' data
+2026-04-17T15:58:58.461041Z INFO  cropped_B_table   Not computing stats for 'Raccoon Mountain/GIC' data type b/c not in requested data_types = B.
+2026-04-17T15:58:59.216694Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000 2000000000 3000000000 4000000000]
+2026-04-17T15:58:59.218702Z INFO  cropped_B_table   Uniq dts [#]  = 4
+2026-04-17T15:58:59.218702Z INFO  cropped_B_table   Stats for B/measured/TVA:
+2026-04-17T15:58:59.218702Z INFO  cropped_B_table 
+    std: : [130.63351997877007, 87.52937038231741, 81.7917858130465, 108.20881825990017]
+    ave: : [-135.3964755956524, -29.476115660421073, 28.652799329166683, 179.56731645926968]
+    min: : [-469.3436666666682, -299.46316666666667, -224.58300000000284, 0.5782112046286219]
+    max: : [364.2179999999984, 173.1003333333333, 357.51016666666305, 530.9351233010776]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000, 2000000000, 3000000000, 4000000000]
+2026-04-17T15:58:59.224712Z INFO  cropped_B_table Reading 'Union' data
+2026-04-17T15:58:59.236731Z INFO  cropped_B_table   Not reading 'Union/GIC' data type data b/c not in requested data_types = B.
+2026-04-17T15:58:59.239251Z INFO  cropped_B_table   Reading 'B/measured/TVA' data
+2026-04-17T15:58:59.241012Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\tva\mag\union_mag_20240509.csv
+2026-04-17T15:59:05.410937Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:59:06.266924Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\union\data\B_measured_TVA.pkl
+2026-04-17T15:59:06.929287Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:59:06.929287Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\union\dB_Union.pkl
+2026-04-17T15:59:07.007663Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:59:07.031382Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\union\data\B_calculated_SWMF.pkl
+2026-04-17T15:59:07.050040Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:59:07.052506Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:59:07.995628Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:59:08.016083Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\union\data\B_calculated_MAGE.pkl
+2026-04-17T15:59:08.025679Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:59:08.034945Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\union\dB_OpenGGCM_Union.pkl
+2026-04-17T15:59:08.107205Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:59:08.130983Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\union\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:59:08.159688Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\union\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:59:08.159688Z INFO  cropped_B_table Computing stats for 'Union' data
+2026-04-17T15:59:08.159688Z INFO  cropped_B_table   Not computing stats for 'Union/GIC' data type b/c not in requested data_types = B.
+2026-04-17T15:59:08.915284Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000 2000000000 3000000000 4000000000]
+2026-04-17T15:59:08.915284Z INFO  cropped_B_table   Uniq dts [#]  = 4
+2026-04-17T15:59:08.915284Z INFO  cropped_B_table   Stats for B/measured/TVA:
+2026-04-17T15:59:08.917290Z INFO  cropped_B_table 
+    std: : [118.49648823137983, 77.11321618103824, 73.83460380989906, 105.22377912742745]
+    ave: : [-144.5277768253457, -19.57974770851723, 30.20619149062504, 173.79324335280378]
+    min: : [-456.93249999999955, -255.53900000000004, -185.10850000000065, 0.6608437181790705]
+    max: : [199.6098333333334, 145.0295, 315.3481666666663, 484.10000703158687]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000, 2000000000, 3000000000, 4000000000]
+2026-04-17T15:59:08.934650Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:59:08.935992Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:59:08.936526Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:59:08.936526Z INFO  cropped_B_table 
+    std: : [46.40635795700904, 37.57538689146588, 40.452297015529915, 51.81198654861849]
+    ave: : [56.14197833042447, 7.95316997975192, -15.544223566124936, 64.00119102285413]
+    min: : [-25.609926262723803, -56.725804372712076, -129.27958523128052, 3.8005149018128526]
+    max: : [178.69604492072756, 155.21635321120655, 92.2941461148558, 233.7745416411328]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:59:08.945379Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:59:08.945379Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:59:08.945379Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:59:08.947786Z INFO  cropped_B_table 
+    std: : [279.691391398136, 334.57262978128125, 403.77811384995204, 221.08096404158593]
+    ave: : [-71.18117331535714, 73.79792436766658, 285.0702356838825, 389.6180430048861]
+    min: : [-848.9376076778835, -1167.6812432471254, -1043.5466384486879, 37.25953069490904]
+    max: : [610.4073627957483, 1455.3251202065453, 2160.9835126924477, 1455.7529962820033]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:59:08.958797Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:59:08.958797Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:59:08.958797Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:59:08.966559Z INFO  cropped_B_table 
+    std: : [78.87149131707349, 404.10996941218474, 161.16386895553853, 287.73317162783]
+    ave: : [-47.34913670911594, 150.93639563345982, 36.935176560930515, 334.30366097278124]
+    min: : [-247.39088707260072, -576.3562261726075, -595.2017363928951, 4.17788349104096]
+    max: : [236.75716607126088, 1534.9137383535217, 543.7242049606737, 1547.8563356052255]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:59:08.968302Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:59:08.969088Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:59:08.971222Z INFO  cropped_B_table   Metrics for B/calculated/SWMF:
+2026-04-17T15:59:08.972460Z INFO  cropped_B_table 
+    err_rms: : [251.28842057291007, 92.91373283787576, 81.06175249527158, 136.69697499403895]
+    err_ave: : [-200.6697551557703, -27.532917688269187, 45.75041505674997, 109.79205232994977]
+    err: : [[-11.85042201   4.14280677   0.92125207  -4.05236053]]
+         ...
+         [[-233.68143231  114.57099148   -2.79879352  172.80294289]]
+         (1441 rows, 4 columns)
+    cc: : [-0.6076162487550802, -0.08913406002339895, 0.43693047448466776, 0.6534253022511681]
+    pe: : [-0.23381168493080562, -0.1733042325583527, -0.20534696751058412, -0.6876796632303048]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:59:08.977587Z INFO  cropped_B_table   Metrics for B/calculated/MAGE:
+2026-04-17T15:59:08.979317Z INFO  cropped_B_table 
+    err_rms: : [253.9381671149773, 327.0416389924599, 443.13002199317697, 278.87009717589194]
+    err_ave: : [-73.34660350998853, -93.37767207618384, -254.86404419325743, -215.82479965208242]
+    err: : [[-21.7901685  -38.76255143 129.73112589 -40.55124918]]
+         ...
+         [[-356.32787774 -231.88855615 -121.82257167 -120.47911483]]
+         (1441 rows, 4 columns)
+    cc: : [0.5003224868168761, 0.3807843100576916, 0.6218768822031231, 0.6181636265990195]
+    pe: : [-3.5924559748200497, -16.986574785526557, -35.0198957187613, -6.0238641798383075]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:59:08.980739Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:59:08.980739Z WARN  cropped_B_table   Multiplying measured data by -1 before computing pe.
+2026-04-17T15:59:08.983525Z INFO  cropped_B_table   Metrics for B/calculated/OpenGGCM:
+2026-04-17T15:59:08.984489Z INFO  cropped_B_table 
+    err_rms: : [154.49911352885226, 478.43098712328276, 211.16461078862628, 322.3976689180772]
+    err_ave: : [-97.17864011622984, -170.5161433419773, -6.728985070305486, -160.51041761997757]
+    err: : [[  67.90965891   82.528258    -58.4774663  -103.18506946]]
+         ...
+         [[-141.94965112  237.16544398 -337.62008888   45.4224968 ]]
+         (1441 rows, 4 columns)
+    cc: : [0.31221084753872297, -0.49048397977480196, -0.5512796695068516, 0.2590429121682874]
+    pe: : [-0.6999690880083762, -25.22351069946817, -3.1847617292043173, -8.387630666727967]
+    valid: : [[ True  True  True  True]]
+           ...
+           [[ True  True  True  True]]
+           (1441 rows, 4 columns)
+    n_valid: : [1441, 1441, 1441, 1441]
+2026-04-17T15:59:09.001451Z INFO  cropped_B_table Reading 'Watts Bar' data
+2026-04-17T15:59:09.013728Z INFO  cropped_B_table   Reading 'B/measured/TVA' data
+2026-04-17T15:59:09.018029Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\tva\mag\wattsbar_mag_20240509.csv
+2026-04-17T15:59:15.133430Z INFO  cropped_B_table     Remove baseline then Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:59:16.007410Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\wattsbar\data\B_measured_TVA.pkl
+2026-04-17T15:59:16.665978Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\wattsbar\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:59:16.679115Z INFO  cropped_B_table Computing stats for 'Watts Bar' data
+2026-04-17T15:59:17.425880Z INFO  cropped_B_table   Uniq dts [ns] = [1000000000]
+2026-04-17T15:59:17.425880Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:59:17.425880Z INFO  cropped_B_table   Stats for B/measured/TVA:
+2026-04-17T15:59:17.427895Z INFO  cropped_B_table 
+    std: : [133.72587664419407, 91.30200568970587, 88.41717085201294, 109.6597325626534]
+    ave: : [-134.2584729354621, -29.63322380291492, 24.371816215593913, 182.0056428695818]
+    min: : [-489.4665000000005, -316.3520000000002, -242.88766666666427, 3.637076662834926]
+    max: : [391.2698333333326, 182.23266666666646, 370.7743333333365, 574.7804770797815]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [1000000000]
+2026-04-17T15:59:17.435637Z INFO  cropped_B_table Reading 'Widows Creek' data
+2026-04-17T15:59:17.451932Z INFO  cropped_B_table   Not reading 'Widows Creek/GIC' data type data b/c not in requested data_types = B.
+2026-04-17T15:59:17.453843Z INFO  cropped_B_table   Reading 'B/calculated/SWMF' data
+2026-04-17T15:59:17.456457Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\swmf\widowscreek\dB_WidowsCreek.pkl
+2026-04-17T15:59:17.554287Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:59:17.591795Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\widowscreek\data\B_calculated_SWMF.pkl
+2026-04-17T15:59:17.606180Z INFO  cropped_B_table   Reading 'B/calculated/MAGE' data
+2026-04-17T15:59:17.606180Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\mage\TVAinterpdf.csv
+2026-04-17T15:59:18.525620Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:59:18.539860Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\widowscreek\data\B_calculated_MAGE.pkl
+2026-04-17T15:59:18.556549Z INFO  cropped_B_table   Reading 'B/calculated/OpenGGCM' data
+2026-04-17T15:59:18.568630Z INFO  cropped_B_table     Reading C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\openggcm\widowscreek\dB_OpenGGCM_WidowsCreek.pkl
+2026-04-17T15:59:18.656605Z INFO  cropped_B_table     Resample to 1m aves and NaN pad or trim to start/stop.
+2026-04-17T15:59:18.686445Z INFO  cropped_B_table     Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\widowscreek\data\B_calculated_OpenGGCM.pkl
+2026-04-17T15:59:18.706092Z WARN  cropped_B_table   Not writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed\sites\widowscreek\data\_all.pkl b/c data_types is not None.
+2026-04-17T15:59:18.706092Z INFO  cropped_B_table Computing stats for 'Widows Creek' data
+2026-04-17T15:59:18.715776Z INFO  cropped_B_table   Not computing stats for 'Widows Creek/GIC' data type b/c not in requested data_types = B.
+2026-04-17T15:59:18.718459Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:59:18.718459Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:59:18.731362Z INFO  cropped_B_table   Stats for B/calculated/SWMF:
+2026-04-17T15:59:18.731362Z INFO  cropped_B_table 
+    std: : [47.714694202009944, 38.829296399810744, 41.561704689257, 53.29772895643066]
+    ave: : [58.158897048943636, 8.108488485196885, -16.74828881437594, 66.27188907256772]
+    min: : [-25.63834299121137, -60.419954248753825, -131.55856426077293, 2.973004533698769]
+    max: : [186.88142422298296, 153.90440221268966, 85.45248914694878, 237.34463240921707]
+    n: 1441
+    n_valid: : [1440, 1440, 1440, 1440]
+    dt_original: : [60000000000]
+2026-04-17T15:59:18.739675Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:59:18.739675Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:59:18.739675Z INFO  cropped_B_table   Stats for B/calculated/MAGE:
+2026-04-17T15:59:18.741714Z INFO  cropped_B_table 
+    std: : [248.09960969813054, 317.6205127569491, 463.3506512849976, 216.46374884413802]
+    ave: : [-64.69417143980826, 82.79217860676329, 314.3355581059703, 355.836384521639]
+    min: : [-794.9270638049326, -829.2348885101756, -1159.0607393966334, 11.608031855858046]
+    max: : [471.0621107923655, 1616.2347868132063, 2309.348668591275, 1631.3651100318525]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:59:18.756806Z INFO  cropped_B_table   Uniq dts [ns] = [60000000000]
+2026-04-17T15:59:18.758360Z INFO  cropped_B_table   Uniq dts [#]  = 1
+2026-04-17T15:59:18.758360Z INFO  cropped_B_table   Stats for B/calculated/OpenGGCM:
+2026-04-17T15:59:18.759919Z INFO  cropped_B_table 
+    std: : [77.00672385261946, 404.025850220287, 163.49725041593106, 286.8619196044444]
+    ave: : [-47.710839203576384, 149.81110794318238, 32.70347253181074, 334.06115381209224]
+    min: : [-251.3014851468516, -579.0794995661449, -610.7188889191225, 6.180210179661499]
+    max: : [210.80754243742882, 1492.874281546485, 484.8047992627445, 1506.2700632292149]
+    n: 1441
+    n_valid: : [1441, 1441, 1441, 1441]
+    dt_original: : [60000000000]
+2026-04-17T15:59:18.784020Z INFO  cropped_B_table      site_id sigma_data sigma_swmf  ...             pe_swmf             pe_mage         pe_openggcm
+0      50100      113.1       45.5  ...  $-1.03\phantom{*}$  $-0.66\phantom{*}$  $-7.29\phantom{*}$
+1      50127       94.7       46.4  ...  $-2.13\phantom{*}$  $-0.75\phantom{*}$  $-8.94\phantom{*}$
+2      50112      314.3       81.7  ...  $-0.47\phantom{*}$   $0.19\phantom{*}$  $-1.05\phantom{*}$
+3      50131      109.3       59.5  ...  $-0.72\phantom{*}$  $-3.67\phantom{*}$  $-7.19\phantom{*}$
+4      50132      114.4       60.1  ...  $-0.71\phantom{*}$  $-3.17\phantom{*}$  $-6.45\phantom{*}$
+5      50103      104.2       50.0  ...  $-0.83\phantom{*}$  $-0.88\phantom{*}$  $-8.84\phantom{*}$
+6      50104      115.4       55.8  ...  $-0.67\phantom{*}$  $-2.86\phantom{*}$  $-6.81\phantom{*}$
+7      50109      110.2       54.7  ...  $-0.71\phantom{*}$  $-3.60\phantom{*}$  $-7.54\phantom{*}$
+8      50115      187.5       67.4  ...  $-0.51\phantom{*}$   $0.37\phantom{*}$  $-2.42\phantom{*}$
+9      50116      108.2       57.8  ...  $-0.66\phantom{*}$  $-4.90\phantom{*}$  $-8.52\phantom{*}$
+10     50117      106.6       56.4  ...  $-0.53\phantom{*}$  $-3.47\phantom{*}$  $-9.26\phantom{*}$
+11     50118      133.6       62.9  ...  $-0.57\phantom{*}$  $-2.83\phantom{*}$  $-5.18\phantom{*}$
+12     50119      107.8       53.6  ...  $-0.70\phantom{*}$  $-4.13\phantom{*}$  $-7.83\phantom{*}$
+13     50120      102.5       51.7  ...  $-0.74\phantom{*}$  $-6.47\phantom{*}$  $-9.01\phantom{*}$
+14     50122      100.6       54.0  ...  $-0.72\phantom{*}$  $-0.95\phantom{*}$  $-9.42\phantom{*}$
+15  Bull Run      115.3       55.8  ...  $-0.72\phantom{*}$  $-2.84\phantom{*}$  $-6.82\phantom{*}$
+16     Union      105.2       51.8  ...  $-0.69\phantom{*}$  $-6.02\phantom{*}$  $-8.39\phantom{*}$
+
+[17 rows x 11 columns]
+2026-04-17T15:59:18.831257Z INFO  cropped_B_table Writing B prediction comparison tables to C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\b_table_cropped.{md,tex}
+2026-04-17T15:59:18.834440Z INFO  cropped_B_table Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\b_table_cropped.md
+2026-04-17T15:59:19.631003Z INFO  cropped_B_table Writing C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\_results\b_table_cropped.tex
+2026-04-17T15:59:19.646924Z INFO  cropped_B_table Writing C:\Users\lwilker\Documents\GitHub\2024-May-Storm-paper\figures\_results\b_table_cropped.tex

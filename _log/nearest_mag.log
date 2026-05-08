@@ -1,0 +1,2 @@
+2026-03-09T14:07:55.006109Z INFO  utilrsw.logger No event specified, defaulting to '2024-05-10'.
+2026-03-09T14:07:55.267246Z INFO  utilrsw.logger saving nearest B sites for GIC sites to info/2024-05-10/nearest_b_sites.csv

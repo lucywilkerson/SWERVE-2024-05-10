@@ -1,0 +1,9 @@
+2026-01-06T10:27:47.525789Z INFO  utilrsw.logger Reading INTERMAG CSV: ..\C-SWIM\data\geomag_data\combined_geomag_df.csv
+2026-01-06T10:27:47.740858Z INFO  utilrsw.logger Plotting all INTERMAG sites
+2026-01-06T10:27:47.877915Z INFO  utilrsw.logger Using HAPI INTERMAG data
+2026-01-06T10:29:00.355003Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed/summary\_db\intermag_hapi_X.png
+2026-01-06T10:29:03.275496Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed/summary\_db\intermag_hapi_X.pdf
+2026-01-06T10:29:09.158032Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed/summary\_db\intermag_hapi_Y.png
+2026-01-06T10:29:11.854523Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed/summary\_db\intermag_hapi_Y.pdf
+2026-01-06T10:29:13.669465Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed/summary\_db\intermag_hapi_Z.png
+2026-01-06T10:29:16.283053Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_processed/summary\_db\intermag_hapi_Z.pdf

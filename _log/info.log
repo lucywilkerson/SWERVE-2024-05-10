@@ -1,44 +1,45 @@
-2025-11-10T12:30:22.892189Z INFO  utilrsw.logger Reading c:\Users\lwilker\Documents\GitHub\SWERVE\info\2024-05-10\info.csv
-2025-11-10T12:30:28.621202Z INFO  utilrsw.logger Adding interpolated OTT beta and log10 beta columns to extended info_df
-2025-11-10T12:30:28.622206Z INFO  utilrsw.logger   Reading c:\Users\lwilker\Documents\GitHub\SWERVE-common\pulkkinen\waveforms_All.mat
-2025-11-10T12:30:29.151751Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10698 at (26.1,-98.1)
-2025-11-10T12:30:29.151751Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10513 at (26.1,-97.6)
-2025-11-10T12:30:29.151751Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10515 at (26.1,-97.6)
-2025-11-10T12:30:29.151751Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10538 at (26.3,-98.2)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10539 at (26.3,-98.2)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10548 at (26.2,-98.2)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10549 at (26.2,-98.2)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10565 at (26.1,-98.2)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site Anderson at (0.0,0.0)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test1 at (0.0,0.0)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test1 at (0.0,0.0)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test1 at (0.0,0.0)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test1 at (0.0,0.0)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test2 at (0.0,0.0)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test2 at (0.0,0.0)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test2 at (0.0,0.0)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test2 at (0.0,0.0)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test3 at (0.0,0.0)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test3 at (0.0,0.0)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test3 at (0.0,0.0)
-2025-11-10T12:30:29.154826Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test3 at (0.0,0.0)
-2025-11-10T12:30:29.483812Z INFO  utilrsw.logger Adding geomagnetic coordinates and alpha on date 2024-05-10T15:00:00 to extended info_df
-2025-11-10T12:30:30.665644Z INFO  utilrsw.logger Adding GMU simulation sites to extended info_df
-2025-11-10T12:30:30.666647Z INFO  utilrsw.logger   Reading: c:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\gmu\gic_mean_df_1.csv
-2025-11-10T12:30:34.546606Z INFO  utilrsw.logger Adding nearset voltage to extended info_df
-2025-11-10T12:30:39.647612Z INFO  utilrsw.logger   Reading c:\Users\lwilker\Documents\GitHub\SWERVE-common\nerc_gdf\nerc_gdf.geojson
-2025-11-10T12:30:39.983720Z INFO  utilrsw.logger   Writing c:\Users\lwilker\Documents\GitHub\SWERVE-common\nerc_gdf\nerc_gdf_mapped.csv
-2025-11-10T12:30:40.071909Z INFO  utilrsw.logger Wrote c:\Users\lwilker\Documents\GitHub\SWERVE\info\2024-05-10\info.extended.csv
-2025-11-10T12:30:40.086228Z INFO  utilrsw.logger   Skipping site 'Allen' due to error message:
+2026-02-03T17:42:54.925984Z INFO  utilrsw.logger Reading C:\Users\lwilker\Documents\GitHub\SWERVE\info\2024-05-10\info.csv
+2026-02-03T17:42:55.010560Z INFO  utilrsw.logger Adding interpolated OTT beta and log10 beta columns to extended info_df
+2026-02-03T17:42:55.010560Z INFO  utilrsw.logger   Reading C:\Users\lwilker\Documents\GitHub\SWERVE-common\pulkkinen\waveforms_All.mat
+2026-02-03T17:42:56.537223Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10698 at (26.1,-98.1)
+2026-02-03T17:42:56.537223Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10513 at (26.1,-97.6)
+2026-02-03T17:42:56.537223Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10515 at (26.1,-97.6)
+2026-02-03T17:42:56.537223Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10538 at (26.3,-98.2)
+2026-02-03T17:42:56.537223Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10539 at (26.3,-98.2)
+2026-02-03T17:42:56.537223Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10548 at (26.2,-98.2)
+2026-02-03T17:42:56.537223Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10549 at (26.2,-98.2)
+2026-02-03T17:42:56.537223Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site 10565 at (26.1,-98.2)
+2026-02-03T17:42:56.543412Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site Anderson at (0.0,0.0)
+2026-02-03T17:42:56.544348Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test1 at (0.0,0.0)
+2026-02-03T17:42:56.545649Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test1 at (0.0,0.0)
+2026-02-03T17:42:56.545649Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test1 at (0.0,0.0)
+2026-02-03T17:42:56.545649Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test1 at (0.0,0.0)
+2026-02-03T17:42:56.545649Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test2 at (0.0,0.0)
+2026-02-03T17:42:56.545649Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test2 at (0.0,0.0)
+2026-02-03T17:42:56.545649Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test2 at (0.0,0.0)
+2026-02-03T17:42:56.545649Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test2 at (0.0,0.0)
+2026-02-03T17:42:56.545649Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test3 at (0.0,0.0)
+2026-02-03T17:42:56.549599Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test3 at (0.0,0.0)
+2026-02-03T17:42:56.549599Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test3 at (0.0,0.0)
+2026-02-03T17:42:56.550887Z WARN  utilrsw.logger     Warning: Could not interpolate beta for site test3 at (0.0,0.0)
+2026-02-03T17:42:56.643348Z INFO  utilrsw.logger Adding geomagnetic coordinates and alpha on date 2024-05-10T15:00:00 to extended info_df
+2026-02-03T17:43:00.051935Z INFO  utilrsw.logger Adding GMU simulation sites to extended info_df
+2026-02-03T17:43:00.051935Z INFO  utilrsw.logger   Reading: C:\Users\lwilker\Documents\GitHub\SWERVE-2024-05-10\data_original\gmu\gic_mean_df_1.csv
+2026-02-03T17:43:02.430190Z INFO  utilrsw.logger Adding nearset voltage to extended info_df
+2026-02-03T17:43:13.531486Z INFO  utilrsw.logger   Reading C:\Users\lwilker\Documents\GitHub\SWERVE-common\nerc_gdf\nerc_gdf.geojson
+2026-02-03T17:43:14.371041Z INFO  utilrsw.logger   Writing C:\Users\lwilker\Documents\GitHub\SWERVE-common\nerc_gdf\nerc_gdf_mapped.csv
+2026-02-03T17:43:14.564507Z INFO  utilrsw.logger Wrote C:\Users\lwilker\Documents\GitHub\SWERVE\info\2024-05-10\info.extended.csv
+2026-02-03T17:43:14.564507Z INFO  utilrsw.logger Preparing C:\Users\lwilker\Documents\GitHub\SWERVE\info\2024-05-10\info.extended.json
+2026-02-03T17:43:14.612301Z INFO  utilrsw.logger   Skipping site 'Allen' due to error message:
     x In TVAmagmetadata.dat, but no file
-2025-11-10T12:30:40.087221Z INFO  utilrsw.logger   Skipping site 'Colbert' due to error message:
+2026-02-03T17:43:14.612301Z INFO  utilrsw.logger   Skipping site 'Colbert' due to error message:
     x In TVAmagmetadata.dat, but no file
-2025-11-10T12:30:40.088116Z INFO  utilrsw.logger   Skipping site 'Gallatin' due to error message:
+2026-02-03T17:43:14.612301Z INFO  utilrsw.logger   Skipping site 'Gallatin' due to error message:
     x In TVAmagmetadata.dat, but no file
-2025-11-10T12:30:40.088569Z INFO  utilrsw.logger   Skipping site 'John Sevier' due to error message:
+2026-02-03T17:43:14.612301Z INFO  utilrsw.logger   Skipping site 'John Sevier' due to error message:
     x In TVAmagmetadata.dat, but no file
-2025-11-10T12:30:40.089574Z INFO  utilrsw.logger   Skipping site 'Madison' due to error message:
+2026-02-03T17:43:14.620439Z INFO  utilrsw.logger   Skipping site 'Madison' due to error message:
     x In GIC_monitors.txt, but no file
-2025-11-10T12:30:40.090543Z INFO  utilrsw.logger   Skipping site 'Shawnee' due to error message:
+2026-02-03T17:43:14.620439Z INFO  utilrsw.logger   Skipping site 'Shawnee' due to error message:
     x In TVAmagmetadata.dat, but no file
-2025-11-10T12:30:40.092579Z INFO  utilrsw.logger Writing c:\Users\lwilker\Documents\GitHub\SWERVE\info\2024-05-10\info.extended.json
+2026-02-03T17:43:14.628873Z INFO  utilrsw.logger Writing C:\Users\lwilker\Documents\GitHub\SWERVE\info\2024-05-10\info.extended.json
