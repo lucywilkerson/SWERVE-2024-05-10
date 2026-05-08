@@ -7,6 +7,10 @@ The source code and project details are available in the [SWERVE](https://github
 
 Lucy Wilkerson, Robert S Weigel, Dean Thomas, et al. GIC-Related Observations During the May 2024 Geomagnetic Storm in the United States. _ESS Open Archive_. October 16, 2025. doi: https://doi.org/10.22541/essoar.176062871.15246663/v1
 
+**DOI for this Repository**
+
+https://doi.org/10.5281/zenodo.20090223
+
 # Data Organization
 
 All unprocessed data can be found in data_original. Measured GIC and B from NERC are in [nerc](data_original/nerc); measured and calculated GIC and measured B from TVA are in [tva](data_original/tva); calculated GIC from the Reference model are in [gmu](data_original/gmu); calculated B from MAGE are in [mage](data_original/mage); calculated B from SWMF are in [swmf](data_original/swmf); calculated B from OpenGGCM are in [openggcm](data_original/openggcm); solar wind inputs used for the MAGE and SWMF/OpenGGCM runs are in [bcwind.h5](data_original/imf_data/bcwind.h5) and [Dean_IMF.txt](data_original/imf_data/Dean_IMF.txt), respectively. 
