@@ -1,0 +1,57 @@
+{
+  "upload_type": "dataset",
+  "access_right": "open",
+  "title": "May 2024 Geomagnetic Storm Data Repository",
+  "description": "Collection of raw and processed data, figures, and documentation for the May 2024 storm.",
+  "creators": [
+    {
+      "name": "Wilkerson, Lucy A.",
+      "affiliation": "George Mason University",
+      "orcid": "0000-0002-6085-2462"
+    },
+    {
+      "name": "Weigel, R. S.",
+      "affiliation": "George Mason University",
+      "orcid": "0000-0002-9521-5228"
+    },
+    {
+      "name": "Thomas, D.",
+      "affiliation": "George Mason University",
+      "orcid": "0009-0009-4505-1016"
+    },
+    {
+      "name": "Bor, D.",
+      "affiliation": "George Mason University",
+      "orcid": "0000-0001-5881-7871"
+    },
+    {
+      "name": "Oughton, E. J.",
+      "affiliation": "George Mason University",
+      "orcid": "0000-0002-2766-008X"
+    },
+    {
+      "name": "Gaunt, C. T.",
+      "affiliation": "University of Cape Town",
+      "orcid": "0000-0002-4531-1430"
+    },
+    {
+      "name": "Balch, C. C.",
+      "affiliation": "Cooperative Institute for Research in Environmental Sciences",
+      "orcid": "0000-0002-5359-3810"
+    },
+    {
+      "name": "Wiltberger, M. J.",
+      "affiliation": "NSF NCAR/HAO",
+      "orcid": "0000-0002-4844-3148"
+    },
+    {
+      "name": "Pulkkinen, A.",
+      "affiliation": "NASA/GSFC",
+      "orcid": "0000-0002-5341-9804"
+    } 
+  ],
+  "keywords": ["geomagnetic storm", "GIC", "space weather", "Gannon Storm"],
+  "publication_date": "2026-05-08",
+  "license": "MIT",
+  "related_identifiers": [{"relation": "isSupplementTo", "identifier": "doi:10.48550/arXiv.2507.07009"}]
+}
